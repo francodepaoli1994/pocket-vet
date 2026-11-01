@@ -146,6 +146,9 @@ a.pet { text-decoration: none; }
   display: grid; grid-template-columns: repeat(4, 1fr); height: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
   padding-bottom: env(safe-area-inset-bottom); background: var(--surface); border-top: var(--border);
 }
+/* Sello flotante "Powered by Netlify": tapaba la barra de navegación */
+#nl-badge-frame { display: none !important; }
+
 .tabbar a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 12px; font-weight: 700; color: var(--muted); text-decoration: none; }
 .tabbar a .ico { font-size: 22px; }
 .tabbar a.on { color: var(--ink); }
