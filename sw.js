@@ -1,12 +1,13 @@
 // Service worker: guarda la app en caché para que abra sin conexión.
 // Sube la versión cada vez que cambien los archivos de la app.
-const CACHE = 'pocket-vet-v3';
+const CACHE = 'pocket-vet-v4';
 const ARCHIVOS = [
   './',
   'index.html',
   'css/styles.css',
   'js/app.js',
   'js/libreta.js',
+  'js/perfil.js',
   'data/guias.json',
   'manifest.webmanifest',
   'icons/icon-192.png',

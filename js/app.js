@@ -2,6 +2,7 @@
 // Router por hash: #/inicio, #/guias, #/guias/<id>, #/libreta, #/perfil
 
 import * as libreta from './libreta.js';
+import * as perfil from './perfil.js';
 
 const GUIAS_URL = 'data/guias.json';
 
@@ -23,31 +24,26 @@ const sello = g => g.verificada
 const screens = {
   inicio: {
     titulo: () => 'Pocket Vet',
-    render: () => `
-      <div class="card pet">
-        <div class="avatar">🐶</div>
-        <div><h3>Tu mascota</h3><p>Crea su perfil para ver guías a su medida.</p></div>
-      </div>
+    render: () => {
+      const p = perfil.leer();
+      if (!p) return perfil.form(true); // primer uso: onboarding
+      return `${perfil.tarjeta(p)}
       <div class="tiles">
         <a class="tile" href="#/guias"><span class="e">📖</span>Guías</a>
         <a class="tile" href="#/libreta"><span class="e">🗒️</span>Libreta</a>
-        <a class="tile" href="#/guias/alimentacion-perro"><span class="e">🥕</span>¿Puede comer?</a>
+        <a class="tile" href="#/guias/alimentacion-${p.especie}"><span class="e">🥕</span>¿Puede comer?</a>
         <a class="tile" href="#/libreta"><span class="e">⏰</span>Recordatorios</a>
       </div>
-      ${proximasHtml()}`,
+      ${proximasHtml()}`;
+    },
   },
   guias: {
     titulo: () => 'Guías',
-    render: async () => {
-      const guias = await cargarGuias();
-      const items = guias.map(g => `
-        <li><a class="row" href="#/guias/${g.id}">
-          <span class="dot">${g.icono}</span>
-          <div><b>${esc(g.titulo)}</b><small>${esc(g.especie)}</small></div>
-          ${sello(g)}<span class="chev" aria-hidden="true">›</span>
-        </a></li>`).join('');
-      return `<h2>Guías de cuidado</h2><div class="card"><ul class="list">${items}</ul></div>`;
-    },
+    render: async () => `<h2>Guías de cuidado</h2>
+      <div class="buscador">
+        <input type="search" data-buscar placeholder="Buscar: vacuna, chocolate, baño…" value="${esc(busqueda)}" autocomplete="off" aria-label="Buscar guías">
+      </div>
+      <div data-resultados>${await listaGuias()}</div>`,
   },
   guia: {
     titulo: async id => ((await cargarGuias()).find(g => g.id === id) || {}).titulo || 'Guía',
@@ -63,10 +59,68 @@ const screens = {
   },
   perfil: {
     titulo: () => 'Perfil',
-    render: () => `<h2>Perfil de la mascota</h2>
-      <div class="card"><p>Especie, nombre y edad de tu mascota. Disponible en el Sprint 2.</p></div>`,
+    render: () => `<h2>Perfil de la mascota</h2>${perfil.form(!perfil.leer())}`,
   },
 };
+
+// Buscador: ignora tildes y mayúsculas; busca en título, etiquetas, resumen y subtítulos
+let busqueda = '';
+let verTodas = false;
+const normal = s => String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const textoGuia = g => normal([g.titulo, g.especie, ...g.etiquetas, ...g.resumen,
+  ...g.bloques.filter(b => b.h).map(b => b.h),
+  ...g.bloques.filter(b => b.ul).flatMap(b => b.ul),
+  ...g.bloques.filter(b => b.tabla2).flatMap(b => [...b.tabla2.ok, ...b.tabla2.no].map(([nombre]) => nombre)), // alimentos y acciones
+].join(' '));
+const SUGERENCIAS = ['vacuna', 'chocolate', 'parásitos', 'baño', 'urgencia', 'lirio'];
+
+async function listaGuias() {
+  const p = perfil.leer();
+  const guias = await cargarGuias();
+  const especie = p && !verTodas ? perfil.ESPECIES[p.especie].nombre : null;
+  const palabras = normal(busqueda).split(/\s+/).filter(Boolean);
+  const visibles = guias
+    .filter(g => !especie || normal(g.especie).includes(normal(especie)))
+    .filter(g => palabras.every(w => textoGuia(g).includes(w)));
+
+  const filtro = p ? `<p class="filtro">${verTodas
+    ? `Mostrando todas las guías · <button type="button" data-filtro>Solo ${perfil.ESPECIES[p.especie].nombre.toLowerCase()}</button>`
+    : `Guías para ${perfil.ESPECIES[p.especie].nombre.toLowerCase()} · <button type="button" data-filtro>Ver todas</button>`}</p>` : '';
+
+  if (!visibles.length) {
+    const enOtras = especie && guias.some(g => palabras.every(w => textoGuia(g).includes(w)));
+    return `${filtro}<div class="card vacio-busqueda"><p>No encontramos guías para «${esc(busqueda)}»${especie ? ` en las guías de ${especie.toLowerCase()}` : ''}.</p>
+      ${enOtras ? `<p><button type="button" class="chip" data-filtro>Ver resultados en todas las guías</button></p>` : ''}
+      <p>Prueba con: ${SUGERENCIAS.map(s => `<button type="button" class="chip" data-sugerencia="${s}">${s}</button>`).join(' ')}</p></div>`;
+  }
+  return `${filtro}<div class="card"><ul class="list">${visibles.map(g => `
+    <li><a class="row" href="#/guias/${g.id}" aria-label="${esc(g.titulo)}, ${g.verificada ? 'verificada' : 'en revisión'}">
+      <span class="dot">${g.icono}</span>
+      <div><b>${esc(g.titulo)}</b><small>${esc(g.especie)}</small></div>
+      ${sello(g)}<span class="chev" aria-hidden="true">›</span>
+    </a></li>`).join('')}</ul></div>`;
+}
+
+// Actualiza solo los resultados, así el teclado no se cierra mientras escribes
+async function refrescarResultados() {
+  const cont = document.querySelector('[data-resultados]');
+  if (cont) cont.innerHTML = await listaGuias();
+}
+document.addEventListener('input', e => {
+  if (!e.target.matches('[data-buscar]')) return;
+  busqueda = e.target.value;
+  refrescarResultados();
+});
+document.addEventListener('click', e => {
+  if (e.target.closest('[data-filtro]')) { verTodas = !verTodas; refrescarResultados(); }
+  const sug = e.target.closest('[data-sugerencia]');
+  if (sug) {
+    busqueda = sug.dataset.sugerencia;
+    const input = document.querySelector('[data-buscar]');
+    if (input) input.value = busqueda;
+    refrescarResultados();
+  }
+});
 
 function proximasHtml() {
   const prox = libreta.proximas(2);
@@ -187,6 +241,7 @@ function estadoConexion() {
 }
 
 libreta.conectar(navegar);
+perfil.conectar(navegar);
 window.addEventListener('hashchange', navegar);
 window.addEventListener('online', estadoConexion);
 window.addEventListener('offline', estadoConexion);
