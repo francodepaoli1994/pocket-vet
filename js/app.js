@@ -1,6 +1,8 @@
 // Pocket Vet · PWA
 // Router por hash: #/inicio, #/guias, #/guias/<id>, #/libreta, #/perfil
 
+import * as libreta from './libreta.js';
+
 const GUIAS_URL = 'data/guias.json';
 
 // Texto propio con **negrita**; se escapa antes de dar formato
@@ -30,9 +32,9 @@ const screens = {
         <a class="tile" href="#/guias"><span class="e">📖</span>Guías</a>
         <a class="tile" href="#/libreta"><span class="e">🗒️</span>Libreta</a>
         <a class="tile" href="#/guias/alimentacion-perro"><span class="e">🥕</span>¿Puede comer?</a>
-        <a class="tile" href="#/perfil"><span class="e">⏰</span>Recordatorios</a>
+        <a class="tile" href="#/libreta"><span class="e">⏰</span>Recordatorios</a>
       </div>
-      <div class="card"><h3>Próximos recordatorios</h3><p>Aún no tienes recordatorios.</p></div>`,
+      ${proximasHtml()}`,
   },
   guias: {
     titulo: () => 'Guías',
@@ -57,8 +59,7 @@ const screens = {
   },
   libreta: {
     titulo: () => 'Libreta',
-    render: () => `<h2>Libreta veterinaria</h2>
-      <div class="card"><p>Aquí vas a registrar vacunas, desparasitaciones y notas. Disponible en el Sprint 3.</p></div>`,
+    render: id => libreta.render(id),
   },
   perfil: {
     titulo: () => 'Perfil',
@@ -66,6 +67,16 @@ const screens = {
       <div class="card"><p>Especie, nombre y edad de tu mascota. Disponible en el Sprint 2.</p></div>`,
   },
 };
+
+function proximasHtml() {
+  const prox = libreta.proximas(2);
+  if (!prox.length) return `<div class="card"><h3>Próximos recordatorios</h3><p>Aún no tienes recordatorios. Agrega una próxima fecha en la <a href="#/libreta">libreta</a>.</p></div>`;
+  return `<div class="card"><h3>Próximos recordatorios</h3><ul class="list">${prox.map(r => {
+    const t = libreta.TIPOS[r.tipo] || libreta.TIPOS.nota;
+    return `<li><a class="row" href="#/libreta"><span class="dot">${t.icono}</span>
+      <div><b>${esc(r.titulo) || t.nombre}</b><small>${t.nombre} · ${fecha(r.proxima)}</small></div></a></li>`;
+  }).join('')}</ul></div>`;
+}
 
 function renderGuia(g) {
   const r = g.revision;
@@ -159,8 +170,9 @@ document.addEventListener('input', e => {
 });
 
 async function navegar() {
-  const [ruta, param] = (location.hash.replace('#/', '') || 'inicio').split('/');
+  let [ruta, param] = (location.hash.replace('#/', '') || 'inicio').split('/');
   const id = ruta === 'guias' && param ? 'guia' : ruta;
+  if (id === 'libreta' && param) param = decodeURIComponent(param);
   const screen = screens[id] || screens.inicio;
   const main = document.getElementById('screen');
   document.getElementById('screen-title').textContent = await screen.titulo(param);
@@ -174,6 +186,7 @@ function estadoConexion() {
   document.getElementById('offline-badge').hidden = navigator.onLine;
 }
 
+libreta.conectar(navegar);
 window.addEventListener('hashchange', navegar);
 window.addEventListener('online', estadoConexion);
 window.addEventListener('offline', estadoConexion);

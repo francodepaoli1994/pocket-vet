@@ -93,6 +93,24 @@ a { color: inherit; }
 .fuentes a { color: #4C86C4; font-weight: 700; }
 .screen .aviso { font-size: 13px; font-style: italic; margin: 14px 0 4px; }
 
+/* Libreta */
+.form-libreta { display: grid; gap: 10px; }
+.form-libreta label, .contactos label { display: grid; gap: 4px; font-weight: 800; font-size: 14px; }
+.form-libreta input, .form-libreta select, .form-libreta textarea {
+  font: inherit; font-weight: 600; border: var(--border); border-radius: 12px; padding: 10px 12px;
+  background: var(--bg); color: var(--ink); width: 100%;
+}
+.form-libreta textarea { resize: vertical; }
+.acciones { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px; }
+.btn.sec { background: var(--surface); color: var(--ink); border: var(--border); box-shadow: var(--shadow); text-decoration: none; }
+.reg { display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; }
+.reg-txt { flex: 1; min-width: 0; }
+.screen .reg-txt p { color: var(--ink); font-size: 14px; margin-top: 4px; overflow-wrap: anywhere; }
+.reg-acc { display: flex; gap: 6px; }
+.reg-acc a, .reg-acc button { border: none; background: var(--bg); border-radius: 10px; width: 34px; height: 34px; display: grid; place-items: center; font-size: 16px; cursor: pointer; text-decoration: none; }
+.vacio { padding: 6px 0; }
+.respaldo small { display: block; margin-top: 8px; color: var(--ok); font-weight: 700; }
+
 .btn { display: inline-block; border: none; border-radius: 16px; padding: 12px 18px; font: inherit; font-weight: 800; background: var(--primary); color: var(--primary-ink); box-shadow: 0 4px 0 #5E95CC; cursor: pointer; }
 
 .tabbar {
