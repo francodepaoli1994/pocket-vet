@@ -1,8 +1,1074 @@
 [
-  { "id": "alimentacion-perro", "icono": "🐶", "titulo": "Alimentación del perro", "especie": "Perro", "verificada": true, "revision": "2026-10-28" },
-  { "id": "alimentacion-gato", "icono": "🐱", "titulo": "Alimentación del gato", "especie": "Gato", "verificada": true, "revision": "2026-10-28" },
-  { "id": "vacunas", "icono": "💉", "titulo": "Vacunas", "especie": "Perro y gato", "verificada": true, "revision": "2026-10-28" },
-  { "id": "desparasitacion", "icono": "🪱", "titulo": "Desparasitación", "especie": "Perro y gato", "verificada": true, "revision": "2026-10-28" },
-  { "id": "bano-higiene", "icono": "🛁", "titulo": "Baño e higiene", "especie": "Perro y gato", "verificada": true, "revision": "2026-10-28" },
-  { "id": "senales-alerta", "icono": "⚠️", "titulo": "Señales de alerta", "especie": "Perro y gato", "verificada": false, "revision": null }
+  {
+    "id": "alimentacion-perro",
+    "n": 1,
+    "icono": "🐶",
+    "titulo": "Alimentación del perro",
+    "especie": "Perro",
+    "etapa": "Cachorro, adulto y senior",
+    "etiquetas": [
+      "comida",
+      "alimento",
+      "croquetas",
+      "pellet",
+      "premios",
+      "cuánto come",
+      "puede comer",
+      "tóxico",
+      "chocolate",
+      "uvas",
+      "cebolla",
+      "xilitol",
+      "cachorro"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médico Veterinario",
+      "fecha": "2026-10-28",
+      "resultado": "Aprobada",
+      "observacion": "Excelente guía con buenas recomendaciones."
+    },
+    "resumen": [
+      "Dale un alimento **completo y balanceado** para su etapa de vida (cachorro, adulto o senior).",
+      "Mantén siempre **agua fresca y limpia** disponible.",
+      "Los premios y la comida casera no deben superar el **10 % de lo que come al día**.",
+      "Chocolate, uvas, pasas, cebolla, ajo y xilitol son **tóxicos**: nunca se los des."
+    ],
+    "bloques": [
+      {
+        "h": "¿Qué debe comer?"
+      },
+      {
+        "p": "Un perro sano se alimenta bien con un alimento comercial cuya etiqueta diga que es **“completo y balanceado”** para su etapa de vida. Ese alimento ya trae las proteínas, grasas, vitaminas y minerales que necesita, así que no hace falta agregar suplementos salvo que lo indique el veterinario [1][4]."
+      },
+      {
+        "ul": [
+          "**Cachorro (hasta los 12 meses; razas grandes hasta los 18–24 meses):** alimento de cachorro, que tiene más energía y el calcio adecuado para crecer.",
+          "**Adulto:** alimento de mantención para su tamaño y nivel de actividad.",
+          "**Senior (desde los 7–8 años aprox.):** el veterinario puede sugerir un alimento con menos calorías o adaptado a su salud."
+        ]
+      },
+      {
+        "h": "¿Cuántas veces y cuánto?"
+      },
+      {
+        "table": {
+          "headers": [
+            "Edad",
+            "Comidas al día",
+            "Consejo"
+          ],
+          "widths": [
+            2400,
+            2000,
+            5238
+          ],
+          "rows": [
+            [
+              "2 a 6 meses",
+              "3 a 4",
+              "Porciones pequeñas repartidas en el día."
+            ],
+            [
+              "6 a 12 meses",
+              "2 a 3",
+              "Ajusta la porción según cómo crece."
+            ],
+            [
+              "Adulto",
+              "2",
+              "Horarios fijos ayudan a la digestión y a la rutina."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "La cantidad de la bolsa es **solo un punto de partida**. Lo correcto es ajustarla según la **condición corporal**: en un perro con peso ideal se sienten las costillas al pasar la mano sin presionar, y desde arriba se ve una cintura detrás de las costillas. Si no sientes las costillas, está con sobrepeso; si se ven a simple vista, está muy delgado [1]."
+      },
+      {
+        "tip": "Pesa la porción con una taza medidora o una pesa de cocina. “A ojo” es la causa más común de sobrepeso."
+      },
+      {
+        "h": "Cambiar de alimento"
+      },
+      {
+        "p": "Haz el cambio de forma gradual en unos **7 días**: mezcla un 25 % del alimento nuevo los primeros días, luego 50 %, 75 % y finalmente 100 %. Un cambio brusco puede causar vómitos o diarrea."
+      },
+      {
+        "h": "Puede comer y nunca darle"
+      },
+      {
+        "p": "En la app esta sección se muestra en dos pestañas. Los alimentos de “Puede comer” son **premios ocasionales**, en trozos pequeños, **sin sal, sin aliños y sin huesos**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Puede comer (como premio)",
+          "ok": [
+            [
+              "Zanahoria",
+              "Cruda o cocida, en trozos."
+            ],
+            [
+              "Manzana",
+              "Sin semillas ni corazón."
+            ],
+            [
+              "Plátano",
+              "Poca cantidad, tiene mucha azúcar."
+            ],
+            [
+              "Arándanos",
+              "Lavados."
+            ],
+            [
+              "Sandía",
+              "Sin pepas y sin cáscara."
+            ],
+            [
+              "Zapallo o camote",
+              "Cocido, sin sal ni mantequilla."
+            ],
+            [
+              "Pollo o pavo",
+              "Cocido, sin piel, sin huesos y sin aliños."
+            ],
+            [
+              "Arroz blanco",
+              "Cocido, sin sal."
+            ],
+            [
+              "Huevo",
+              "Siempre cocido."
+            ]
+          ],
+          "noTitulo": "Nunca darle",
+          "no": [
+            [
+              "Chocolate, café y bebidas con cafeína",
+              "Contienen metilxantinas: vómitos, taquicardia, temblores, convulsiones. Más oscuro el chocolate, más peligroso [2]."
+            ],
+            [
+              "Uvas y pasas",
+              "Pueden causar falla renal, incluso en cantidades pequeñas [2]."
+            ],
+            [
+              "Cebolla, ajo, cebollín y puerro",
+              "Dañan los glóbulos rojos y causan anemia, también cocidos o en polvo [2]."
+            ],
+            [
+              "Xilitol (chicles y dulces “sin azúcar”, algunas mantequillas de maní, pasta de dientes)",
+              "Baja el azúcar en sangre en 15–30 minutos y puede dañar el hígado. Es una urgencia [3]."
+            ],
+            [
+              "Alcohol y masa cruda con levadura",
+              "Intoxicación y distensión del estómago [2]."
+            ],
+            [
+              "Nueces de macadamia",
+              "Debilidad, temblores y fiebre [2]."
+            ],
+            [
+              "Huesos cocidos",
+              "Se astillan y pueden perforar o trabar el intestino [2]."
+            ],
+            [
+              "Carne, huevo o pescado crudos",
+              "Riesgo de Salmonella y E. coli, también para la familia [2]."
+            ],
+            [
+              "Leche y lácteos",
+              "Muchos perros no digieren la lactosa: diarrea [2]."
+            ],
+            [
+              "Comida grasosa o salada (asado, embutidos, papas fritas)",
+              "Puede causar pancreatitis y exceso de sodio [2]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Ve al veterinario si…",
+          "items": [
+            "Comió cualquier alimento de la lista “Nunca darle”, **aunque se vea bien**. Anota qué comió, cuánto y a qué hora, y llama de inmediato.",
+            "No come nada por **más de 24 a 48 horas**, o un cachorro se salta varias comidas seguidas.",
+            "Vomita o tiene diarrea **más de 2 veces en 24 horas**.",
+            "Tiene la barriga hinchada y hace arcadas sin poder vomitar (urgencia, sobre todo en razas grandes)."
+          ],
+          "nota": "No le provoques el vómito sin indicación del veterinario."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines y Global Nutrition Toolkit (condición corporal, cálculo de calorías)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edición para dueños de perros (nutrición, piel, urgencias)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      }
+    ]
+  },
+  {
+    "id": "alimentacion-gato",
+    "n": 2,
+    "icono": "🐱",
+    "titulo": "Alimentación del gato",
+    "especie": "Gato",
+    "etapa": "Gatito, adulto y senior",
+    "etiquetas": [
+      "comida",
+      "alimento",
+      "pellet",
+      "sobre",
+      "húmedo",
+      "agua",
+      "premios",
+      "leche",
+      "atún",
+      "puede comer",
+      "tóxico",
+      "lirio",
+      "cebolla",
+      "gatito"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médico Veterinario",
+      "fecha": "2026-10-28",
+      "resultado": "Aprobada con cambios",
+      "observacion": "Excelente."
+    },
+    "resumen": [
+      "El gato es **carnívoro estricto**: necesita un alimento completo y balanceado para gatos, nunca comida de perro ni dieta vegetariana.",
+      "El **agua** es clave: muchos gatos beben poco, y el alimento húmedo ayuda.",
+      "La **leche** y el **atún de lata para personas** no son buenos para él.",
+      "Si un gato deja de comer por **más de 24 horas**, debe ir al veterinario."
+    ],
+    "bloques": [
+      {
+        "h": "¿Qué debe comer?"
+      },
+      {
+        "p": "Los gatos son **carnívoros estrictos**: necesitan nutrientes que vienen de los animales, con mucha proteína, grasa moderada y pocos carbohidratos [1]. Necesitan, por ejemplo, **taurina**, un aminoácido cuya falta puede causar problemas al corazón y a la vista [5]. Por eso deben comer alimento **para gatos**, con la frase **“completo y balanceado”** para su etapa de vida, y no comida de perro [1]."
+      },
+      {
+        "ul": [
+          "**Gatito (hasta los 12 meses):** alimento de crecimiento, en 3 a 4 porciones pequeñas al día.",
+          "**Adulto:** alimento de mantención en 2 o más porciones medidas al día.",
+          "**Senior (desde los 10 años aprox.):** controles más seguidos; el veterinario puede ajustar la dieta."
+        ]
+      },
+      {
+        "h": "Seco, húmedo o los dos"
+      },
+      {
+        "table": {
+          "headers": [
+            "Tipo",
+            "Agua que aporta",
+            "Ventajas",
+            "Cuidados"
+          ],
+          "widths": [
+            1700,
+            1700,
+            3100,
+            3138
+          ],
+          "rows": [
+            [
+              "Seco (pellet)",
+              "6–10 %",
+              "Más económico, se conserva bien.",
+              "Guárdalo en un envase hermético y revisa el vencimiento."
+            ],
+            [
+              "Húmedo (lata o sobre)",
+              "75 % o más",
+              "Muy apetecible y aporta agua a la dieta.",
+              "Refrigera lo que sobre y bótalo si se secó."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Ambos sirven si son completos y balanceados; el gusto de tu gato puede guiar la elección [1]. Combinarlos es una buena forma de sumar agua."
+      },
+      {
+        "h": "Agua y peso"
+      },
+      {
+        "ul": [
+          "Pon **varios bebederos** con agua limpia, lejos de la comida y del arenero. Muchos gatos prefieren las fuentes con agua en movimiento.",
+          "La **obesidad** es el problema de nutrición más común en gatos y aumenta el riesgo de diabetes y artrosis. Mide las porciones y pregunta al veterinario su peso ideal [1][2].",
+          "Los premios no deben superar el **10–15 % de las calorías del día** [1]."
+        ]
+      },
+      {
+        "h": "Puede comer y nunca darle"
+      },
+      {
+        "p": "Los alimentos de “Puede comer” son **premios ocasionales**, cocidos, **sin sal, sin aliños y sin huesos ni espinas**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Puede comer (como premio)",
+          "ok": [
+            [
+              "Pollo o pavo",
+              "Cocido, sin piel ni huesos."
+            ],
+            [
+              "Pescado",
+              "Cocido, sin espinas, de vez en cuando."
+            ],
+            [
+              "Huevo",
+              "Siempre cocido."
+            ],
+            [
+              "Zapallo",
+              "Cocido, en muy poca cantidad."
+            ],
+            [
+              "Pasto para gatos",
+              "Germinado de trigo o avena, de tienda o casero."
+            ],
+            [
+              "Premios para gatos",
+              "Dentro del 10–15 % de las calorías del día."
+            ]
+          ],
+          "noTitulo": "Nunca darle",
+          "no": [
+            [
+              "Cebolla, ajo, cebollín y puerro",
+              "Los gatos son muy sensibles: dañan los glóbulos rojos y causan anemia [3]."
+            ],
+            [
+              "Chocolate, café y cafeína",
+              "Vómitos, taquicardia, temblores y convulsiones [3]."
+            ],
+            [
+              "Uvas y pasas",
+              "Posible daño renal [3]."
+            ],
+            [
+              "Alcohol y masa cruda con levadura",
+              "Intoxicación grave [3]."
+            ],
+            [
+              "Leche y lácteos",
+              "Muchos gatos no toleran la lactosa: diarrea y malestar [1]."
+            ],
+            [
+              "Carne o pescado crudos",
+              "Pueden traer bacterias y parásitos, sin beneficio comprobado [1]."
+            ],
+            [
+              "Atún de lata para personas como comida habitual",
+              "No es completo y se ha asociado a problemas neurológicos [1]."
+            ],
+            [
+              "Comida de perro como dieta",
+              "No tiene la taurina ni los nutrientes que el gato necesita."
+            ],
+            [
+              "Huesos cocidos y espinas",
+              "Se astillan y pueden trabar o perforar el intestino."
+            ],
+            [
+              "Lirios (planta y flor)",
+              "Incluso morder una hoja, lamer el polen o beber el agua del florero puede causar falla renal [4][6]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Ve al veterinario si…",
+          "items": [
+            "Tu gato **no come nada por más de 24 horas**. En gatos, el ayuno puede causar una enfermedad grave del hígado (lipidosis hepática), sobre todo si tiene sobrepeso [5].",
+            "Comió algo de la lista “Nunca darle” o mordió un **lirio**: es una urgencia aunque se vea bien.",
+            "Vomita **más de 2 veces en 24 horas**, o baja de peso sin razón.",
+            "Toma **mucha más agua** de lo normal o orina mucho más."
+          ],
+          "nota": "No le provoques el vómito sin indicación del veterinario."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine. Feeding Your Cat",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat"
+      },
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines y Global Nutrition Toolkit (condición corporal, cálculo de calorías)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lirios, plantas y productos tóxicos)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edición para dueños de gatos (nutrición, enfermedades hepáticas, urgencias)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. Toxic and Non-Toxic Plants",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+      }
+    ]
+  },
+  {
+    "id": "vacunas",
+    "n": 3,
+    "icono": "💉",
+    "titulo": "Vacunas",
+    "especie": "Perro y gato",
+    "etapa": "Cachorro, gatito y adulto",
+    "etiquetas": [
+      "vacuna",
+      "antirrábica",
+      "rabia",
+      "séxtuple",
+      "óctuple",
+      "triple felina",
+      "leucemia",
+      "parvovirus",
+      "distemper",
+      "calendario",
+      "refuerzo",
+      "obligatoria",
+      "ley"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médico Veterinario",
+      "fecha": "2026-10-28",
+      "resultado": "Aprobada con cambios",
+      "observacion": "Excelente."
+    },
+    "resumen": [
+      "En Chile la vacuna **antirrábica es obligatoria** para perros y gatos, y se acredita con un certificado veterinario.",
+      "Cachorros y gatitos necesitan **varias dosis**, cada 2 a 4 semanas, con la última a las **16 semanas o más**.",
+      "Las vacunas **esenciales** se aplican a todos; otras dependen del estilo de vida de tu mascota.",
+      "Guarda cada vacuna en la **libreta** de Pocket Vet con la fecha de la próxima dosis."
+    ],
+    "bloques": [
+      {
+        "h": "¿Por qué vacunar?"
+      },
+      {
+        "p": "Las vacunas protegen a tu mascota de enfermedades graves y muchas veces mortales, como el parvovirus o el distemper en perros y la panleucopenia en gatos. Además, cuando muchos animales están vacunados, la enfermedad circula menos y se protege también a los que no pueden vacunarse [1]."
+      },
+      {
+        "h": "Lo que exige la ley en Chile"
+      },
+      {
+        "p": "El Reglamento de Prevención y Control de la Rabia (Decreto N° 1 del Ministerio de Salud, 2014) establece que **todo perro y gato debe estar permanentemente vacunado contra la rabia**, y que los dueños deben mantener la vacuna **vigente**, acreditada con un **certificado de un médico veterinario** [2]. La Ley N° 21.020 de Tenencia Responsable obliga además a darle a la mascota los cuidados veterinarios necesarios [3]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Vacuna antirrábica",
+            "Cuándo"
+          ],
+          "widths": [
+            3200,
+            6438
+          ],
+          "rows": [
+            [
+              "Primera dosis",
+              "Desde los 2 meses de edad."
+            ],
+            [
+              "Primer refuerzo",
+              "Al año de la última dosis."
+            ],
+            [
+              "Siguientes",
+              "Según la duración indicada por el fabricante de la vacuna (lo dice tu veterinario y el certificado)."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Vacunas esenciales y opcionales"
+      },
+      {
+        "p": "La Asociación Mundial de Veterinarios de Pequeños Animales (WSAVA) llama **esenciales** a las vacunas que todos los perros y gatos deben recibir, y **no esenciales** a las que se recomiendan según dónde vive y cómo vive cada mascota [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "",
+            "Perro",
+            "Gato"
+          ],
+          "widths": [
+            1900,
+            3869,
+            3869
+          ],
+          "rows": [
+            [
+              "Esenciales",
+              "Distemper (moquillo), adenovirus (hepatitis), parvovirus y leptospirosis. Rabia, obligatoria en Chile.",
+              "Panleucopenia, calicivirus y herpesvirus (la “triple felina”). Rabia, obligatoria en Chile."
+            ],
+            [
+              "Según la prevalencia de la enfermedad",
+              "Tos de las perreras, entre otras. La leptospirosis ya va incluida en la vacuna séxtuple.",
+              "Leucemia felina: recomendada en gatos menores de 1 año y en gatos que salen o conviven con gatos que salen."
+            ]
+          ]
+        }
+      },
+      {
+        "tip": "En Chile las vacunas para perros se venden combinadas (por ejemplo “séxtuple” u “óctuple”). La séxtuple incluye leptospirosis. Pregunta a tu veterinario qué enfermedades incluye la que le pondrá."
+      },
+      {
+        "h": "Calendario de cachorros y gatitos"
+      },
+      {
+        "p": "Los anticuerpos que el cachorro recibe de su madre pueden bloquear la vacuna durante las primeras semanas, y no se sabe exactamente cuándo desaparecen. Por eso se aplican **varias dosis** y la última debe ser a las **16 semanas de edad o más** [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Edad",
+            "Qué se aplica (orientativo)"
+          ],
+          "widths": [
+            2600,
+            7038
+          ],
+          "rows": [
+            [
+              "6 a 8 semanas",
+              "Primera dosis de vacunas esenciales."
+            ],
+            [
+              "Cada 2 a 4 semanas",
+              "Nuevas dosis de esenciales hasta llegar a las 16 semanas o más."
+            ],
+            [
+              "Desde los 2 meses",
+              "Antirrábica (obligatoria)."
+            ],
+            [
+              "26 semanas (6 meses)",
+              "Refuerzo de esenciales, recomendado por WSAVA en lugar de esperar al año [1]."
+            ],
+            [
+              "Adulto",
+              "En Chile las esenciales se refuerzan cada año; solo se espacian (cada 3 años o más) si un test de anticuerpos muestra niveles protectores. No esenciales: cada año. Antirrábica: según el fabricante."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "El calendario exacto lo define el veterinario según la vacuna, la salud y el estilo de vida de tu mascota. Mientras no termine sus primeras vacunas, evita llevarlo a lugares con muchos perros o gatos desconocidos."
+      },
+      {
+        "h": "Después de vacunar"
+      },
+      {
+        "ul": [
+          "Es normal que esté **decaído, con algo de fiebre o le duela la zona** por 1 o 2 días.",
+          "Anota en la libreta el nombre de la vacuna, la fecha y la próxima dosis.",
+          "Aprovecha la vacuna para el **control anual**: es mucho más que una vacuna [1]."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Ve al veterinario si…",
+          "items": [
+            "Después de la vacuna se le **hincha la cara**, le salen ronchas, vomita o le cuesta respirar (**urgencia**, puede ser una reacción alérgica).",
+            "El decaimiento o la fiebre duran **más de 2 días**.",
+            "En gatos: un bulto donde lo vacunaron que sigue ahí **más de 3 meses**, mide **más de 2 cm** o **sigue creciendo un mes** después."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Vaccination Guidelines Group. 2024 Guidelines for the Vaccination of Dogs and Cats. Journal of Small Animal Practice, 2024. DOI 10.1111/jsap.13718",
+        "url": "https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf"
+      },
+      {
+        "texto": "Ministerio de Salud de Chile. Decreto Supremo N° 1 (publicado el 29-01-2014), Reglamento de Prevención y Control de la Rabia en el Hombre y en los Animales, artículo 4. Biblioteca del Congreso Nacional",
+        "url": "https://www.bcn.cl/leychile"
+      },
+      {
+        "texto": "Ley N° 21.020 sobre Tenencia Responsable de Mascotas y Animales de Compañía (2017). Biblioteca del Congreso Nacional",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=1106037"
+      }
+    ]
+  },
+  {
+    "id": "desparasitacion",
+    "n": 4,
+    "icono": "🪱",
+    "titulo": "Desparasitación",
+    "especie": "Perro y gato",
+    "etapa": "Cachorro, gatito y adulto",
+    "etiquetas": [
+      "parásitos",
+      "gusanos",
+      "lombrices",
+      "antiparasitario",
+      "pulgas",
+      "garrapatas",
+      "pipeta",
+      "pastilla",
+      "hidatidosis",
+      "toxocara",
+      "desparasitar",
+      "cada cuánto"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médico Veterinario",
+      "fecha": "2026-10-28",
+      "resultado": "Aprobada con cambios",
+      "observacion": "Excelente, con pequeños cambios."
+    },
+    "resumen": [
+      "Cachorros y gatitos se desparasitan **cada 2 semanas** desde pequeños y luego **cada mes hasta los 6 meses**.",
+      "Los adultos, **al menos 4 veces al año**, y más seguido si tienen más riesgo.",
+      "Algunos parásitos **pasan a las personas**: recoger las heces y lavarse las manos es parte del tratamiento.",
+      "En un gato usa un antiparasitario de perro **solo si el envase indica que también sirve para gatos**."
+    ],
+    "bloques": [
+      {
+        "h": "¿Por qué desparasitar?"
+      },
+      {
+        "p": "Los parásitos internos (como los áscaris o “lombrices” y las tenias) y externos (pulgas y garrapatas) causan diarrea, anemia, picazón y bajo crecimiento. Algunos se contagian a las personas, especialmente a niños, como el **Toxocara** y la **hidatidosis** [1][3]."
+      },
+      {
+        "h": "Parásitos internos: cada cuánto"
+      },
+      {
+        "p": "Estas frecuencias siguen las recomendaciones del consejo europeo de parasitología ESCCAP. El veterinario elige el producto y la dosis según el **peso** y el riesgo de tu mascota [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Etapa",
+            "Perro",
+            "Gato"
+          ],
+          "widths": [
+            2200,
+            3719,
+            3719
+          ],
+          "rows": [
+            [
+              "Cachorro / gatito",
+              "Desde las 2 semanas de vida, cada 2 semanas hasta 2 semanas después del destete. Luego cada mes hasta los 6 meses.",
+              "Desde las 4 semanas de vida, cada 2 semanas hasta 2 semanas después del destete. Luego cada mes hasta los 6 meses."
+            ],
+            [
+              "Hembra reproductora",
+              "Desparasitar antes de la cruza. Si está amamantando, esperar al destete.",
+              "Desparasitar antes de la cruza. Si está amamantando, esperar al destete."
+            ],
+            [
+              "Adulto",
+              "Al menos 4 veces al año.",
+              "Al menos 4 veces al año si sale o caza; según riesgo si vive dentro de casa."
+            ],
+            [
+              "Mayor riesgo",
+              "Mensual si convive con niños pequeños, come presas o carne cruda, o pasea mucho en parques.",
+              "Mensual o con exámenes de heces si caza o come carne cruda."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Una alternativa a desparasitar “a ciegas” es hacer **exámenes de heces** periódicos y tratar según el resultado [1]."
+      },
+      {
+        "h": "Hidatidosis: atención en Chile"
+      },
+      {
+        "p": "La hidatidosis es causada por una tenia que el perro adquiere al **comer vísceras crudas de ovejas u otro ganado**. Los huevos salen en sus heces y pueden enfermar a las personas, formando quistes en el hígado o los pulmones. Es más frecuente en zonas rurales y ganaderas del sur de Chile, donde el Ministerio de Salud recomienda **desparasitar a los perros cada 45 días** y no darles vísceras crudas [3]. ESCCAP recomienda en perros de riesgo un antiparasitario con **praziquantel** cada 4 a 6 semanas [1]."
+      },
+      {
+        "h": "Parásitos externos: pulgas y garrapatas"
+      },
+      {
+        "ul": [
+          "Existen pipetas, pastillas, collares y sprays. Usa siempre un producto **para la especie y el peso exacto** de tu mascota [2].",
+          "Las pulgas también viven en la casa: lava camas y mantas, y aspira alfombras y sillones.",
+          "Revisa a tu perro después de paseos por pasto o cerros, sobre todo orejas, cuello y entre los dedos.",
+          "**No le pongas a un gato una pipeta de perro, salvo que el envase diga que también es apta para gatos**: muchas pipetas de perro contienen **permetrina**, que es muy tóxica para los gatos [4]."
+        ]
+      },
+      {
+        "h": "Higiene en casa"
+      },
+      {
+        "ul": [
+          "Recoge las heces en el paseo y limpia el arenero **todos los días**.",
+          "Lávate las manos después de tocar heces, tierra o el arenero, y enséñaselo a los niños.",
+          "No le des a tu mascota carne ni vísceras crudas.",
+          "Anota cada desparasitación en la libreta de Pocket Vet para que la app te recuerde la siguiente."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Ve al veterinario si…",
+          "items": [
+            "Ves **gusanos o “granitos de arroz”** en sus heces, en el vómito o alrededor del ano.",
+            "Un cachorro o gatito tiene **la barriga hinchada**, diarrea o no sube de peso.",
+            "Tiene las **encías pálidas**, está muy decaído o se rasca sin parar.",
+            "Tu gato **babea, tiembla o convulsiona** después de ponerle un antiparasitario (**urgencia**: lava la zona con agua y jabón suave y ve de inmediato)."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ESCCAP (European Scientific Counsel Companion Animal Parasites). Guideline GL1: Worm Control in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl1/"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      },
+      {
+        "texto": "Ministerio de Salud de Chile. Estudio de hidatidosis permite la detección temprana de la enfermedad en 8 niños y niñas de Aysén (medidas de prevención: desparasitación de perros)",
+        "url": "https://www.minsal.cl/estudio-de-hidatidosis-permite-la-deteccion-temprana-de-enfermedad-en-8-ninos-y-ninas-de-aysen/"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lirios, plantas y productos tóxicos)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ]
+  },
+  {
+    "id": "bano-higiene",
+    "n": 5,
+    "icono": "🛁",
+    "titulo": "Baño e higiene",
+    "especie": "Perro y gato",
+    "etapa": "Todas las edades",
+    "etiquetas": [
+      "baño",
+      "bañar",
+      "shampoo",
+      "champú",
+      "cepillado",
+      "pelo",
+      "uñas",
+      "oídos",
+      "dientes",
+      "higiene",
+      "mal olor",
+      "bolas de pelo",
+      "peluquería"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médico Veterinario",
+      "fecha": "2026-10-28",
+      "resultado": "Aprobada",
+      "observacion": "Muy bien."
+    },
+    "resumen": [
+      "La mayoría de los perros necesita un baño **cada 3 meses aprox.** o cuando está sucio; bañarlo demasiado irrita su piel.",
+      "Los gatos **casi nunca** necesitan baño: se asean solos.",
+      "Usa **shampoo para mascotas**, nunca de personas.",
+      "El **cepillado** es más importante que el baño, sobre todo si tiene pelo largo."
+    ],
+    "bloques": [
+      {
+        "h": "Perros: cada cuánto bañarlos"
+      },
+      {
+        "p": "Para la mayoría de los perros basta con **un baño cada 3 meses aproximadamente**, o cuando se ensucia o tiene mal olor. Bañarlo demasiado seguido elimina los aceites naturales de su piel y puede irritarla [1]. Si tiene un problema de piel, el veterinario puede indicar un shampoo medicado y una frecuencia distinta."
+      },
+      {
+        "h": "Paso a paso del baño"
+      },
+      {
+        "num": [
+          "**Cepíllalo antes** para sacar nudos y pelo muerto; el agua aprieta los nudos.",
+          "Usa **agua tibia**, nunca caliente, y evita mojarle los ojos y el interior de las orejas.",
+          "Aplica **shampoo para perros**. El de personas tiene otro pH y puede irritar su piel [1].",
+          "**Enjuaga muy bien**: los restos de shampoo causan picazón.",
+          "**Sécalo completo**, incluyendo los pliegues, entre los dedos y las orejas, con toalla o secador en temperatura tibia.",
+          "Prémialo para que asocie el baño con algo bueno."
+        ]
+      },
+      {
+        "tip": "Cachorros: espera a que el veterinario lo autorice, normalmente después de sus primeras vacunas. Mientras tanto, límpialo con un paño húmedo tibio."
+      },
+      {
+        "h": "Gatos: casi nunca necesitan baño"
+      },
+      {
+        "p": "Los gatos pasan varias horas al día aseándose y en general **no necesitan baño**; muchos además lo toleran mal [1]. Báñalo solo si se ensució con algo que no puede lamer (por ejemplo un producto tóxico, grasa o pintura) o si el veterinario lo indica. En ese caso usa un **shampoo para gatos** y nunca uno para perros, porque algunos contienen insecticidas como la permetrina, tóxica para gatos [4][5]."
+      },
+      {
+        "h": "Cepillado"
+      },
+      {
+        "table": {
+          "headers": [
+            "Tipo de pelo",
+            "Frecuencia"
+          ],
+          "widths": [
+            3600,
+            6038
+          ],
+          "rows": [
+            [
+              "Pelo largo (perro o gato)",
+              "Todos los días, para evitar nudos [1]."
+            ],
+            [
+              "Pelo corto",
+              "1 o 2 veces por semana."
+            ],
+            [
+              "Época de muda (primavera y otoño)",
+              "Más seguido. En gatos reduce las bolas de pelo."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Uñas, oídos y dientes"
+      },
+      {
+        "ul": [
+          "**Uñas:** córtalas cuando suenen al caminar en el piso, solo la punta, sin llegar a la parte rosada que tiene sangre. Si no sabes cómo, pide al veterinario que te enseñe.",
+          "**Oídos:** revísalos cada semana. Limpia solo la parte visible con un producto para mascotas; nunca introduzcas cotonitos.",
+          "**Dientes:** lo ideal es cepillarlos a diario con un cepillo y **pasta para mascotas**. La pasta de personas no se debe tragar y algunas tienen xilitol."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Ve al veterinario si…",
+          "items": [
+            "Se rasca, se lame o se muerde **sin parar**, o tiene zonas **sin pelo**, rojas o con costras.",
+            "Le huelen mal los oídos, tienen secreción o **sacude mucho la cabeza**.",
+            "Tiene mal aliento fuerte, encías rojas o le cuesta comer.",
+            "Tu gato **deja de asearse**: suele ser señal de dolor o enfermedad."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ASPCA. Pet Grooming Tips (bañado, cepillado y cuidado de uñas)",
+        "url": "https://www.aspca.org/sites/default/files/upload/images/pet_grooming_tips_flyer.pdf"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edición para dueños de perros (nutrición, piel, urgencias)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edición para dueños de gatos (nutrición, enfermedades hepáticas, urgencias)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lirios, plantas y productos tóxicos)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      }
+    ]
+  },
+  {
+    "id": "senales-alerta",
+    "n": 6,
+    "icono": "⚠️",
+    "titulo": "Señales de alerta",
+    "especie": "Perro y gato",
+    "etapa": "Todas las edades",
+    "etiquetas": [
+      "urgencia",
+      "emergencia",
+      "síntomas",
+      "vómito",
+      "diarrea",
+      "no come",
+      "convulsión",
+      "intoxicación",
+      "veneno",
+      "respira mal",
+      "sangrado",
+      "cuándo ir al veterinario"
+    ],
+    "verificada": false,
+    "revision": null,
+    "resumen": [
+      "Pocket Vet **no diagnostica**: esta guía te ayuda a decidir **cuándo ir al veterinario**.",
+      "Problemas para respirar, convulsiones, sangrado que no para o una posible intoxicación son **urgencias**: ve de inmediato.",
+      "Vómitos o diarrea repetidos, o dejar de comer, requieren consulta **en el día**.",
+      "Ten anotado el teléfono de tu veterinario y de una **urgencia 24 horas**."
+    ],
+    "bloques": [
+      {
+        "h": "Urgencia: ve al veterinario de inmediato"
+      },
+      {
+        "p": "Estas situaciones pueden poner en riesgo su vida en minutos u horas. Llama a la clínica mientras vas en camino para que estén preparados [1]."
+      },
+      {
+        "ul": [
+          "**Dificultad para respirar**, respiración con la boca abierta en un gato, ahogo o tos y arcadas sin parar.",
+          "**Encías pálidas, blancas o azuladas.**",
+          "**Sangrado** que no se detiene en 5 minutos, o sangre en la orina, el vómito o las heces.",
+          "**Convulsiones**, desmayo, pérdida de conciencia o tambaleo.",
+          "**Posible intoxicación**: comió chocolate, xilitol, uvas, veneno para ratones, medicamentos de personas, anticongelante, o un gato que mordió un lirio [4][5][6].",
+          "**Golpe, atropello o caída**, aunque parezca estar bien; huesos rotos o una pata que no apoya.",
+          "**Intenta orinar o defecar y no puede**, o llora al hacerlo. En gatos machos es una urgencia grave.",
+          "**Barriga hinchada y dura** con arcadas sin poder vomitar (torsión de estómago, más común en perros grandes).",
+          "**Golpe de calor**: jadeo intenso, babeo y debilidad después de calor o ejercicio.",
+          "**Lesión en un ojo** o un ojo que de repente no abre.",
+          "**Dolor intenso** o mucha angustia."
+        ]
+      },
+      {
+        "h": "Consulta en el día (dentro de 24 horas)"
+      },
+      {
+        "ul": [
+          "Vómitos o diarrea **más de 2 veces en 24 horas**, o junto con decaimiento [1].",
+          "**No come**: un gato por más de 24 horas; un perro por más de 24 a 48 horas; un cachorro o gatito que se salta varias comidas.",
+          "**No toma agua** por 24 horas o más [1].",
+          "Decaimiento marcado: no quiere jugar, se esconde o duerme mucho más de lo normal.",
+          "Cojea, tiene una herida o un bulto nuevo que crece."
+        ]
+      },
+      {
+        "h": "Observa y anota en la libreta"
+      },
+      {
+        "p": "Estos cambios no son urgencias, pero conviene mencionarlos en el próximo control o pedir hora si duran más de unos días:"
+      },
+      {
+        "ul": [
+          "Toma **mucha más agua** u orina mucho más que antes.",
+          "Baja o sube de peso sin cambiar su comida.",
+          "Tos leve, estornudos, ojos llorosos o secreción nasal.",
+          "Cambios de comportamiento: agresividad nueva, orina fuera del arenero, se lame una zona.",
+          "Mal aliento fuerte o dificultad para masticar."
+        ]
+      },
+      {
+        "h": "Qué hacer y qué no hacer"
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Qué hacer",
+          "ok": [
+            [
+              "Mantén la calma",
+              "Habla suave y muévelo con cuidado; un animal con dolor puede morder."
+            ],
+            [
+              "Llama antes de ir",
+              "Así la clínica se prepara y te orienta en el camino."
+            ],
+            [
+              "Lleva la evidencia",
+              "El envase del producto o medicamento, o una foto de lo que comió."
+            ],
+            [
+              "Anota los síntomas",
+              "Cuándo empezaron, cuántas veces vomitó y cualquier cambio."
+            ],
+            [
+              "Trasládalo seguro",
+              "Gatos en transportadora; perros grandes sobre una manta firme."
+            ]
+          ],
+          "noTitulo": "Qué NO hacer",
+          "no": [
+            [
+              "Darle medicamentos de personas",
+              "El paracetamol y el ibuprofeno pueden ser mortales, sobre todo en gatos [3]."
+            ],
+            [
+              "Provocarle el vómito",
+              "Solo si el veterinario lo indica: algunos tóxicos hacen más daño al volver."
+            ],
+            [
+              "Esperar a “ver si mejora”",
+              "Ante una señal de urgencia, cada minuto cuenta."
+            ],
+            [
+              "Darle comida o agua a la fuerza",
+              "Puede ahogarse si está débil o con convulsiones."
+            ]
+          ]
+        }
+      },
+      {
+        "contactos": true
+      },
+      {
+        "tip": "En la app, cada guía que menciona síntomas de riesgo muestra esta alerta de “Ve al veterinario”. Pocket Vet entrega información general y no reemplaza la evaluación de un médico veterinario."
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "American Veterinary Medical Association (AVMA). 13 animal emergencies that require immediate veterinary consultation and/or care",
+        "url": "https://www.avma.org/public/EmergencyCare/Pages/animal-emergencies.aspx"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edición para dueños de perros (nutrición, piel, urgencias)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edición para dueños de gatos (nutrición, enfermedades hepáticas, urgencias)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lirios, plantas y productos tóxicos)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ]
+  }
 ]
