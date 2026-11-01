@@ -29,6 +29,8 @@ El service worker solo funciona en `localhost` o con HTTPS.
 
 ## Deploy
 
+App publicada: https://pocket-vet.netlify.app
+
 Cada push a `main` se publica automáticamente en Netlify.
 
 ## Equipo
