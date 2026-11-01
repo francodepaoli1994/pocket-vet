@@ -1,0 +1,62 @@
+/* Design system pastel de Pocket Vet (estilo A del prototipo) */
+:root {
+  --bg: #FFF8F0; --surface: #FFFFFF; --ink: #3B3355; --muted: #8A84A3;
+  --primary: #7FB8F0; --primary-ink: #FFFFFF; --accent: #FFC9A8;
+  --c1: #FF9EB5; --c2: #8ED1A5; --c3: #B9A7F5; --c4: #FFD57A;
+  --ok: #3FA56B; --bad: #E2556B;
+  --radius: 22px; --font: 'Nunito', system-ui, sans-serif;
+  --shadow: 0 4px 0 rgba(59, 51, 85, .08); --border: 2px solid #F0E6DA;
+  --tabbar-h: 68px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { font-family: var(--font); background: var(--bg); color: var(--ink); -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+
+.app { max-width: 480px; min-height: 100%; margin: 0 auto; display: flex; flex-direction: column; }
+
+.topbar {
+  position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 10px;
+  padding: calc(12px + env(safe-area-inset-top)) 16px 12px; background: var(--bg);
+}
+.topbar .logo { width: 36px; height: 36px; border-radius: 12px; }
+.topbar h1 { font-size: 20px; font-weight: 900; letter-spacing: -.01em; }
+.badge { margin-left: auto; font-size: 12px; font-weight: 800; background: var(--c4); padding: 4px 10px; border-radius: 99px; }
+
+.screen { flex: 1; padding: 8px 16px calc(var(--tabbar-h) + 24px + env(safe-area-inset-bottom)); outline: none; }
+.screen h2 { font-size: 22px; font-weight: 900; margin: 8px 0 12px; }
+.screen p { color: var(--muted); line-height: 1.5; }
+
+.card { background: var(--surface); border: var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px; margin-bottom: 14px; }
+.card h3 { font-size: 17px; font-weight: 800; margin-bottom: 4px; }
+
+.pet { display: flex; align-items: center; gap: 14px; background: linear-gradient(135deg, var(--c1), var(--c3)); color: #fff; border: none; }
+.pet .avatar { width: 56px; height: 56px; border-radius: 18px; background: rgba(255,255,255,.35); display: grid; place-items: center; font-size: 30px; }
+.pet p { color: rgba(255,255,255,.9); }
+
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+.tile { display: block; text-decoration: none; border-radius: var(--radius); padding: 16px; min-height: 96px; font-weight: 800; box-shadow: var(--shadow); }
+.tile .e { font-size: 26px; display: block; margin-bottom: 8px; }
+.tile:nth-child(1) { background: #DCEBFF; } .tile:nth-child(2) { background: #DFF5E6; }
+.tile:nth-child(3) { background: #ECE5FF; } .tile:nth-child(4) { background: #FFF1CC; }
+
+.list { list-style: none; }
+.list li { display: flex; align-items: center; gap: 12px; padding: 14px 0; border-bottom: var(--border); }
+.list li:last-child { border-bottom: none; }
+.list .dot { width: 40px; height: 40px; border-radius: 14px; display: grid; place-items: center; font-size: 20px; background: var(--bg); flex: none; }
+.list small { display: block; color: var(--muted); font-size: 13px; }
+.seal { margin-left: auto; font-size: 11px; font-weight: 800; color: var(--ok); background: #DFF5E6; padding: 3px 8px; border-radius: 99px; white-space: nowrap; }
+.seal.draft { color: var(--muted); background: #F0E6DA; }
+
+.btn { display: inline-block; border: none; border-radius: 16px; padding: 12px 18px; font: inherit; font-weight: 800; background: var(--primary); color: var(--primary-ink); box-shadow: 0 4px 0 #5E95CC; cursor: pointer; }
+
+.tabbar {
+  position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 480px;
+  display: grid; grid-template-columns: repeat(4, 1fr); height: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom); background: var(--surface); border-top: var(--border);
+}
+.tabbar a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 12px; font-weight: 700; color: var(--muted); text-decoration: none; }
+.tabbar a .ico { font-size: 22px; }
+.tabbar a.on { color: var(--ink); }
+.tabbar a.on .ico { transform: translateY(-2px); }

@@ -1,0 +1,8 @@
+[
+  { "id": "alimentacion-perro", "icono": "🐶", "titulo": "Alimentación del perro", "especie": "Perro", "verificada": true, "revision": "2026-10-28" },
+  { "id": "alimentacion-gato", "icono": "🐱", "titulo": "Alimentación del gato", "especie": "Gato", "verificada": true, "revision": "2026-10-28" },
+  { "id": "vacunas", "icono": "💉", "titulo": "Vacunas", "especie": "Perro y gato", "verificada": true, "revision": "2026-10-28" },
+  { "id": "desparasitacion", "icono": "🪱", "titulo": "Desparasitación", "especie": "Perro y gato", "verificada": true, "revision": "2026-10-28" },
+  { "id": "bano-higiene", "icono": "🛁", "titulo": "Baño e higiene", "especie": "Perro y gato", "verificada": true, "revision": "2026-10-28" },
+  { "id": "senales-alerta", "icono": "⚠️", "titulo": "Señales de alerta", "especie": "Perro y gato", "verificada": false, "revision": null }
+]
