@@ -3,6 +3,8 @@
 
 import * as libreta from './libreta.js';
 import * as perfil from './perfil.js';
+import * as sonidos from './sonidos.js';
+import * as notif from './notificaciones.js';
 
 const GUIAS_URL = 'data/guias.json';
 
@@ -59,9 +61,60 @@ const screens = {
   },
   perfil: {
     titulo: () => 'Perfil',
-    render: () => `<h2>Perfil de la mascota</h2>${perfil.form(!perfil.leer())}`,
+    render: () => `<h2>Perfil de la mascota</h2>${perfil.form(!perfil.leer())}${perfil.leer() ? ajustesHtml() : ''}`,
   },
 };
+
+// Ajustes en Perfil: sonidos y recordatorios en la barra del teléfono
+function ajustesHtml() {
+  const p = notif.permiso();
+  const estado = {
+    granted: '✅ Activados. Te avisaremos 3 días antes de cada próxima fecha de la libreta.',
+    denied: '🚫 Bloqueados. Actívalos en los ajustes del navegador o del teléfono para Pocket Vet.',
+    default: 'Recibe un aviso en la barra del teléfono antes de cada vacuna o desparasitación.',
+    unsupported: 'Este navegador no permite notificaciones.',
+  }[p];
+  return `<div class="card ajustes">
+    <h3>Ajustes</h3>
+    <label class="switch"><span>🔊 Sonidos de la app</span>
+      <input type="checkbox" data-sonido ${sonidos.silenciado() ? '' : 'checked'}></label>
+    <div class="ajuste-notif">
+      <b>🔔 Recordatorios en el celular</b>
+      <p>${estado}</p>
+      <div class="acciones">
+        ${p === 'default' ? '<button class="btn" type="button" data-notif-activar>Activar recordatorios</button>' : ''}
+        ${p === 'granted' ? '<button class="btn sec" type="button" data-notif-probar>Probar notificación</button>' : ''}
+      </div>
+    </div>
+  </div>`;
+}
+
+document.addEventListener('change', e => {
+  if (e.target.matches('[data-sonido]')) {
+    sonidos.silenciar(!e.target.checked);
+    if (e.target.checked) sonidos.play('guardar');
+  }
+});
+document.addEventListener('click', async e => {
+  const p = perfil.leer();
+  if (e.target.closest('[data-notif-activar]')) {
+    const r = await notif.activar(p && p.nombre);
+    if (r === 'granted') { await notif.probar(); await notif.avisar(p && p.nombre); }
+    navegar();
+  }
+  if (e.target.closest('[data-notif-probar]')) notif.probar();
+});
+
+// Suena una vez cuando la alerta "Ve al veterinario" aparece en pantalla
+function vigilarAlerta() {
+  const alerta = document.querySelector('.alerta');
+  if (!alerta || !('IntersectionObserver' in window)) return;
+  const obs = new IntersectionObserver(entradas => {
+    if (entradas.some(x => x.isIntersecting)) { sonidos.play('alerta'); obs.disconnect(); }
+  }, { threshold: 0.6 });
+  obs.observe(alerta);
+  window.addEventListener('hashchange', () => obs.disconnect(), { once: true });
+}
 
 // Buscador: ignora tildes y mayúsculas; busca en título, etiquetas, resumen y subtítulos
 let busqueda = '';
@@ -234,6 +287,10 @@ async function navegar() {
   window.scrollTo(0, 0);
   const tab = ruta in screens ? ruta : 'inicio';
   document.querySelectorAll('.tabbar a').forEach(a => a.classList.toggle('on', a.dataset.tab === tab));
+  if (id === 'guia') vigilarAlerta();
+  // Mantiene al día los recordatorios para el aviso en segundo plano y avisa los cercanos
+  const p = perfil.leer();
+  notif.sincronizar(p && p.nombre).then(() => notif.avisar(p && p.nombre)).catch(() => {});
 }
 
 function estadoConexion() {

@@ -1,6 +1,8 @@
 // Libreta veterinaria: registros guardados en el teléfono (localStorage), sin internet.
 // Cada registro: { id, tipo, fecha, titulo, detalle, proxima }
 
+import { play } from './sonidos.js';
+
 const CLAVE = 'pv_libreta';
 
 export const TIPOS = {
@@ -90,6 +92,7 @@ export function conectar(onCambio) {
     if (id) Object.assign(registros.find(r => r.id === id) || {}, datos);
     else registros.push({ id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), ...datos });
     guardar(registros);
+    play('guardar');
     if (id) location.hash = '#/libreta'; else onCambio();
   });
 
@@ -98,6 +101,7 @@ export function conectar(onCambio) {
     if (borrar) {
       if (!confirm('¿Borrar este registro de la libreta?')) return;
       guardar(leer().filter(r => r.id !== borrar.dataset.borrar));
+      play('borrar');
       onCambio();
     }
     if (e.target.closest('[data-exportar]')) exportar();

@@ -112,6 +112,17 @@ a.pet { text-decoration: none; }
 .opt input:focus-visible + span { outline: 3px solid var(--c3); }
 .form-perfil small { color: var(--ok); font-weight: 700; }
 
+/* Ajustes (Perfil) */
+.ajustes { display: grid; gap: 14px; }
+.switch { display: flex; align-items: center; justify-content: space-between; gap: 12px; font-weight: 800; }
+.switch input { appearance: none; width: 50px; height: 30px; border-radius: 99px; background: #E4DCEF; position: relative; cursor: pointer; transition: background .2s; flex: none; }
+.switch input::after { content: ''; position: absolute; top: 3px; left: 3px; width: 24px; height: 24px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.2); transition: transform .2s; }
+.switch input:checked { background: var(--ok); }
+.switch input:checked::after { transform: translateX(20px); }
+.switch input:focus-visible { outline: 3px solid var(--c3); }
+.ajuste-notif { border-top: var(--border); padding-top: 12px; }
+.screen .ajuste-notif p { margin: 4px 0 6px; font-size: 14px; }
+
 /* Buscador de guías */
 .buscador { margin-bottom: 10px; }
 .buscador input { width: 100%; font: inherit; font-weight: 600; border: var(--border); border-radius: 16px; padding: 12px 14px 12px 40px; background: var(--surface) no-repeat 14px center; color: var(--ink);

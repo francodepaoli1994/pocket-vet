@@ -1,6 +1,8 @@
 // Perfil de la mascota (mecánica M1): nombre, especie y etapa, guardados en el teléfono.
 // { nombre, especie: 'perro' | 'gato', etapa: 'joven' | 'adulto' | 'senior' }
 
+import { play } from './sonidos.js';
+
 const CLAVE = 'pv_perfil';
 
 export const ESPECIES = {
@@ -61,6 +63,7 @@ export function conectar(onCambio) {
     const d = Object.fromEntries(new FormData(f));
     const nuevo = !leer();
     localStorage.setItem(CLAVE, JSON.stringify({ nombre: d.nombre.trim(), especie: d.especie, etapa: d.etapa }));
+    play(nuevo ? 'bienvenida' : 'guardar');
     if (nuevo) { location.hash = '#/inicio'; await onCambio(); return; }
     await onCambio();
     const msg = document.querySelector('[data-perfil-msg]');
