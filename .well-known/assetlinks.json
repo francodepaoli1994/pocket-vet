@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.netlify.pocket_vet.twa",
+        "sha256_cert_fingerprints": ["A7:64:2C:98:B9:BE:08:52:9B:C4:5F:86:E6:69:A7:30:3D:56:6C:BF:24:6F:09:B4:DA:8F:E9:98:AB:76:8F:10"]
+      }
+    }]

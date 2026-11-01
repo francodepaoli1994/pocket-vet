@@ -45,7 +45,12 @@ export function form(bienvenida = false) {
     </fieldset>
     <div class="acciones"><button class="btn" type="submit">${bienvenida ? 'Empezar' : 'Guardar'}</button></div>
     <small data-perfil-msg></small>
-  </form>`;
+  </form>
+  ${bienvenida ? '' : `<div class="card">
+    <h3>App para Android</h3>
+    <p>Instala Pocket Vet como app en tu teléfono Android (versión de prueba).</p>
+    <div class="acciones"><a class="btn sec" href="descargas/pocket-vet.apk" download>⬇️ Descargar APK</a></div>
+  </div>`}`;
 }
 
 export function conectar(onCambio) {

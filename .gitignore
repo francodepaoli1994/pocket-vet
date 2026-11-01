@@ -2,3 +2,8 @@ node_modules/
 .netlify/
 .DS_Store
 Thumbs.db
+
+# Llaves de firma del APK: nunca al repositorio
+*.keystore
+*.jks
+signing-key-info.txt
