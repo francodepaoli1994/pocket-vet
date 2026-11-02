@@ -1,6 +1,6 @@
 // Service worker: guarda la app en caché para que abra sin conexión.
 // Sube la versión cada vez que cambien los archivos de la app.
-const CACHE = 'pocket-vet-v8';
+const CACHE = 'pocket-vet-v9';
 const CACHE_DATOS = 'pv-datos'; // recordatorios que deja la app para avisar en segundo plano (no se borra al actualizar)
 const ARCHIVOS = [
   './',
@@ -17,7 +17,12 @@ const ARCHIVOS = [
   'icons/icon-512.png',
   'icons/apple-touch-icon.png',
   'icons/favicon-96.png',
+  'sonidos/inicio.mp3',
   'sonidos/tap.mp3',
+  'sonidos/seleccionar.mp3',
+  'sonidos/interruptor.mp3',
+  'sonidos/error.mp3',
+  'sonidos/vacio.mp3',
   'sonidos/guardar.mp3',
   'sonidos/bienvenida.mp3',
   'sonidos/alerta.mp3',

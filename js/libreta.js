@@ -104,7 +104,7 @@ export function conectar(onCambio) {
       play('borrar');
       onCambio();
     }
-    if (e.target.closest('[data-exportar]')) exportar();
+    if (e.target.closest('[data-exportar]')) { exportar(); play('guardar'); }
   });
 
   document.addEventListener('change', async e => {
@@ -119,9 +119,11 @@ export function conectar(onCambio) {
       const ids = new Set(actuales.map(r => r.id));
       const agregados = nuevos.filter(r => !ids.has(r.id));
       guardar(actuales.concat(agregados));
+      play('guardar');
       await onCambio(); // espera a que se redibuje la pantalla antes de mostrar el mensaje
       document.querySelector('[data-respaldo-msg]').textContent = agregados.length === 1 ? 'Se importó 1 registro.' : `Se importaron ${agregados.length} registros.`;
     } catch {
+      play('error');
       if (msg) msg.textContent = 'El archivo no es un respaldo válido de Pocket Vet.';
     }
   });

@@ -91,14 +91,17 @@ function ajustesHtml() {
 
 document.addEventListener('change', e => {
   if (e.target.matches('[data-sonido]')) {
+    // Al apagar suena antes de silenciar; al encender, después
+    if (!e.target.checked) sonidos.play('interruptor');
     sonidos.silenciar(!e.target.checked);
-    if (e.target.checked) sonidos.play('guardar');
+    if (e.target.checked) sonidos.play('interruptor');
   }
 });
 document.addEventListener('click', async e => {
   const p = perfil.leer();
   if (e.target.closest('[data-notif-activar]')) {
     const r = await notif.activar(p && p.nombre);
+    sonidos.play(r === 'granted' ? 'guardar' : 'error');
     if (r === 'granted') { await notif.probar(); await notif.avisar(p && p.nombre); }
     navegar();
   }
@@ -155,14 +158,19 @@ async function listaGuias() {
 }
 
 // Actualiza solo los resultados, así el teclado no se cierra mientras escribes
-async function refrescarResultados() {
+let timerVacio;
+async function refrescarResultados(escribiendo = false) {
   const cont = document.querySelector('[data-resultados]');
-  if (cont) cont.innerHTML = await listaGuias();
+  if (!cont) return;
+  cont.innerHTML = await listaGuias();
+  // Si lo que escribe no encuentra nada, avisa con un sonido cuando deja de escribir
+  clearTimeout(timerVacio);
+  if (escribiendo && busqueda.trim() && cont.querySelector('.vacio-busqueda')) timerVacio = setTimeout(() => sonidos.play('vacio'), 700);
 }
 document.addEventListener('input', e => {
   if (!e.target.matches('[data-buscar]')) return;
   busqueda = e.target.value;
-  refrescarResultados();
+  refrescarResultados(true);
 });
 document.addEventListener('click', e => {
   if (e.target.closest('[data-filtro]')) { verTodas = !verTodas; refrescarResultados(); }
