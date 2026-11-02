@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "alimentacion-perro",
+    "n": 1,
+    "icono": "🐶",
+    "titulo": "Ernährung des Hundes",
+    "especie": "Hund",
+    "etapa": "Welpe, erwachsen und Senior",
+    "etiquetas": [
+      "Futter",
+      "Nahrung",
+      "Trockenfutter",
+      "Pellets",
+      "Leckerlis",
+      "wie viel fressen",
+      "darf fressen",
+      "giftig",
+      "Schokolade",
+      "Weintrauben",
+      "Zwiebel",
+      "Xylit",
+      "Welpe"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Tierärztin",
+      "fecha": "2026-10-28",
+      "resultado": "Freigegeben",
+      "observacion": "Ausgezeichneter Ratgeber mit guten Empfehlungen."
+    },
+    "resumen": [
+      "Gib ihm ein **Alleinfuttermittel** (vollständig und ausgewogen) für seine Lebensphase (Welpe, erwachsen oder Senior).",
+      "Halte immer **frisches, sauberes Wasser** bereit.",
+      "Leckerlis und Essen vom Tisch sollten **10 % der täglichen Menge** nicht überschreiten.",
+      "Schokolade, Weintrauben, Rosinen, Zwiebel, Knoblauch und Xylit sind **giftig**: gib sie ihm nie."
+    ],
+    "bloques": [
+      {
+        "h": "Was soll er fressen?"
+      },
+      {
+        "p": "Ein gesunder Hund ernährt sich gut mit einem Fertigfutter, auf dessen Etikett steht, dass es **„vollständig und ausgewogen“** für seine Lebensphase ist. Dieses Futter enthält bereits die nötigen Proteine, Fette, Vitamine und Mineralstoffe, daher braucht es keine Ergänzungen, außer der Tierarzt empfiehlt sie [1][4]."
+      },
+      {
+        "ul": [
+          "**Welpe (bis 12 Monate; große Rassen bis 18–24 Monate):** Welpenfutter, das mehr Energie und genau die richtige Menge Kalzium für das Wachstum hat.",
+          "**Erwachsen:** Erhaltungsfutter passend zu Größe und Aktivität.",
+          "**Senior (ab etwa 7–8 Jahren):** Der Tierarzt kann ein kalorienärmeres oder an seine Gesundheit angepasstes Futter empfehlen."
+        ]
+      },
+      {
+        "h": "Wie oft und wie viel?"
+      },
+      {
+        "table": {
+          "headers": [
+            "Alter",
+            "Mahlzeiten pro Tag",
+            "Tipp"
+          ],
+          "widths": [
+            2400,
+            2000,
+            5238
+          ],
+          "rows": [
+            [
+              "2 bis 6 Monate",
+              "3 bis 4",
+              "Kleine Portionen über den Tag verteilt."
+            ],
+            [
+              "6 bis 12 Monate",
+              "2 bis 3",
+              "Passe die Portion dem Wachstum an."
+            ],
+            [
+              "Erwachsen",
+              "2",
+              "Feste Zeiten helfen der Verdauung und der Routine."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Die Menge auf der Packung ist **nur ein Ausgangspunkt**. Richtig ist, sie an die **Körperkondition** anzupassen: Bei einem Hund mit Idealgewicht spürst du die Rippen, wenn du ohne Druck mit der Hand darüberstreichst, und von oben sieht man eine Taille hinter den Rippen. Spürst du die Rippen nicht, ist er übergewichtig; sieht man sie auf den ersten Blick, ist er zu dünn [1]."
+      },
+      {
+        "tip": "Wiege die Portion mit einem Messbecher oder einer Küchenwaage ab. Abmessen „nach Augenmaß“ ist die häufigste Ursache für Übergewicht."
+      },
+      {
+        "h": "Futterwechsel"
+      },
+      {
+        "p": "Stelle das Futter schrittweise über etwa **7 Tage** um: Mische in den ersten Tagen 25 % des neuen Futters bei, dann 50 %, 75 % und schließlich 100 %. Ein abrupter Wechsel kann Erbrechen oder Durchfall verursachen."
+      },
+      {
+        "h": "Darf fressen und nie geben"
+      },
+      {
+        "p": "In der App wird dieser Abschnitt in zwei Reitern angezeigt. Die Lebensmittel unter „Darf fressen“ sind **gelegentliche Leckerlis**, in kleinen Stücken, **ohne Salz, Gewürze und Knochen**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Darf fressen (als Leckerli)",
+          "ok": [
+            [
+              "Karotte",
+              "Roh oder gekocht, in Stücken."
+            ],
+            [
+              "Apfel",
+              "Ohne Kerne und Kerngehäuse."
+            ],
+            [
+              "Banane",
+              "Nur wenig, sie enthält viel Zucker."
+            ],
+            [
+              "Heidelbeeren",
+              "Gewaschen."
+            ],
+            [
+              "Wassermelone",
+              "Ohne Kerne und Schale."
+            ],
+            [
+              "Kürbis oder Süßkartoffel",
+              "Gekocht, ohne Salz und Butter."
+            ],
+            [
+              "Huhn oder Pute",
+              "Gekocht, ohne Haut, ohne Knochen und ungewürzt."
+            ],
+            [
+              "Weißer Reis",
+              "Gekocht, ohne Salz."
+            ],
+            [
+              "Ei",
+              "Immer gekocht."
+            ]
+          ],
+          "noTitulo": "Nie geben",
+          "no": [
+            [
+              "Schokolade, Kaffee und koffeinhaltige Getränke",
+              "Sie enthalten Methylxanthine: Erbrechen, Herzrasen, Zittern, Krampfanfälle. Je dunkler die Schokolade, desto gefährlicher [2]."
+            ],
+            [
+              "Weintrauben und Rosinen",
+              "Sie können Nierenversagen verursachen, schon in kleinen Mengen [2]."
+            ],
+            [
+              "Zwiebel, Knoblauch, Schnittlauch und Lauch",
+              "Sie schädigen die roten Blutkörperchen und verursachen Blutarmut, auch gekocht oder als Pulver [2]."
+            ],
+            [
+              "Xylit (zuckerfreie Kaugummis und Süßigkeiten, manche Erdnussbutter, Zahnpasta)",
+              "Senkt den Blutzucker innerhalb von 15–30 Minuten und kann die Leber schädigen. Es ist ein Notfall [3]."
+            ],
+            [
+              "Alkohol und roher Hefeteig",
+              "Vergiftung und Aufblähen des Magens [2]."
+            ],
+            [
+              "Macadamianüsse",
+              "Schwäche, Zittern und Fieber [2]."
+            ],
+            [
+              "Gekochte Knochen",
+              "Sie splittern und können den Darm durchbohren oder verstopfen [2]."
+            ],
+            [
+              "Rohes Fleisch, rohes Ei oder roher Fisch",
+              "Risiko von Salmonellen und E. coli, auch für die Familie [2]."
+            ],
+            [
+              "Milch und Milchprodukte",
+              "Viele Hunde vertragen keine Laktose: Durchfall [2]."
+            ],
+            [
+              "Fettiges oder salziges Essen (Grillfleisch, Wurst, Pommes)",
+              "Kann eine Bauchspeicheldrüsenentzündung und zu viel Natrium verursachen [2]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Geh zum Tierarzt, wenn…",
+          "items": [
+            "er etwas von der Liste „Nie geben“ gefressen hat, **auch wenn es ihm gut zu gehen scheint**. Notiere, was, wie viel und wann er gefressen hat, und ruf sofort an.",
+            "er **länger als 24 bis 48 Stunden** nichts frisst oder ein Welpe mehrere Mahlzeiten hintereinander auslässt.",
+            "er **mehr als 2-mal in 24 Stunden** erbricht oder Durchfall hat.",
+            "sein Bauch aufgebläht ist und er würgt, ohne erbrechen zu können (Notfall, vor allem bei großen Rassen)."
+          ],
+          "nota": "Bring ihn nicht ohne Anweisung des Tierarztes zum Erbrechen."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines und Global Nutrition Toolkit (Körperkondition, Kalorienberechnung)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Merck Veterinary Manual, Ausgabe für Hundebesitzer (Ernährung, Haut, Notfälle)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      }
+    ],
+    "especies": [
+      "perro"
+    ]
+  },
+  {
+    "id": "alimentacion-gato",
+    "n": 2,
+    "icono": "🐱",
+    "titulo": "Ernährung der Katze",
+    "especie": "Katze",
+    "etapa": "Kätzchen, erwachsen und Senior",
+    "etiquetas": [
+      "Futter",
+      "Nahrung",
+      "Pellets",
+      "Beutel",
+      "Nassfutter",
+      "Wasser",
+      "Leckerlis",
+      "Milch",
+      "Thunfisch",
+      "darf fressen",
+      "giftig",
+      "Lilie",
+      "Zwiebel",
+      "Kätzchen"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Tierärztin",
+      "fecha": "2026-10-28",
+      "resultado": "Mit Änderungen freigegeben",
+      "observacion": "Ausgezeichnet."
+    },
+    "resumen": [
+      "Die Katze ist ein **reiner Fleischfresser**: Sie braucht ein vollständiges und ausgewogenes Katzenfutter, nie Hundefutter oder vegetarische Kost.",
+      "**Wasser** ist entscheidend: Viele Katzen trinken wenig, und Nassfutter hilft.",
+      "**Milch** und **Thunfisch aus der Dose für Menschen** sind nicht gut für sie.",
+      "Wenn eine Katze **länger als 24 Stunden** nicht frisst, muss sie zum Tierarzt."
+    ],
+    "bloques": [
+      {
+        "h": "Was soll er fressen?"
+      },
+      {
+        "p": "Katzen sind **reine Fleischfresser**: Sie brauchen Nährstoffe tierischen Ursprungs, mit viel Eiweiß, mäßig Fett und wenig Kohlenhydraten [1]. Sie brauchen zum Beispiel **Taurin**, eine Aminosäure, deren Mangel Herz- und Augenprobleme verursachen kann [5]. Deshalb müssen sie **Katzenfutter** fressen, das als **„vollständig und ausgewogen“** für ihre Lebensphase gekennzeichnet ist, und kein Hundefutter [1]."
+      },
+      {
+        "ul": [
+          "**Kätzchen (bis 12 Monate):** Wachstumsfutter, in 3 bis 4 kleinen Portionen am Tag.",
+          "**Erwachsen:** Erhaltungsfutter in 2 oder mehr abgemessenen Portionen am Tag.",
+          "**Senior (ab etwa 10 Jahren):** häufigere Kontrollen; der Tierarzt kann die Ernährung anpassen."
+        ]
+      },
+      {
+        "h": "Trocken, nass oder beides"
+      },
+      {
+        "table": {
+          "headers": [
+            "Art",
+            "Wasseranteil",
+            "Vorteile",
+            "Pflege"
+          ],
+          "widths": [
+            1700,
+            1700,
+            3100,
+            3138
+          ],
+          "rows": [
+            [
+              "Trocken (Trockenfutter)",
+              "6–10 %",
+              "Günstiger, gut haltbar.",
+              "Bewahre es luftdicht auf und prüfe das Haltbarkeitsdatum."
+            ],
+            [
+              "Nass (Dose oder Beutel)",
+              "75 % oder mehr",
+              "Sehr schmackhaft und liefert Wasser.",
+              "Reste in den Kühlschrank und wegwerfen, wenn sie eingetrocknet sind."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Beides ist gut, wenn es vollständig und ausgewogen ist; der Geschmack deiner Katze kann die Wahl leiten [1]. Beides zu kombinieren ist eine gute Art, mehr Wasser zuzuführen."
+      },
+      {
+        "h": "Wasser und Gewicht"
+      },
+      {
+        "ul": [
+          "Stelle **mehrere Wassernäpfe** mit sauberem Wasser auf, weg vom Futter und vom Katzenklo. Viele Katzen mögen Trinkbrunnen mit fließendem Wasser.",
+          "**Übergewicht** ist das häufigste Ernährungsproblem bei Katzen und erhöht das Risiko für Diabetes und Arthrose. Miss die Portionen ab und frag den Tierarzt nach ihrem Idealgewicht [1][2].",
+          "Leckerlis sollten **10–15 % der täglichen Kalorien** nicht überschreiten [1]."
+        ]
+      },
+      {
+        "h": "Darf fressen und nie geben"
+      },
+      {
+        "p": "Die Lebensmittel unter „Darf fressen“ sind **gelegentliche Leckerlis**, gekocht, **ohne Salz, Gewürze, Knochen oder Gräten**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Darf fressen (als Leckerli)",
+          "ok": [
+            [
+              "Huhn oder Pute",
+              "Gekocht, ohne Haut und Knochen."
+            ],
+            [
+              "Fisch",
+              "Gekocht, ohne Gräten, ab und zu."
+            ],
+            [
+              "Ei",
+              "Immer gekocht."
+            ],
+            [
+              "Kürbis",
+              "Gekocht, in sehr kleinen Mengen."
+            ],
+            [
+              "Katzengras",
+              "Gekeimter Weizen oder Hafer, gekauft oder selbst gezogen."
+            ],
+            [
+              "Katzenleckerlis",
+              "Innerhalb von 10–15 % der täglichen Kalorien."
+            ]
+          ],
+          "noTitulo": "Nie geben",
+          "no": [
+            [
+              "Zwiebel, Knoblauch, Schnittlauch und Lauch",
+              "Katzen sind sehr empfindlich: Sie schädigen die roten Blutkörperchen und verursachen Blutarmut [3]."
+            ],
+            [
+              "Schokolade, Kaffee und Koffein",
+              "Erbrechen, Herzrasen, Zittern und Krampfanfälle [3]."
+            ],
+            [
+              "Weintrauben und Rosinen",
+              "Mögliche Nierenschäden [3]."
+            ],
+            [
+              "Alkohol und roher Hefeteig",
+              "Schwere Vergiftung [3]."
+            ],
+            [
+              "Milch und Milchprodukte",
+              "Viele Katzen vertragen keine Laktose: Durchfall und Unwohlsein [1]."
+            ],
+            [
+              "Rohes Fleisch oder roher Fisch",
+              "Können Bakterien und Parasiten enthalten, ohne nachgewiesenen Nutzen [1]."
+            ],
+            [
+              "Thunfisch aus der Dose für Menschen als normales Futter",
+              "Er ist nicht vollständig und wurde mit neurologischen Problemen in Verbindung gebracht [1]."
+            ],
+            [
+              "Hundefutter als Ernährung",
+              "Es hat nicht das Taurin und die Nährstoffe, die eine Katze braucht."
+            ],
+            [
+              "Gekochte Knochen und Gräten",
+              "Sie splittern und können den Darm verstopfen oder durchbohren."
+            ],
+            [
+              "Lilien (Pflanze und Blüte)",
+              "Schon das Anbeißen eines Blattes, das Ablecken von Pollen oder das Trinken von Vasenwasser kann Nierenversagen verursachen [4][6]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Geh zum Tierarzt, wenn…",
+          "items": [
+            "Deine Katze **frisst länger als 24 Stunden nichts**. Bei Katzen kann Fasten eine schwere Lebererkrankung (hepatische Lipidose) auslösen, vor allem bei Übergewicht [5].",
+            "Sie hat etwas von der Liste „Nie geben“ gefressen oder in eine **Lilie** gebissen: Das ist ein Notfall, auch wenn es ihr gut zu gehen scheint.",
+            "Sie erbricht **mehr als 2-mal in 24 Stunden** oder verliert ohne Grund Gewicht.",
+            "Sie trinkt **viel mehr Wasser** als sonst oder uriniert viel mehr."
+          ],
+          "nota": "Bring ihn nicht ohne Anweisung des Tierarztes zum Erbrechen."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine. Feeding Your Cat",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat"
+      },
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines und Global Nutrition Toolkit (Körperkondition, Kalorienberechnung)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (Lilien, Pflanzen und giftige Produkte)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "Merck Veterinary Manual, Ausgabe für Katzenbesitzer (Ernährung, Lebererkrankungen, Notfälle)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. Toxic and Non-Toxic Plants",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+      }
+    ],
+    "especies": [
+      "gato"
+    ]
+  },
+  {
+    "id": "vacunas",
+    "n": 3,
+    "icono": "💉",
+    "titulo": "Impfungen",
+    "especie": "Hund und Katze",
+    "etapa": "Welpe, Kätzchen und erwachsen",
+    "etiquetas": [
+      "Impfung",
+      "Tollwutimpfung",
+      "Tollwut",
+      "6-fach",
+      "8-fach",
+      "Katzen-Dreifach",
+      "Leukose",
+      "Parvovirose",
+      "Staupe",
+      "Impfplan",
+      "Auffrischung",
+      "Pflicht",
+      "Gesetz"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Tierärztin",
+      "fecha": "2026-10-28",
+      "resultado": "Mit Änderungen freigegeben",
+      "observacion": "Ausgezeichnet."
+    },
+    "resumen": [
+      "In Chile ist die **Tollwutimpfung Pflicht** für Hunde und Katzen und wird mit einer tierärztlichen Bescheinigung nachgewiesen.",
+      "Welpen und Kätzchen brauchen **mehrere Dosen**, alle 2 bis 4 Wochen, die letzte mit **16 Wochen oder älter**.",
+      "Die **Kernimpfungen** bekommen alle; andere hängen vom Lebensstil deines Tieres ab.",
+      "Trage jede Impfung im **Gesundheitsheft** von Pocket Vet mit dem Datum der nächsten Dosis ein."
+    ],
+    "bloques": [
+      {
+        "h": "Warum impfen?"
+      },
+      {
+        "p": "Impfungen schützen dein Tier vor schweren und oft tödlichen Krankheiten wie Parvovirose oder Staupe beim Hund und Katzenseuche (Panleukopenie) bei der Katze. Außerdem verbreitet sich die Krankheit weniger, wenn viele Tiere geimpft sind, und auch Tiere, die nicht geimpft werden können, sind geschützt [1]."
+      },
+      {
+        "h": "Was das Gesetz in Chile verlangt"
+      },
+      {
+        "p": "Die Verordnung zur Prävention und Kontrolle der Tollwut (Dekret Nr. 1 des Gesundheitsministeriums, 2014) legt fest, dass **jeder Hund und jede Katze dauerhaft gegen Tollwut geimpft sein muss** und dass die Halter die Impfung **gültig** halten müssen, nachgewiesen durch eine **Bescheinigung eines Tierarztes** [2]. Das Gesetz Nr. 21.020 über verantwortungsvolle Tierhaltung verpflichtet außerdem, dem Tier die nötige tierärztliche Versorgung zu geben [3]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Tollwutimpfung",
+            "Wann"
+          ],
+          "widths": [
+            3200,
+            6438
+          ],
+          "rows": [
+            [
+              "Erste Dosis",
+              "Ab 2 Monaten."
+            ],
+            [
+              "Erste Auffrischung",
+              "Ein Jahr nach der letzten Dosis."
+            ],
+            [
+              "Weitere",
+              "Je nach der vom Impfstoffhersteller angegebenen Dauer (das sagen dir dein Tierarzt und die Bescheinigung)."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Kern- und Wahlimpfungen"
+      },
+      {
+        "p": "Die Weltvereinigung der Kleintierärzte (WSAVA) nennt **Kernimpfungen** die Impfungen, die alle Hunde und Katzen erhalten sollten, und **Nicht-Kernimpfungen** die, die je nach Wohnort und Lebensweise empfohlen werden [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "",
+            "Hund",
+            "Katze"
+          ],
+          "widths": [
+            1900,
+            3869,
+            3869
+          ],
+          "rows": [
+            [
+              "Kernimpfungen",
+              "Staupe, Adenovirus (Hepatitis), Parvovirose und Leptospirose. Tollwut, in Chile Pflicht.",
+              "Katzenseuche, Calicivirus und Herpesvirus (die „Katzen-Dreifach“). Tollwut, in Chile Pflicht."
+            ],
+            [
+              "Je nach Häufigkeit der Krankheit",
+              "Zwingerhusten u. a. Leptospirose ist bereits in der 6-fach-Impfung enthalten.",
+              "Felines Leukämievirus: empfohlen für Katzen unter 1 Jahr und für Katzen, die nach draußen gehen oder mit Freigängern zusammenleben."
+            ]
+          ]
+        }
+      },
+      {
+        "tip": "In Chile werden Hundeimpfstoffe kombiniert verkauft (z. B. „6-fach“ oder „8-fach“). Die 6-fach-Impfung enthält Leptospirose. Frag deinen Tierarzt, gegen welche Krankheiten die Impfung schützt, die er geben wird."
+      },
+      {
+        "h": "Impfplan für Welpen und Kätzchen"
+      },
+      {
+        "p": "Die Antikörper, die der Welpe von der Mutter bekommt, können die Impfung in den ersten Wochen blockieren, und man weiß nicht genau, wann sie verschwinden. Deshalb gibt man **mehrere Dosen**, und die letzte muss mit **16 Wochen oder älter** erfolgen [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Alter",
+            "Was gegeben wird (Richtwert)"
+          ],
+          "widths": [
+            2600,
+            7038
+          ],
+          "rows": [
+            [
+              "6 bis 8 Wochen",
+              "Erste Dosis der Kernimpfungen."
+            ],
+            [
+              "Alle 2 bis 4 Wochen",
+              "Weitere Kerndosen bis zum Alter von 16 Wochen oder älter."
+            ],
+            [
+              "Ab 2 Monaten",
+              "Tollwut (Pflicht)."
+            ],
+            [
+              "26 Wochen (6 Monate)",
+              "Auffrischung der Kernimpfungen, laut WSAVA statt ein Jahr zu warten [1]."
+            ],
+            [
+              "Erwachsen",
+              "In Chile werden Kernimpfungen jedes Jahr aufgefrischt; nur wenn ein Antikörpertest schützende Werte zeigt, wird der Abstand verlängert (alle 3 Jahre oder mehr). Nicht-Kern: jedes Jahr. Tollwut: laut Hersteller."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Den genauen Impfplan legt der Tierarzt je nach Impfstoff, Gesundheit und Lebensstil deines Tieres fest. Bis die ersten Impfungen abgeschlossen sind, meide Orte mit vielen fremden Hunden oder Katzen."
+      },
+      {
+        "h": "Nach der Impfung"
+      },
+      {
+        "ul": [
+          "Es ist normal, dass es 1 oder 2 Tage **schlapp ist, leichtes Fieber hat oder die Einstichstelle schmerzt**.",
+          "Notiere im Heft den Namen der Impfung, das Datum und die nächste Dosis.",
+          "Nutze die Impfung für den **jährlichen Check-up**: Er ist viel mehr als nur eine Impfung [1]."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Geh zum Tierarzt, wenn…",
+          "items": [
+            "Nach der Impfung **schwillt das Gesicht an**, es bekommt Quaddeln, erbricht oder hat Atemnot (**Notfall**, es kann eine allergische Reaktion sein).",
+            "Schlappheit oder Fieber dauern **länger als 2 Tage**.",
+            "Bei Katzen: eine Beule an der Impfstelle, die **nach 3 Monaten** noch da ist, **größer als 2 cm** ist oder **einen Monat später weiter wächst**."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Vaccination Guidelines Group. 2024 Guidelines for the Vaccination of Dogs and Cats. Journal of Small Animal Practice, 2024. DOI 10.1111/jsap.13718",
+        "url": "https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf"
+      },
+      {
+        "texto": "Gesundheitsministerium von Chile. Oberstes Dekret Nr. 1 (veröffentlicht am 29-01-2014), Verordnung zur Prävention und Kontrolle der Tollwut bei Mensch und Tier, Artikel 4. Bibliothek des Nationalkongresses",
+        "url": "https://www.bcn.cl/leychile"
+      },
+      {
+        "texto": "Gesetz Nr. 21.020 über die verantwortungsvolle Haltung von Haus- und Heimtieren (2017). Bibliothek des Nationalkongresses",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=1106037"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "desparasitacion",
+    "n": 4,
+    "icono": "🪱",
+    "titulo": "Entwurmung",
+    "especie": "Hund und Katze",
+    "etapa": "Welpe, Kätzchen und erwachsen",
+    "etiquetas": [
+      "Parasiten",
+      "Würmer",
+      "Spulwürmer",
+      "Antiparasitikum",
+      "Flöhe",
+      "Zecken",
+      "Spot-on",
+      "Tablette",
+      "Echinokokkose",
+      "Toxocara",
+      "entwurmen",
+      "wie oft"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Tierärztin",
+      "fecha": "2026-10-28",
+      "resultado": "Mit Änderungen freigegeben",
+      "observacion": "Ausgezeichnet, mit kleinen Änderungen."
+    },
+    "resumen": [
+      "Welpen und Kätzchen werden von klein an **alle 2 Wochen** entwurmt und danach **jeden Monat bis zum 6. Monat**.",
+      "Erwachsene **mindestens 4-mal im Jahr**, bei höherem Risiko öfter.",
+      "Manche Parasiten **gehen auf Menschen über**: Kot aufsammeln und Händewaschen gehören zur Behandlung.",
+      "Verwende bei einer Katze ein Hunde-Antiparasitikum **nur, wenn auf der Packung steht, dass es auch für Katzen geeignet ist**."
+    ],
+    "bloques": [
+      {
+        "h": "Warum entwurmen?"
+      },
+      {
+        "p": "Innere Parasiten (wie Spul- und Bandwürmer) und äußere (Flöhe und Zecken) verursachen Durchfall, Blutarmut, Juckreiz und Wachstumsstörungen. Manche übertragen sich auf Menschen, besonders auf Kinder, wie **Toxocara** und die **Echinokokkose** [1][3]."
+      },
+      {
+        "h": "Innere Parasiten: wie oft"
+      },
+      {
+        "p": "Diese Abstände folgen den Empfehlungen des europäischen Parasitologie-Rats ESCCAP. Der Tierarzt wählt Produkt und Dosis nach **Gewicht** und Risiko deines Tieres [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Phase",
+            "Hund",
+            "Katze"
+          ],
+          "widths": [
+            2200,
+            3719,
+            3719
+          ],
+          "rows": [
+            [
+              "Welpe / Kätzchen",
+              "Ab 2 Wochen alle 2 Wochen bis 2 Wochen nach dem Absetzen. Danach jeden Monat bis zum 6. Monat.",
+              "Ab 4 Wochen alle 2 Wochen bis 2 Wochen nach dem Absetzen. Danach jeden Monat bis zum 6. Monat."
+            ],
+            [
+              "Zuchthündin / Zuchtkatze",
+              "Vor dem Decken entwurmen. Wenn sie säugt, bis zum Absetzen warten.",
+              "Vor dem Decken entwurmen. Wenn sie säugt, bis zum Absetzen warten."
+            ],
+            [
+              "Erwachsen",
+              "Mindestens 4-mal im Jahr.",
+              "Mindestens 4-mal im Jahr, wenn sie rausgeht oder jagt; je nach Risiko, wenn sie in der Wohnung lebt."
+            ],
+            [
+              "Höheres Risiko",
+              "Monatlich, wenn er mit kleinen Kindern lebt, Beute oder rohes Fleisch frisst oder viel in Parks unterwegs ist.",
+              "Monatlich oder mit Kotuntersuchungen, wenn sie jagt oder rohes Fleisch frisst."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Eine Alternative zum Entwurmen „auf Verdacht“ sind regelmäßige **Kotuntersuchungen** und eine Behandlung je nach Ergebnis [1]."
+      },
+      {
+        "h": "Echinokokkose: Achtung in Chile"
+      },
+      {
+        "p": "Die Echinokokkose wird durch einen Bandwurm verursacht, den sich der Hund beim **Fressen roher Innereien von Schafen oder anderem Vieh** holt. Die Eier gelangen in seinen Kot und können Menschen krank machen, indem sie Zysten in Leber oder Lunge bilden. Sie ist häufiger in ländlichen Viehzuchtgebieten im Süden Chiles, wo das Gesundheitsministerium empfiehlt, **Hunde alle 45 Tage zu entwurmen** und ihnen keine rohen Innereien zu geben [3]. ESCCAP empfiehlt für gefährdete Hunde alle 4 bis 6 Wochen ein Mittel mit **Praziquantel** [1]."
+      },
+      {
+        "h": "Äußere Parasiten: Flöhe und Zecken"
+      },
+      {
+        "ul": [
+          "Es gibt Spot-ons, Tabletten, Halsbänder und Sprays. Verwende immer ein Produkt **für die Tierart und das genaue Gewicht** deines Tieres [2].",
+          "Flöhe leben auch im Haus: Wasche Körbchen und Decken und sauge Teppiche und Sofas.",
+          "Untersuche deinen Hund nach Spaziergängen durch Gras oder Hügel, vor allem Ohren, Hals und zwischen den Zehen.",
+          "**Gib einer Katze kein Hunde-Spot-on, außer die Packung sagt, dass es auch für Katzen geeignet ist**: Viele Hunde-Spot-ons enthalten **Permethrin**, das für Katzen sehr giftig ist [4]."
+        ]
+      },
+      {
+        "h": "Hygiene zu Hause"
+      },
+      {
+        "ul": [
+          "Sammle den Kot beim Spaziergang auf und reinige das Katzenklo **jeden Tag**.",
+          "Wasch dir die Hände, nachdem du Kot, Erde oder das Katzenklo berührt hast, und bring es den Kindern bei.",
+          "Gib deinem Tier kein rohes Fleisch und keine rohen Innereien.",
+          "Trage jede Entwurmung im Pocket-Vet-Heft ein, damit die App dich an die nächste erinnert."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Geh zum Tierarzt, wenn…",
+          "items": [
+            "Du siehst **Würmer oder „Reiskörner“** im Kot, im Erbrochenen oder um den After.",
+            "Ein Welpe oder Kätzchen hat **einen aufgeblähten Bauch**, Durchfall oder nimmt nicht zu.",
+            "Es hat **blasses Zahnfleisch**, ist sehr schlapp oder kratzt sich ununterbrochen.",
+            "Deine Katze **sabbert, zittert oder krampft** nach einem Antiparasitikum (**Notfall**: Wasche die Stelle mit Wasser und milder Seife und fahr sofort los)."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ESCCAP (European Scientific Counsel Companion Animal Parasites). Guideline GL1: Worm Control in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl1/"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      },
+      {
+        "texto": "Gesundheitsministerium von Chile. Studie zur Echinokokkose ermöglicht Früherkennung bei 8 Kindern in Aysén (Vorbeugung: Entwurmung von Hunden)",
+        "url": "https://www.minsal.cl/estudio-de-hidatidosis-permite-la-deteccion-temprana-de-enfermedad-en-8-ninos-y-ninas-de-aysen/"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (Lilien, Pflanzen und giftige Produkte)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "bano-higiene",
+    "n": 5,
+    "icono": "🛁",
+    "titulo": "Baden und Hygiene",
+    "especie": "Hund und Katze",
+    "etapa": "Alle Altersstufen",
+    "etiquetas": [
+      "Bad",
+      "baden",
+      "Shampoo",
+      "Shampoo",
+      "Bürsten",
+      "Fell",
+      "Krallen",
+      "Ohren",
+      "Zähne",
+      "Hygiene",
+      "schlechter Geruch",
+      "Haarballen",
+      "Fellpflege"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Tierärztin",
+      "fecha": "2026-10-28",
+      "resultado": "Freigegeben",
+      "observacion": "Sehr gut."
+    },
+    "resumen": [
+      "Die meisten Hunde brauchen **etwa alle 3 Monate** ein Bad oder wenn sie schmutzig sind; zu häufiges Baden reizt die Haut.",
+      "Katzen brauchen **fast nie** ein Bad: Sie putzen sich selbst.",
+      "Verwende **Tiershampoo**, nie Shampoo für Menschen.",
+      "**Bürsten** ist wichtiger als Baden, besonders bei langem Fell."
+    ],
+    "bloques": [
+      {
+        "h": "Hunde: wie oft baden"
+      },
+      {
+        "p": "Für die meisten Hunde reicht **etwa alle 3 Monate ein Bad**, oder wenn er schmutzig ist oder riecht. Zu häufiges Baden entfernt die natürlichen Öle der Haut und kann sie reizen [1]. Bei Hautproblemen kann der Tierarzt ein medizinisches Shampoo und eine andere Häufigkeit verschreiben."
+      },
+      {
+        "h": "Baden Schritt für Schritt"
+      },
+      {
+        "num": [
+          "**Bürste ihn vorher**, um Knoten und tote Haare zu entfernen; Wasser zieht Knoten fester.",
+          "Verwende **lauwarmes Wasser**, nie heißes, und mach Augen und das Ohrinnere nicht nass.",
+          "Trage **Hundeshampoo** auf. Menschenshampoo hat einen anderen pH-Wert und kann seine Haut reizen [1].",
+          "**Spüle sehr gründlich aus**: Shampooreste verursachen Juckreiz.",
+          "**Trockne ihn vollständig**, auch Hautfalten, zwischen den Zehen und die Ohren, mit Handtuch oder Föhn auf lauwarmer Stufe.",
+          "Belohne ihn, damit er das Baden mit etwas Gutem verbindet."
+        ]
+      },
+      {
+        "tip": "Welpen: Warte, bis der Tierarzt es erlaubt, meist nach den ersten Impfungen. Reinige ihn bis dahin mit einem warmen, feuchten Tuch."
+      },
+      {
+        "h": "Katzen: brauchen fast nie ein Bad"
+      },
+      {
+        "p": "Katzen putzen sich mehrere Stunden am Tag und **brauchen in der Regel kein Bad**; viele vertragen es außerdem schlecht [1]. Bade sie nur, wenn sie sich mit etwas schmutzig gemacht hat, das sie nicht ablecken kann (z. B. ein giftiges Produkt, Fett oder Farbe), oder wenn der Tierarzt es sagt. Verwende dann ein **Katzenshampoo** und nie eines für Hunde, denn manche enthalten Insektizide wie Permethrin, das für Katzen giftig ist [4][5]."
+      },
+      {
+        "h": "Bürsten"
+      },
+      {
+        "table": {
+          "headers": [
+            "Felltyp",
+            "Häufigkeit"
+          ],
+          "widths": [
+            3600,
+            6038
+          ],
+          "rows": [
+            [
+              "Langes Fell (Hund oder Katze)",
+              "Jeden Tag, um Knoten zu vermeiden [1]."
+            ],
+            [
+              "Kurzes Fell",
+              "1- oder 2-mal pro Woche."
+            ],
+            [
+              "Fellwechsel (Frühling und Herbst)",
+              "Häufiger. Bei Katzen verringert es Haarballen."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Krallen, Ohren und Zähne"
+      },
+      {
+        "ul": [
+          "**Krallen:** Schneide sie, wenn man sie beim Laufen auf dem Boden klacken hört, nur die Spitze, ohne den rosa Teil mit Blutgefäßen zu treffen. Wenn du nicht weißt wie, lass es dir vom Tierarzt zeigen.",
+          "**Ohren:** Kontrolliere sie jede Woche. Reinige nur den sichtbaren Teil mit einem Tierprodukt; nie Wattestäbchen einführen.",
+          "**Zähne:** Ideal ist tägliches Putzen mit Bürste und **Tierzahnpasta**. Menschenzahnpasta darf nicht geschluckt werden und manche enthalten Xylit."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Geh zum Tierarzt, wenn…",
+          "items": [
+            "Er kratzt, leckt oder beißt sich **ununterbrochen** oder hat **haarlose**, rote oder verkrustete Stellen.",
+            "Seine Ohren riechen schlecht, haben Ausfluss oder er **schüttelt oft den Kopf**.",
+            "Er hat starken Mundgeruch, rotes Zahnfleisch oder Probleme beim Fressen.",
+            "Deine Katze **putzt sich nicht mehr**: Das ist oft ein Zeichen für Schmerzen oder Krankheit."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ASPCA. Pet Grooming Tips (Baden, Bürsten und Krallenpflege)",
+        "url": "https://www.aspca.org/sites/default/files/upload/images/pet_grooming_tips_flyer.pdf"
+      },
+      {
+        "texto": "Merck Veterinary Manual, Ausgabe für Hundebesitzer (Ernährung, Haut, Notfälle)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, Ausgabe für Katzenbesitzer (Ernährung, Lebererkrankungen, Notfälle)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (Lilien, Pflanzen und giftige Produkte)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "senales-alerta",
+    "n": 6,
+    "icono": "⚠️",
+    "titulo": "Warnzeichen",
+    "especie": "Hund und Katze",
+    "etapa": "Alle Altersstufen",
+    "etiquetas": [
+      "Notfall",
+      "dringend",
+      "Symptome",
+      "Erbrechen",
+      "Durchfall",
+      "frisst nicht",
+      "Krampfanfall",
+      "Vergiftung",
+      "Gift",
+      "Atemnot",
+      "Blutung",
+      "wann zum Tierarzt"
+    ],
+    "verificada": false,
+    "revision": null,
+    "resumen": [
+      "Pocket Vet **stellt keine Diagnosen**: Dieser Ratgeber hilft dir zu entscheiden, **wann du zum Tierarzt gehen solltest**.",
+      "Atemprobleme, Krampfanfälle, Blutungen, die nicht aufhören, oder eine mögliche Vergiftung sind **Notfälle**: sofort los.",
+      "Wiederholtes Erbrechen oder Durchfall oder wenn es nicht frisst, braucht einen Tierarztbesuch **am selben Tag**.",
+      "Notiere dir die Nummer deines Tierarztes und eines **24-Stunden-Notdienstes**."
+    ],
+    "bloques": [
+      {
+        "h": "Notfall: sofort zum Tierarzt"
+      },
+      {
+        "p": "Diese Situationen können innerhalb von Minuten oder Stunden lebensgefährlich werden. Ruf auf dem Weg die Klinik an, damit sie vorbereitet ist [1]."
+      },
+      {
+        "ul": [
+          "**Atemnot**, Atmen mit offenem Maul bei einer Katze, Ersticken oder ununterbrochenes Husten und Würgen.",
+          "**Blasses, weißes oder bläuliches Zahnfleisch.**",
+          "**Blutung**, die nicht innerhalb von 5 Minuten aufhört, oder Blut im Urin, im Erbrochenen oder im Kot.",
+          "**Krampfanfälle**, Ohnmacht, Bewusstlosigkeit oder Taumeln.",
+          "**Mögliche Vergiftung**: Es hat Schokolade, Xylit, Trauben, Rattengift, Medikamente für Menschen oder Frostschutzmittel gefressen, oder eine Katze hat in eine Lilie gebissen [4][5][6].",
+          "**Schlag, Autounfall oder Sturz**, auch wenn es ihm gut zu gehen scheint; Knochenbrüche oder ein Bein, das es nicht belastet.",
+          "**Es versucht zu urinieren oder Kot abzusetzen und schafft es nicht** oder jault dabei. Bei Katern ist das ein schwerer Notfall.",
+          "**Aufgeblähter, harter Bauch** mit Würgen ohne Erbrechen (Magendrehung, häufiger bei großen Hunden).",
+          "**Hitzschlag**: starkes Hecheln, Sabbern und Schwäche nach Hitze oder Anstrengung.",
+          "**Augenverletzung** oder ein Auge, das sich plötzlich nicht mehr öffnet.",
+          "**Starke Schmerzen** oder große Angst."
+        ]
+      },
+      {
+        "h": "Tierarztbesuch am selben Tag (innerhalb von 24 Stunden)"
+      },
+      {
+        "ul": [
+          "Erbrechen oder Durchfall **mehr als 2-mal in 24 Stunden** oder zusammen mit Schlappheit [1].",
+          "**Frisst nicht**: eine Katze länger als 24 Stunden; ein Hund länger als 24 bis 48 Stunden; ein Welpe oder Kätzchen, das mehrere Mahlzeiten auslässt.",
+          "**Trinkt nicht** seit 24 Stunden oder länger [1].",
+          "Deutliche Schlappheit: Es will nicht spielen, versteckt sich oder schläft viel mehr als sonst.",
+          "Es hinkt, hat eine Wunde oder eine neue Beule, die wächst."
+        ]
+      },
+      {
+        "h": "Beobachten und im Heft notieren"
+      },
+      {
+        "p": "Diese Veränderungen sind keine Notfälle, aber erwähne sie beim nächsten Check-up oder vereinbare einen Termin, wenn sie länger als ein paar Tage anhalten:"
+      },
+      {
+        "ul": [
+          "Es trinkt **viel mehr Wasser** oder uriniert viel mehr als vorher.",
+          "Es nimmt ab oder zu, ohne dass sich das Futter geändert hat.",
+          "Leichter Husten, Niesen, tränende Augen oder Nasenausfluss.",
+          "Verhaltensänderungen: neue Aggressivität, Urinieren außerhalb des Katzenklos, ständiges Lecken einer Stelle.",
+          "Starker Mundgeruch oder Probleme beim Kauen."
+        ]
+      },
+      {
+        "h": "Was tun und was nicht tun"
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Was tun",
+          "ok": [
+            [
+              "Bleib ruhig",
+              "Sprich leise und bewege es vorsichtig; ein Tier mit Schmerzen kann beißen."
+            ],
+            [
+              "Ruf vorher an",
+              "So bereitet sich die Klinik vor und berät dich auf dem Weg."
+            ],
+            [
+              "Nimm Beweise mit",
+              "Die Verpackung des Produkts oder Medikaments oder ein Foto von dem, was es gefressen hat."
+            ],
+            [
+              "Notiere die Symptome",
+              "Wann sie begonnen haben, wie oft es erbrochen hat und jede Veränderung."
+            ],
+            [
+              "Transportiere es sicher",
+              "Katzen in der Transportbox; große Hunde auf einer festen Decke."
+            ]
+          ],
+          "noTitulo": "Was du NICHT tun solltest",
+          "no": [
+            [
+              "Ihm Medikamente für Menschen geben",
+              "Paracetamol und Ibuprofen können tödlich sein, besonders für Katzen [3]."
+            ],
+            [
+              "Es zum Erbrechen bringen",
+              "Nur wenn der Tierarzt es sagt: Manche Gifte richten beim Hochkommen noch mehr Schaden an."
+            ],
+            [
+              "Abwarten, „ob es besser wird“",
+              "Bei einem Notfallzeichen zählt jede Minute."
+            ],
+            [
+              "Futter oder Wasser erzwingen",
+              "Es kann sich verschlucken, wenn es schwach ist oder krampft."
+            ]
+          ]
+        }
+      },
+      {
+        "contactos": true
+      },
+      {
+        "tip": "In der App zeigt jeder Ratgeber, der Risikosymptome erwähnt, diesen Hinweis „Geh zum Tierarzt“. Pocket Vet bietet allgemeine Informationen und ersetzt keine Untersuchung durch einen Tierarzt."
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "American Veterinary Medical Association (AVMA). 13 animal emergencies that require immediate veterinary consultation and/or care",
+        "url": "https://www.avma.org/public/EmergencyCare/Pages/animal-emergencies.aspx"
+      },
+      {
+        "texto": "Merck Veterinary Manual, Ausgabe für Hundebesitzer (Ernährung, Haut, Notfälle)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, Ausgabe für Katzenbesitzer (Ernährung, Lebererkrankungen, Notfälle)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (Lilien, Pflanzen und giftige Produkte)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  }
+]

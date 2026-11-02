@@ -1,6 +1,6 @@
 // Service worker: guarda la app en caché para que abra sin conexión.
 // Sube la versión cada vez que cambien los archivos de la app.
-const CACHE = 'pocket-vet-v9';
+const CACHE = 'pocket-vet-v10';
 const CACHE_DATOS = 'pv-datos'; // recordatorios que deja la app para avisar en segundo plano (no se borra al actualizar)
 const ARCHIVOS = [
   './',
@@ -11,7 +11,17 @@ const ARCHIVOS = [
   'js/perfil.js',
   'js/sonidos.js',
   'js/notificaciones.js',
+  'js/i18n.js',
   'data/guias.json',
+  'data/guias.en.json',
+  'data/guias.fr.json',
+  'data/guias.de.json',
+  'data/guias.pt.json',
+  'icons/banderas/es.svg',
+  'icons/banderas/en.svg',
+  'icons/banderas/fr.svg',
+  'icons/banderas/de.svg',
+  'icons/banderas/pt.svg',
   'manifest.webmanifest',
   'icons/icon-192.png',
   'icons/icon-512.png',
@@ -23,6 +33,7 @@ const ARCHIVOS = [
   'sonidos/interruptor.mp3',
   'sonidos/error.mp3',
   'sonidos/vacio.mp3',
+  'sonidos/idioma.mp3',
   'sonidos/guardar.mp3',
   'sonidos/bienvenida.mp3',
   'sonidos/alerta.mp3',
@@ -82,16 +93,18 @@ async function avisarRecordatorios() {
   const c = await caches.open(CACHE_DATOS);
   const res = await c.match('datos/recordatorios.json');
   if (!res) return;
-  const { mascota = '', recordatorios = [] } = await res.json();
+  const { mascota = '', recordatorios = [], textos = {} } = await res.json();
+  // Textos en el idioma que eligió el usuario (los deja la app); si faltan, en español
+  const tx = { hoy: 'hoy', manana: 'mañana', enDias: 'en {n} días', cuerpo: '{tipo} el {fecha}. Revisa la libreta de Pocket Vet.', ...textos };
   const hoy = new Date().toISOString().slice(0, 10);
   const avisadosRes = await c.match('datos/avisados.json');
   const avisados = avisadosRes ? await avisadosRes.json() : {};
   for (const r of recordatorios) {
     const d = Math.round((new Date(r.proxima + 'T12:00:00') - new Date(hoy + 'T12:00:00')) / 86400000);
     if (d < 0 || d > 3 || avisados[r.id] === hoy) continue;
-    const cuando = d === 0 ? 'hoy' : d === 1 ? 'mañana' : `en ${d} días`;
+    const cuando = d === 0 ? tx.hoy : d === 1 ? tx.manana : tx.enDias.replace('{n}', d);
     await self.registration.showNotification(`${r.icono} ${r.titulo || r.tipoNombre} ${cuando}`, {
-      body: `${mascota ? mascota + ': ' : ''}${r.tipoNombre} el ${r.proxima.split('-').reverse().join('-')}. Revisa la libreta de Pocket Vet.`,
+      body: (mascota ? mascota + ': ' : '') + tx.cuerpo.replace('{tipo}', r.tipoNombre).replace('{fecha}', r.proxima.split('-').reverse().join('-')),
       icon: 'icons/icon-192.png', badge: 'icons/favicon-96.png', tag: 'pv-' + r.id, data: { url: './#/libreta' },
     });
     avisados[r.id] = hoy;

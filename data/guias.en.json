@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "alimentacion-perro",
+    "n": 1,
+    "icono": "🐶",
+    "titulo": "Dog feeding",
+    "especie": "Dog",
+    "etapa": "Puppy, adult and senior",
+    "etiquetas": [
+      "food",
+      "dog food",
+      "kibble",
+      "pellets",
+      "treats",
+      "how much to feed",
+      "can eat",
+      "toxic",
+      "chocolate",
+      "grapes",
+      "onion",
+      "xylitol",
+      "puppy"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Veterinarian",
+      "fecha": "2026-10-28",
+      "resultado": "Approved",
+      "observacion": "Excellent guide with good recommendations."
+    },
+    "resumen": [
+      "Give it a **complete and balanced** food for its life stage (puppy, adult or senior).",
+      "Always keep **fresh, clean water** available.",
+      "Treats and home food should not exceed **10% of what it eats per day**.",
+      "Chocolate, grapes, raisins, onion, garlic and xylitol are **toxic**: never give them."
+    ],
+    "bloques": [
+      {
+        "h": "What should it eat?"
+      },
+      {
+        "p": "A healthy dog eats well with a commercial food whose label says it is **“complete and balanced”** for its life stage. That food already has the proteins, fats, vitamins and minerals it needs, so there is no need to add supplements unless the vet says so [1][4]."
+      },
+      {
+        "ul": [
+          "**Puppy (up to 12 months; large breeds up to 18–24 months):** puppy food, which has more energy and the right amount of calcium to grow.",
+          "**Adult:** maintenance food for its size and activity level.",
+          "**Senior (from about 7–8 years):** the vet may suggest a lower-calorie food or one adapted to its health."
+        ]
+      },
+      {
+        "h": "How often and how much?"
+      },
+      {
+        "table": {
+          "headers": [
+            "Age",
+            "Meals per day",
+            "Tip"
+          ],
+          "widths": [
+            2400,
+            2000,
+            5238
+          ],
+          "rows": [
+            [
+              "2 to 6 months",
+              "3 to 4",
+              "Small portions spread through the day."
+            ],
+            [
+              "6 to 12 months",
+              "2 to 3",
+              "Adjust the portion as it grows."
+            ],
+            [
+              "Adult",
+              "2",
+              "Fixed times help digestion and routine."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "The amount on the bag is **only a starting point**. The right way is to adjust it to its **body condition**: in a dog at ideal weight you can feel the ribs when you run your hand over them without pressing, and from above you can see a waist behind the ribs. If you cannot feel the ribs, it is overweight; if you can see them at a glance, it is too thin [1]."
+      },
+      {
+        "tip": "Weigh the portion with a measuring cup or a kitchen scale. Guessing “by eye” is the most common cause of overweight."
+      },
+      {
+        "h": "Changing food"
+      },
+      {
+        "p": "Make the change gradually over about **7 days**: mix in 25% of the new food for the first days, then 50%, 75% and finally 100%. A sudden change can cause vomiting or diarrhea."
+      },
+      {
+        "h": "Can eat and never give"
+      },
+      {
+        "p": "In the app this section is shown in two tabs. The foods under “Can eat” are **occasional treats**, in small pieces, **without salt, seasoning or bones**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Can eat (as a treat)",
+          "ok": [
+            [
+              "Carrot",
+              "Raw or cooked, in pieces."
+            ],
+            [
+              "Apple",
+              "Without seeds or core."
+            ],
+            [
+              "Banana",
+              "Small amounts, it has a lot of sugar."
+            ],
+            [
+              "Blueberries",
+              "Washed."
+            ],
+            [
+              "Watermelon",
+              "Without seeds or rind."
+            ],
+            [
+              "Pumpkin or sweet potato",
+              "Cooked, without salt or butter."
+            ],
+            [
+              "Chicken or turkey",
+              "Cooked, skinless, boneless and unseasoned."
+            ],
+            [
+              "White rice",
+              "Cooked, without salt."
+            ],
+            [
+              "Egg",
+              "Always cooked."
+            ]
+          ],
+          "noTitulo": "Never give",
+          "no": [
+            [
+              "Chocolate, coffee and caffeinated drinks",
+              "They contain methylxanthines: vomiting, fast heart rate, tremors, seizures. The darker the chocolate, the more dangerous [2]."
+            ],
+            [
+              "Grapes and raisins",
+              "They can cause kidney failure, even in small amounts [2]."
+            ],
+            [
+              "Onion, garlic, chives and leek",
+              "They damage red blood cells and cause anemia, also cooked or powdered [2]."
+            ],
+            [
+              "Xylitol (“sugar-free” gum and sweets, some peanut butters, toothpaste)",
+              "It lowers blood sugar within 15–30 minutes and can damage the liver. It is an emergency [3]."
+            ],
+            [
+              "Alcohol and raw yeast dough",
+              "Poisoning and stomach bloating [2]."
+            ],
+            [
+              "Macadamia nuts",
+              "Weakness, tremors and fever [2]."
+            ],
+            [
+              "Cooked bones",
+              "They splinter and can pierce or block the intestine [2]."
+            ],
+            [
+              "Raw meat, egg or fish",
+              "Risk of Salmonella and E. coli, also for the family [2]."
+            ],
+            [
+              "Milk and dairy",
+              "Many dogs cannot digest lactose: diarrhea [2]."
+            ],
+            [
+              "Fatty or salty food (barbecue, cold cuts, fries)",
+              "It can cause pancreatitis and excess sodium [2]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Go to the vet if…",
+          "items": [
+            "It ate any food from the “Never give” list, **even if it looks fine**. Write down what it ate, how much and at what time, and call right away.",
+            "It eats nothing for **more than 24 to 48 hours**, or a puppy skips several meals in a row.",
+            "It vomits or has diarrhea **more than 2 times in 24 hours**.",
+            "Its belly is swollen and it retches without being able to vomit (emergency, especially in large breeds)."
+          ],
+          "nota": "Do not make it vomit unless the vet tells you to."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines and Global Nutrition Toolkit (body condition, calorie calculation)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Merck Veterinary Manual, dog owners edition (nutrition, skin, emergencies)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      }
+    ],
+    "especies": [
+      "perro"
+    ]
+  },
+  {
+    "id": "alimentacion-gato",
+    "n": 2,
+    "icono": "🐱",
+    "titulo": "Cat feeding",
+    "especie": "Cat",
+    "etapa": "Kitten, adult and senior",
+    "etiquetas": [
+      "food",
+      "dog food",
+      "pellets",
+      "pouch",
+      "wet food",
+      "water",
+      "treats",
+      "milk",
+      "tuna",
+      "can eat",
+      "toxic",
+      "lily",
+      "onion",
+      "kitten"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Veterinarian",
+      "fecha": "2026-10-28",
+      "resultado": "Approved with changes",
+      "observacion": "Excellent."
+    },
+    "resumen": [
+      "The cat is a **strict carnivore**: it needs a complete and balanced cat food, never dog food or a vegetarian diet.",
+      "**Water** is key: many cats drink little, and wet food helps.",
+      "**Milk** and **canned tuna for people** are not good for it.",
+      "If a cat stops eating for **more than 24 hours**, it must go to the vet."
+    ],
+    "bloques": [
+      {
+        "h": "What should it eat?"
+      },
+      {
+        "p": "Cats are **strict carnivores**: they need nutrients that come from animals, with a lot of protein, moderate fat and few carbohydrates [1]. For example, they need **taurine**, an amino acid whose lack can cause heart and eye problems [5]. That is why they must eat **cat** food, labeled **“complete and balanced”** for their life stage, and not dog food [1]."
+      },
+      {
+        "ul": [
+          "**Kitten (up to 12 months):** growth food, in 3 to 4 small portions a day.",
+          "**Adult:** maintenance food in 2 or more measured portions a day.",
+          "**Senior (from about 10 years):** more frequent check-ups; the vet may adjust the diet."
+        ]
+      },
+      {
+        "h": "Dry, wet or both"
+      },
+      {
+        "table": {
+          "headers": [
+            "Type",
+            "Water it provides",
+            "Advantages",
+            "Care"
+          ],
+          "widths": [
+            1700,
+            1700,
+            3100,
+            3138
+          ],
+          "rows": [
+            [
+              "Dry (kibble)",
+              "6–10%",
+              "Cheaper, keeps well.",
+              "Store it in an airtight container and check the expiry date."
+            ],
+            [
+              "Wet (can or pouch)",
+              "75% or more",
+              "Very tasty and adds water to the diet.",
+              "Refrigerate leftovers and throw them away if they dry out."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Both are fine if they are complete and balanced; your cat’s taste can guide the choice [1]. Combining them is a good way to add water."
+      },
+      {
+        "h": "Water and weight"
+      },
+      {
+        "ul": [
+          "Put out **several water bowls** with clean water, away from food and the litter box. Many cats prefer fountains with moving water.",
+          "**Obesity** is the most common nutrition problem in cats and raises the risk of diabetes and arthritis. Measure portions and ask the vet for its ideal weight [1][2].",
+          "Treats should not exceed **10–15% of daily calories** [1]."
+        ]
+      },
+      {
+        "h": "Can eat and never give"
+      },
+      {
+        "p": "The foods under “Can eat” are **occasional treats**, cooked, **without salt, seasoning, bones or fish bones**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Can eat (as a treat)",
+          "ok": [
+            [
+              "Chicken or turkey",
+              "Cooked, skinless and boneless."
+            ],
+            [
+              "Fish",
+              "Cooked, boneless, now and then."
+            ],
+            [
+              "Egg",
+              "Always cooked."
+            ],
+            [
+              "Pumpkin",
+              "Cooked, in very small amounts."
+            ],
+            [
+              "Cat grass",
+              "Sprouted wheat or oats, store-bought or homemade."
+            ],
+            [
+              "Cat treats",
+              "Within 10–15% of daily calories."
+            ]
+          ],
+          "noTitulo": "Never give",
+          "no": [
+            [
+              "Onion, garlic, chives and leek",
+              "Cats are very sensitive: they damage red blood cells and cause anemia [3]."
+            ],
+            [
+              "Chocolate, coffee and caffeine",
+              "Vomiting, fast heart rate, tremors and seizures [3]."
+            ],
+            [
+              "Grapes and raisins",
+              "Possible kidney damage [3]."
+            ],
+            [
+              "Alcohol and raw yeast dough",
+              "Severe poisoning [3]."
+            ],
+            [
+              "Milk and dairy",
+              "Many cats do not tolerate lactose: diarrhea and discomfort [1]."
+            ],
+            [
+              "Raw meat or fish",
+              "They can carry bacteria and parasites, with no proven benefit [1]."
+            ],
+            [
+              "Canned tuna for people as regular food",
+              "It is not complete and has been linked to neurological problems [1]."
+            ],
+            [
+              "Dog food as a diet",
+              "It lacks the taurine and nutrients a cat needs."
+            ],
+            [
+              "Cooked bones and fish bones",
+              "They splinter and can block or pierce the intestine."
+            ],
+            [
+              "Lilies (plant and flower)",
+              "Even biting a leaf, licking the pollen or drinking the vase water can cause kidney failure [4][6]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Go to the vet if…",
+          "items": [
+            "Your cat **eats nothing for more than 24 hours**. In cats, fasting can cause a serious liver disease (hepatic lipidosis), especially if it is overweight [5].",
+            "It ate something from the “Never give” list or bit a **lily**: it is an emergency even if it looks fine.",
+            "It vomits **more than 2 times in 24 hours**, or loses weight for no reason.",
+            "It drinks **much more water** than usual or urinates much more."
+          ],
+          "nota": "Do not make it vomit unless the vet tells you to."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine. Feeding Your Cat",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat"
+      },
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines and Global Nutrition Toolkit (body condition, calorie calculation)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lilies, plants and toxic products)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "Merck Veterinary Manual, cat owners edition (nutrition, liver diseases, emergencies)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. Toxic and Non-Toxic Plants",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+      }
+    ],
+    "especies": [
+      "gato"
+    ]
+  },
+  {
+    "id": "vacunas",
+    "n": 3,
+    "icono": "💉",
+    "titulo": "Vaccines",
+    "especie": "Dog and cat",
+    "etapa": "Puppy, kitten and adult",
+    "etiquetas": [
+      "vaccine",
+      "rabies vaccine",
+      "rabies",
+      "6-in-1",
+      "8-in-1",
+      "feline triple",
+      "leukemia",
+      "parvovirus",
+      "distemper",
+      "schedule",
+      "booster",
+      "mandatory",
+      "law"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Veterinarian",
+      "fecha": "2026-10-28",
+      "resultado": "Approved with changes",
+      "observacion": "Excellent."
+    },
+    "resumen": [
+      "In Chile the **rabies vaccine is mandatory** for dogs and cats, and it is proven with a veterinary certificate.",
+      "Puppies and kittens need **several doses**, every 2 to 4 weeks, with the last one at **16 weeks or older**.",
+      "**Core** vaccines are given to all pets; others depend on your pet’s lifestyle.",
+      "Save each vaccine in the Pocket Vet **health log** with the date of the next dose."
+    ],
+    "bloques": [
+      {
+        "h": "Why vaccinate?"
+      },
+      {
+        "p": "Vaccines protect your pet from serious and often deadly diseases, such as parvovirus or distemper in dogs and panleukopenia in cats. Also, when many animals are vaccinated, the disease spreads less and those that cannot be vaccinated are protected too [1]."
+      },
+      {
+        "h": "What the law requires in Chile"
+      },
+      {
+        "p": "The Rabies Prevention and Control Regulation (Decree No. 1 of the Ministry of Health, 2014) states that **every dog and cat must be permanently vaccinated against rabies**, and that owners must keep the vaccine **up to date**, proven with a **certificate from a veterinarian** [2]. Law No. 21,020 on Responsible Pet Ownership also requires giving the pet the necessary veterinary care [3]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Rabies vaccine",
+            "When"
+          ],
+          "widths": [
+            3200,
+            6438
+          ],
+          "rows": [
+            [
+              "First dose",
+              "From 2 months of age."
+            ],
+            [
+              "First booster",
+              "One year after the last dose."
+            ],
+            [
+              "Following doses",
+              "According to the duration stated by the vaccine manufacturer (your vet and the certificate will tell you)."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Core and optional vaccines"
+      },
+      {
+        "p": "The World Small Animal Veterinary Association (WSAVA) calls **core** the vaccines that all dogs and cats should receive, and **non-core** those recommended depending on where and how each pet lives [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "",
+            "Dog",
+            "Cat"
+          ],
+          "widths": [
+            1900,
+            3869,
+            3869
+          ],
+          "rows": [
+            [
+              "Core",
+              "Distemper, adenovirus (hepatitis), parvovirus and leptospirosis. Rabies, mandatory in Chile.",
+              "Panleukopenia, calicivirus and herpesvirus (the “feline triple”). Rabies, mandatory in Chile."
+            ],
+            [
+              "Depending on how common the disease is",
+              "Kennel cough, among others. Leptospirosis is already included in the 6-in-1 vaccine.",
+              "Feline leukemia: recommended for cats under 1 year and for cats that go outside or live with cats that do."
+            ]
+          ]
+        }
+      },
+      {
+        "tip": "In Chile dog vaccines are sold combined (for example “6-in-1” or “8-in-1”). The 6-in-1 includes leptospirosis. Ask your vet which diseases the one they will give covers."
+      },
+      {
+        "h": "Puppy and kitten schedule"
+      },
+      {
+        "p": "The antibodies a puppy gets from its mother can block the vaccine during the first weeks, and no one knows exactly when they disappear. That is why **several doses** are given and the last one must be at **16 weeks of age or older** [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Age",
+            "What is given (guide)"
+          ],
+          "widths": [
+            2600,
+            7038
+          ],
+          "rows": [
+            [
+              "6 to 8 weeks",
+              "First dose of core vaccines."
+            ],
+            [
+              "Every 2 to 4 weeks",
+              "More core doses until reaching 16 weeks or older."
+            ],
+            [
+              "From 2 months",
+              "Rabies (mandatory)."
+            ],
+            [
+              "26 weeks (6 months)",
+              "Core booster, recommended by WSAVA instead of waiting a year [1]."
+            ],
+            [
+              "Adult",
+              "In Chile core vaccines are boosted every year; they are only spaced out (every 3 years or more) if an antibody test shows protective levels. Non-core: every year. Rabies: according to the manufacturer."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "The exact schedule is set by the vet depending on the vaccine, your pet’s health and lifestyle. Until it finishes its first vaccines, avoid taking it to places with many unknown dogs or cats."
+      },
+      {
+        "h": "After vaccinating"
+      },
+      {
+        "ul": [
+          "It is normal for it to be **listless, have a slight fever or a sore spot** for 1 or 2 days.",
+          "Write the vaccine name, date and next dose in the health log.",
+          "Use the vaccine visit for the **yearly check-up**: it is much more than a vaccine [1]."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Go to the vet if…",
+          "items": [
+            "After the vaccine its **face swells**, it gets hives, vomits or has trouble breathing (**emergency**, it may be an allergic reaction).",
+            "The listlessness or fever lasts **more than 2 days**.",
+            "In cats: a lump where it was vaccinated that is still there **after 3 months**, is **larger than 2 cm** or **keeps growing a month** later."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Vaccination Guidelines Group. 2024 Guidelines for the Vaccination of Dogs and Cats. Journal of Small Animal Practice, 2024. DOI 10.1111/jsap.13718",
+        "url": "https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf"
+      },
+      {
+        "texto": "Ministry of Health of Chile. Supreme Decree No. 1 (published 29-01-2014), Regulation for the Prevention and Control of Rabies in Humans and Animals, article 4. Library of the National Congress",
+        "url": "https://www.bcn.cl/leychile"
+      },
+      {
+        "texto": "Law No. 21,020 on Responsible Ownership of Pets and Companion Animals (2017). Library of the National Congress",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=1106037"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "desparasitacion",
+    "n": 4,
+    "icono": "🪱",
+    "titulo": "Deworming",
+    "especie": "Dog and cat",
+    "etapa": "Puppy, kitten and adult",
+    "etiquetas": [
+      "parasites",
+      "worms",
+      "roundworms",
+      "antiparasitic",
+      "fleas",
+      "ticks",
+      "spot-on",
+      "tablet",
+      "hydatid disease",
+      "toxocara",
+      "deworm",
+      "how often"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Veterinarian",
+      "fecha": "2026-10-28",
+      "resultado": "Approved with changes",
+      "observacion": "Excellent, with small changes."
+    },
+    "resumen": [
+      "Puppies and kittens are dewormed **every 2 weeks** from an early age and then **every month until 6 months**.",
+      "Adults, **at least 4 times a year**, and more often if they are at higher risk.",
+      "Some parasites **pass to people**: picking up feces and washing hands is part of the treatment.",
+      "On a cat, use a dog antiparasitic **only if the package says it is also for cats**."
+    ],
+    "bloques": [
+      {
+        "h": "Why deworm?"
+      },
+      {
+        "p": "Internal parasites (such as roundworms and tapeworms) and external ones (fleas and ticks) cause diarrhea, anemia, itching and poor growth. Some can pass to people, especially children, such as **Toxocara** and **hydatid disease** [1][3]."
+      },
+      {
+        "h": "Internal parasites: how often"
+      },
+      {
+        "p": "These frequencies follow the recommendations of the European parasitology council ESCCAP. The vet chooses the product and dose according to your pet’s **weight** and risk [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Stage",
+            "Dog",
+            "Cat"
+          ],
+          "widths": [
+            2200,
+            3719,
+            3719
+          ],
+          "rows": [
+            [
+              "Puppy / kitten",
+              "From 2 weeks of age, every 2 weeks until 2 weeks after weaning. Then every month until 6 months.",
+              "From 4 weeks of age, every 2 weeks until 2 weeks after weaning. Then every month until 6 months."
+            ],
+            [
+              "Breeding female",
+              "Deworm before mating. If she is nursing, wait until weaning.",
+              "Deworm before mating. If she is nursing, wait until weaning."
+            ],
+            [
+              "Adult",
+              "At least 4 times a year.",
+              "At least 4 times a year if it goes outside or hunts; depending on risk if it lives indoors."
+            ],
+            [
+              "Higher risk",
+              "Monthly if it lives with young children, eats prey or raw meat, or walks a lot in parks.",
+              "Monthly or with stool tests if it hunts or eats raw meat."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "An alternative to deworming “blindly” is doing regular **stool tests** and treating according to the result [1]."
+      },
+      {
+        "h": "Hydatid disease: watch out in Chile"
+      },
+      {
+        "p": "Hydatid disease is caused by a tapeworm that dogs get by **eating raw offal from sheep or other livestock**. The eggs come out in their feces and can make people sick, forming cysts in the liver or lungs. It is more common in rural and livestock areas of southern Chile, where the Ministry of Health recommends **deworming dogs every 45 days** and not giving them raw offal [3]. ESCCAP recommends a **praziquantel** dewormer every 4 to 6 weeks for at-risk dogs [1]."
+      },
+      {
+        "h": "External parasites: fleas and ticks"
+      },
+      {
+        "ul": [
+          "There are spot-ons, tablets, collars and sprays. Always use a product **for your pet’s species and exact weight** [2].",
+          "Fleas also live in the house: wash beds and blankets, and vacuum carpets and sofas.",
+          "Check your dog after walks in grass or hills, especially ears, neck and between the toes.",
+          "**Do not put a dog spot-on on a cat, unless the package says it is also suitable for cats**: many dog spot-ons contain **permethrin**, which is very toxic to cats [4]."
+        ]
+      },
+      {
+        "h": "Hygiene at home"
+      },
+      {
+        "ul": [
+          "Pick up feces on walks and clean the litter box **every day**.",
+          "Wash your hands after touching feces, soil or the litter box, and teach children to do it.",
+          "Do not give your pet raw meat or offal.",
+          "Record each deworming in the Pocket Vet health log so the app reminds you of the next one."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Go to the vet if…",
+          "items": [
+            "You see **worms or “rice grains”** in its feces, vomit or around the anus.",
+            "A puppy or kitten has **a swollen belly**, diarrhea or is not gaining weight.",
+            "It has **pale gums**, is very listless or scratches non-stop.",
+            "Your cat **drools, trembles or has seizures** after applying an antiparasitic (**emergency**: wash the area with water and mild soap and go right away)."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ESCCAP (European Scientific Counsel Companion Animal Parasites). Guideline GL1: Worm Control in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl1/"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      },
+      {
+        "texto": "Ministry of Health of Chile. Hydatid disease study allows early detection in 8 children in Aysén (prevention measures: deworming dogs)",
+        "url": "https://www.minsal.cl/estudio-de-hidatidosis-permite-la-deteccion-temprana-de-enfermedad-en-8-ninos-y-ninas-de-aysen/"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lilies, plants and toxic products)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "bano-higiene",
+    "n": 5,
+    "icono": "🛁",
+    "titulo": "Bathing and hygiene",
+    "especie": "Dog and cat",
+    "etapa": "All ages",
+    "etiquetas": [
+      "bath",
+      "bathe",
+      "shampoo",
+      "shampoo",
+      "brushing",
+      "coat",
+      "nails",
+      "ears",
+      "teeth",
+      "hygiene",
+      "bad smell",
+      "hairballs",
+      "grooming"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Veterinarian",
+      "fecha": "2026-10-28",
+      "resultado": "Approved",
+      "observacion": "Very good."
+    },
+    "resumen": [
+      "Most dogs need a bath **about every 3 months** or when dirty; bathing too much irritates their skin.",
+      "Cats **almost never** need a bath: they groom themselves.",
+      "Use **pet shampoo**, never human shampoo.",
+      "**Brushing** is more important than bathing, especially for long coats."
+    ],
+    "bloques": [
+      {
+        "h": "Dogs: how often to bathe them"
+      },
+      {
+        "p": "For most dogs **a bath about every 3 months** is enough, or when it gets dirty or smells. Bathing it too often removes the natural oils from its skin and can irritate it [1]. If it has a skin problem, the vet may prescribe a medicated shampoo and a different frequency."
+      },
+      {
+        "h": "Bath step by step"
+      },
+      {
+        "num": [
+          "**Brush it first** to remove tangles and dead hair; water tightens knots.",
+          "Use **lukewarm water**, never hot, and avoid wetting its eyes and the inside of its ears.",
+          "Apply **dog shampoo**. Human shampoo has a different pH and can irritate its skin [1].",
+          "**Rinse very well**: shampoo residue causes itching.",
+          "**Dry it completely**, including skin folds, between the toes and the ears, with a towel or a dryer on a warm setting.",
+          "Reward it so it links the bath with something good."
+        ]
+      },
+      {
+        "tip": "Puppies: wait until the vet says it is OK, usually after its first vaccines. Meanwhile, clean it with a warm damp cloth."
+      },
+      {
+        "h": "Cats: they almost never need a bath"
+      },
+      {
+        "p": "Cats spend several hours a day grooming and generally **do not need a bath**; many also tolerate it badly [1]. Only bathe it if it got dirty with something it cannot lick off (for example a toxic product, grease or paint) or if the vet says so. In that case use a **cat shampoo** and never a dog one, because some contain insecticides such as permethrin, which is toxic to cats [4][5]."
+      },
+      {
+        "h": "Brushing"
+      },
+      {
+        "table": {
+          "headers": [
+            "Coat type",
+            "Frequency"
+          ],
+          "widths": [
+            3600,
+            6038
+          ],
+          "rows": [
+            [
+              "Long coat (dog or cat)",
+              "Every day, to avoid tangles [1]."
+            ],
+            [
+              "Short coat",
+              "1 or 2 times a week."
+            ],
+            [
+              "Shedding season (spring and autumn)",
+              "More often. In cats it reduces hairballs."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Nails, ears and teeth"
+      },
+      {
+        "ul": [
+          "**Nails:** trim them when you hear them click on the floor, only the tip, without reaching the pink part that has blood. If you don’t know how, ask the vet to show you.",
+          "**Ears:** check them every week. Clean only the visible part with a pet product; never insert cotton swabs.",
+          "**Teeth:** ideally brush them daily with a brush and **pet toothpaste**. Human toothpaste must not be swallowed and some contain xylitol."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Go to the vet if…",
+          "items": [
+            "It scratches, licks or bites itself **non-stop**, or has **hairless**, red or crusty areas.",
+            "Its ears smell bad, have discharge or it **shakes its head a lot**.",
+            "It has strong bad breath, red gums or trouble eating.",
+            "Your cat **stops grooming**: it is often a sign of pain or illness."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ASPCA. Pet Grooming Tips (bathing, brushing and nail care)",
+        "url": "https://www.aspca.org/sites/default/files/upload/images/pet_grooming_tips_flyer.pdf"
+      },
+      {
+        "texto": "Merck Veterinary Manual, dog owners edition (nutrition, skin, emergencies)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, cat owners edition (nutrition, liver diseases, emergencies)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lilies, plants and toxic products)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "senales-alerta",
+    "n": 6,
+    "icono": "⚠️",
+    "titulo": "Warning signs",
+    "especie": "Dog and cat",
+    "etapa": "All ages",
+    "etiquetas": [
+      "emergency",
+      "urgent",
+      "symptoms",
+      "vomit",
+      "diarrhea",
+      "not eating",
+      "seizure",
+      "poisoning",
+      "poison",
+      "breathing trouble",
+      "bleeding",
+      "when to go to the vet"
+    ],
+    "verificada": false,
+    "revision": null,
+    "resumen": [
+      "Pocket Vet **does not diagnose**: this guide helps you decide **when to go to the vet**.",
+      "Breathing problems, seizures, bleeding that won’t stop or possible poisoning are **emergencies**: go right away.",
+      "Repeated vomiting or diarrhea, or not eating, need a vet visit **the same day**.",
+      "Keep your vet’s phone number and a **24-hour emergency** number written down."
+    ],
+    "bloques": [
+      {
+        "h": "Emergency: go to the vet right away"
+      },
+      {
+        "p": "These situations can put its life at risk within minutes or hours. Call the clinic on the way so they are ready [1]."
+      },
+      {
+        "ul": [
+          "**Trouble breathing**, open-mouth breathing in a cat, choking or non-stop coughing and retching.",
+          "**Pale, white or bluish gums.**",
+          "**Bleeding** that does not stop within 5 minutes, or blood in urine, vomit or feces.",
+          "**Seizures**, fainting, loss of consciousness or staggering.",
+          "**Possible poisoning**: it ate chocolate, xylitol, grapes, rat poison, human medicines, antifreeze, or a cat that bit a lily [4][5][6].",
+          "**Blow, being hit by a car or a fall**, even if it seems fine; broken bones or a leg it won’t put weight on.",
+          "**It tries to urinate or defecate and can’t**, or cries while doing it. In male cats it is a serious emergency.",
+          "**Swollen, hard belly** with retching but no vomit (stomach torsion, more common in large dogs).",
+          "**Heatstroke**: heavy panting, drooling and weakness after heat or exercise.",
+          "**Eye injury** or an eye that suddenly won’t open.",
+          "**Severe pain** or great distress."
+        ]
+      },
+      {
+        "h": "See the vet today (within 24 hours)"
+      },
+      {
+        "ul": [
+          "Vomiting or diarrhea **more than 2 times in 24 hours**, or together with listlessness [1].",
+          "**Not eating**: a cat for more than 24 hours; a dog for more than 24 to 48 hours; a puppy or kitten that skips several meals.",
+          "**Not drinking water** for 24 hours or more [1].",
+          "Marked listlessness: it doesn’t want to play, hides or sleeps much more than usual.",
+          "It limps, has a wound or a new lump that grows."
+        ]
+      },
+      {
+        "h": "Watch and note it in the health log"
+      },
+      {
+        "p": "These changes are not emergencies, but it is worth mentioning them at the next check-up or booking a visit if they last more than a few days:"
+      },
+      {
+        "ul": [
+          "It drinks **much more water** or urinates much more than before.",
+          "It loses or gains weight without a change in food.",
+          "Mild cough, sneezing, watery eyes or nasal discharge.",
+          "Behavior changes: new aggression, urinating outside the litter box, licking one area.",
+          "Strong bad breath or trouble chewing."
+        ]
+      },
+      {
+        "h": "What to do and what not to do"
+      },
+      {
+        "tabla2": {
+          "okTitulo": "What to do",
+          "ok": [
+            [
+              "Stay calm",
+              "Speak softly and move it carefully; an animal in pain may bite."
+            ],
+            [
+              "Call before going",
+              "That way the clinic gets ready and guides you on the way."
+            ],
+            [
+              "Bring the evidence",
+              "The product or medicine package, or a photo of what it ate."
+            ],
+            [
+              "Note the symptoms",
+              "When they started, how many times it vomited and any changes."
+            ],
+            [
+              "Move it safely",
+              "Cats in a carrier; large dogs on a firm blanket."
+            ]
+          ],
+          "noTitulo": "What NOT to do",
+          "no": [
+            [
+              "Giving it human medicines",
+              "Paracetamol and ibuprofen can be deadly, especially for cats [3]."
+            ],
+            [
+              "Making it vomit",
+              "Only if the vet says so: some toxins do more damage coming back up."
+            ],
+            [
+              "Waiting to “see if it gets better”",
+              "With an emergency sign, every minute counts."
+            ],
+            [
+              "Forcing food or water",
+              "It can choke if it is weak or having seizures."
+            ]
+          ]
+        }
+      },
+      {
+        "contactos": true
+      },
+      {
+        "tip": "In the app, every guide that mentions risk symptoms shows this “Go to the vet” alert. Pocket Vet provides general information and does not replace an examination by a veterinarian."
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "American Veterinary Medical Association (AVMA). 13 animal emergencies that require immediate veterinary consultation and/or care",
+        "url": "https://www.avma.org/public/EmergencyCare/Pages/animal-emergencies.aspx"
+      },
+      {
+        "texto": "Merck Veterinary Manual, dog owners edition (nutrition, skin, emergencies)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, cat owners edition (nutrition, liver diseases, emergencies)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lilies, plants and toxic products)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  }
+]

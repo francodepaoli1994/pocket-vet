@@ -93,6 +93,22 @@ a { color: inherit; }
 .fuentes a { color: #4C86C4; font-weight: 700; }
 .screen .aviso { font-size: 13px; font-style: italic; margin: 14px 0 4px; }
 
+/* Selector de idioma */
+.menu-idioma { margin-left: auto; position: relative; }
+.badge:not([hidden]) + .menu-idioma { margin-left: 8px; }
+.btn-idioma { border: var(--border); background: var(--surface); border-radius: 12px; padding: 7px 9px; cursor: pointer; display: grid; place-items: center; box-shadow: var(--shadow); }
+.btn-idioma img, .idioma img { border-radius: 4px; box-shadow: 0 0 0 1px rgba(59,51,85,.15); display: block; }
+.menu-lista { position: absolute; right: 0; top: calc(100% + 8px); background: var(--surface); border: var(--border); border-radius: 18px; padding: 6px; box-shadow: 0 10px 30px rgba(59,51,85,.15); z-index: 5; min-width: 180px; }
+.idiomas.menu { display: grid; gap: 2px; }
+.idioma { display: flex; align-items: center; gap: 10px; width: 100%; border: none; background: none; font: inherit; font-weight: 700; color: var(--ink); padding: 9px 10px; border-radius: 12px; cursor: pointer; text-align: left; }
+.idioma:hover { background: var(--bg); }
+.idioma.on { background: #DCEBFF; font-weight: 900; }
+.idiomas.lista { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.idiomas.lista .idioma { width: auto; border: var(--border); background: var(--bg); padding: 8px 10px; }
+.idiomas.lista .idioma.on { border-color: var(--primary); background: #DCEBFF; box-shadow: 0 3px 0 #5E95CC; }
+.ajuste-label { display: block; }
+.verified.traduccion { background: #ECE5FF; color: #6E59C9; border-left-color: var(--c3); }
+
 /* Perfil y onboarding */
 a.pet { text-decoration: none; }
 .form-perfil { display: grid; gap: 12px; }

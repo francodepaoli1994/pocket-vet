@@ -4,6 +4,7 @@
 // también en segundo plano con Periodic Background Sync desde el service worker.
 
 import * as libreta from './libreta.js';
+import { t } from './i18n.js';
 
 const DIAS_AVISO = 3;
 const CLAVE_AVISADOS = 'pv_avisados'; // { idRegistro: 'AAAA-MM-DD' } para no repetir el aviso el mismo día
@@ -17,12 +18,12 @@ const hoy = () => new Date().toISOString().slice(0, 10);
 const dias = iso => Math.round((new Date(iso + 'T12:00:00') - new Date(hoy() + 'T12:00:00')) / 86400000);
 
 export function texto(r, nombreMascota) {
-  const t = libreta.TIPOS[r.tipo] || libreta.TIPOS.nota;
+  const tp = libreta.tipo(r.tipo);
   const d = dias(r.proxima);
-  const cuando = d === 0 ? 'hoy' : d === 1 ? 'mañana' : `en ${d} días`;
+  const cuando = d === 0 ? t('notif.hoy') : d === 1 ? t('notif.manana') : t('notif.enDias', { n: d });
   return {
-    titulo: `${t.icono} ${r.titulo || t.nombre} ${cuando}`,
-    cuerpo: `${nombreMascota ? nombreMascota + ': ' : ''}${t.nombre} el ${r.proxima.split('-').reverse().join('-')}. Revisa la libreta de Pocket Vet.`,
+    titulo: `${tp.icono} ${r.titulo || tp.nombre} ${cuando}`,
+    cuerpo: `${nombreMascota ? nombreMascota + ': ' : ''}${t('notif.cuerpo', { tipo: tp.nombre, fecha: r.proxima.split('-').reverse().join('-') })}`,
   };
 }
 
@@ -35,11 +36,13 @@ export async function sincronizar(nombreMascota) {
   if (!('caches' in window)) return;
   // El texto ("mañana", "en 2 días") lo arma el service worker el día que avisa
   const datos = libreta.leer().filter(r => r.proxima).map(r => {
-    const t = libreta.TIPOS[r.tipo] || libreta.TIPOS.nota;
-    return { id: r.id, icono: t.icono, tipoNombre: t.nombre, titulo: r.titulo, proxima: r.proxima };
+    const tp = libreta.tipo(r.tipo);
+    return { id: r.id, icono: tp.icono, tipoNombre: tp.nombre, titulo: r.titulo, proxima: r.proxima };
   });
+  // Textos en el idioma actual para que el service worker arme el aviso
+  const textos = { hoy: t('notif.hoy'), manana: t('notif.manana'), enDias: t('notif.enDias'), cuerpo: t('notif.cuerpo') };
   const c = await caches.open(CACHE_DATOS);
-  await c.put(URL_DATOS, new Response(JSON.stringify({ mascota: nombreMascota || '', recordatorios: datos }), { headers: { 'Content-Type': 'application/json' } }));
+  await c.put(URL_DATOS, new Response(JSON.stringify({ mascota: nombreMascota || '', textos, recordatorios: datos }), { headers: { 'Content-Type': 'application/json' } }));
 }
 
 // Muestra en la barra del teléfono los recordatorios cercanos que aún no se avisaron hoy
@@ -76,6 +79,6 @@ export async function activar(nombreMascota) {
 export async function probar() {
   if (permiso() !== 'granted') return false;
   const reg = await navigator.serviceWorker.ready;
-  await reg.showNotification('🐾 Pocket Vet', { body: 'Así te avisaremos de vacunas y desparasitaciones.', icon: 'icons/icon-192.png', badge: 'icons/favicon-96.png', tag: 'pv-prueba', data: { url: './#/libreta' } });
+  await reg.showNotification('🐾 Pocket Vet', { body: t('notif.pruebaCuerpo'), icon: 'icons/icon-192.png', badge: 'icons/favicon-96.png', tag: 'pv-prueba', data: { url: './#/libreta' } });
   return true;
 }

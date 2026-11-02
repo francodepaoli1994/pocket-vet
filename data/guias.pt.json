@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "alimentacion-perro",
+    "n": 1,
+    "icono": "🐶",
+    "titulo": "Alimentação do cão",
+    "especie": "Cão",
+    "etapa": "Cachorro, adulto e sénior",
+    "etiquetas": [
+      "comida",
+      "ração",
+      "ração seca",
+      "granulado",
+      "guloseimas",
+      "quanto come",
+      "pode comer",
+      "tóxico",
+      "chocolate",
+      "uvas",
+      "cebola",
+      "xilitol",
+      "cachorro"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médica Veterinária",
+      "fecha": "2026-10-28",
+      "resultado": "Aprovado",
+      "observacion": "Excelente guia com boas recomendações."
+    },
+    "resumen": [
+      "Dá-lhe uma ração **completa e equilibrada** para a sua fase de vida (cachorro, adulto ou sénior).",
+      "Tem sempre **água fresca e limpa** disponível.",
+      "As guloseimas e a comida caseira não devem passar de **10% do que come por dia**.",
+      "Chocolate, uvas, passas, cebola, alho e xilitol são **tóxicos**: nunca lhos dês."
+    ],
+    "bloques": [
+      {
+        "h": "O que deve comer?"
+      },
+      {
+        "p": "Um cão saudável alimenta-se bem com uma ração comercial cujo rótulo diga que é **“completa e equilibrada”** para a sua fase de vida. Essa ração já tem as proteínas, gorduras, vitaminas e minerais de que precisa, por isso não é preciso juntar suplementos, a não ser que o veterinário o indique [1][4]."
+      },
+      {
+        "ul": [
+          "**Cachorro (até aos 12 meses; raças grandes até aos 18–24 meses):** ração de cachorro, com mais energia e a quantidade certa de cálcio para crescer.",
+          "**Adulto:** ração de manutenção para o seu tamanho e nível de atividade.",
+          "**Sénior (a partir dos 7–8 anos, aprox.):** o veterinário pode sugerir uma ração com menos calorias ou adaptada à sua saúde."
+        ]
+      },
+      {
+        "h": "Quantas vezes e quanto?"
+      },
+      {
+        "table": {
+          "headers": [
+            "Idade",
+            "Refeições por dia",
+            "Dica"
+          ],
+          "widths": [
+            2400,
+            2000,
+            5238
+          ],
+          "rows": [
+            [
+              "2 a 6 meses",
+              "3 a 4",
+              "Porções pequenas distribuídas ao longo do dia."
+            ],
+            [
+              "6 a 12 meses",
+              "2 a 3",
+              "Ajusta a porção conforme vai crescendo."
+            ],
+            [
+              "Adulto",
+              "2",
+              "Horários fixos ajudam a digestão e a rotina."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "A quantidade da embalagem é **apenas um ponto de partida**. O correto é ajustá-la à **condição corporal**: num cão com o peso ideal sentem-se as costelas ao passar a mão sem pressionar, e de cima vê-se uma cintura atrás das costelas. Se não sentes as costelas, tem excesso de peso; se se veem à vista desarmada, está demasiado magro [1]."
+      },
+      {
+        "tip": "Pesa a porção com um copo medidor ou uma balança de cozinha. Medir “a olho” é a causa mais comum de excesso de peso."
+      },
+      {
+        "h": "Mudar de ração"
+      },
+      {
+        "p": "Faz a mudança aos poucos, em cerca de **7 dias**: mistura 25% da nova ração nos primeiros dias, depois 50%, 75% e por fim 100%. Uma mudança brusca pode causar vómitos ou diarreia."
+      },
+      {
+        "h": "Pode comer e nunca dar"
+      },
+      {
+        "p": "Na app, esta secção aparece em dois separadores. Os alimentos de “Pode comer” são **guloseimas ocasionais**, em pedaços pequenos, **sem sal, sem temperos e sem ossos**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Pode comer (como guloseima)",
+          "ok": [
+            [
+              "Cenoura",
+              "Crua ou cozida, aos pedaços."
+            ],
+            [
+              "Maçã",
+              "Sem sementes nem caroço."
+            ],
+            [
+              "Banana",
+              "Pouca quantidade, tem muito açúcar."
+            ],
+            [
+              "Mirtilos",
+              "Lavados."
+            ],
+            [
+              "Melancia",
+              "Sem sementes e sem casca."
+            ],
+            [
+              "Abóbora ou batata-doce",
+              "Cozida, sem sal nem manteiga."
+            ],
+            [
+              "Frango ou peru",
+              "Cozido, sem pele, sem ossos e sem temperos."
+            ],
+            [
+              "Arroz branco",
+              "Cozido, sem sal."
+            ],
+            [
+              "Ovo",
+              "Sempre cozido."
+            ]
+          ],
+          "noTitulo": "Nunca dar",
+          "no": [
+            [
+              "Chocolate, café e bebidas com cafeína",
+              "Contêm metilxantinas: vómitos, taquicardia, tremores, convulsões. Quanto mais escuro o chocolate, mais perigoso [2]."
+            ],
+            [
+              "Uvas e passas",
+              "Podem causar insuficiência renal, mesmo em pequenas quantidades [2]."
+            ],
+            [
+              "Cebola, alho, cebolinho e alho-francês",
+              "Danificam os glóbulos vermelhos e causam anemia, também cozidos ou em pó [2]."
+            ],
+            [
+              "Xilitol (pastilhas e doces “sem açúcar”, algumas manteigas de amendoim, pasta de dentes)",
+              "Baixa o açúcar no sangue em 15–30 minutos e pode danificar o fígado. É uma urgência [3]."
+            ],
+            [
+              "Álcool e massa crua com fermento",
+              "Intoxicação e dilatação do estômago [2]."
+            ],
+            [
+              "Nozes de macadâmia",
+              "Fraqueza, tremores e febre [2]."
+            ],
+            [
+              "Ossos cozinhados",
+              "Lascam e podem perfurar ou obstruir o intestino [2]."
+            ],
+            [
+              "Carne, ovo ou peixe crus",
+              "Risco de Salmonella e E. coli, também para a família [2]."
+            ],
+            [
+              "Leite e laticínios",
+              "Muitos cães não digerem a lactose: diarreia [2]."
+            ],
+            [
+              "Comida gordurosa ou salgada (churrasco, enchidos, batatas fritas)",
+              "Pode causar pancreatite e excesso de sódio [2]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Vai ao veterinário se…",
+          "items": [
+            "Comeu algum alimento da lista “Nunca dar”, **mesmo que pareça bem**. Anota o que comeu, quanto e a que horas, e liga de imediato.",
+            "Não come nada há **mais de 24 a 48 horas**, ou um cachorro salta várias refeições seguidas.",
+            "Vomita ou tem diarreia **mais de 2 vezes em 24 horas**.",
+            "Tem a barriga inchada e faz esforços para vomitar sem conseguir (urgência, sobretudo em raças grandes)."
+          ],
+          "nota": "Não o faças vomitar sem indicação do veterinário."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines e Global Nutrition Toolkit (condição corporal, cálculo de calorias)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edição para donos de cães (nutrição, pele, urgências)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      }
+    ],
+    "especies": [
+      "perro"
+    ]
+  },
+  {
+    "id": "alimentacion-gato",
+    "n": 2,
+    "icono": "🐱",
+    "titulo": "Alimentação do gato",
+    "especie": "Gato",
+    "etapa": "Gatinho, adulto e sénior",
+    "etiquetas": [
+      "comida",
+      "ração",
+      "granulado",
+      "saqueta",
+      "húmida",
+      "água",
+      "guloseimas",
+      "leite",
+      "atum",
+      "pode comer",
+      "tóxico",
+      "lírio",
+      "cebola",
+      "gatinho"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médica Veterinária",
+      "fecha": "2026-10-28",
+      "resultado": "Aprovado com alterações",
+      "observacion": "Excelente."
+    },
+    "resumen": [
+      "O gato é um **carnívoro estrito**: precisa de uma ração completa e equilibrada para gatos, nunca comida de cão nem dieta vegetariana.",
+      "A **água** é essencial: muitos gatos bebem pouco, e a comida húmida ajuda.",
+      "O **leite** e o **atum de lata para pessoas** não lhe fazem bem.",
+      "Se um gato deixa de comer por **mais de 24 horas**, deve ir ao veterinário."
+    ],
+    "bloques": [
+      {
+        "h": "O que deve comer?"
+      },
+      {
+        "p": "Os gatos são **carnívoros estritos**: precisam de nutrientes de origem animal, com muita proteína, gordura moderada e poucos hidratos de carbono [1]. Precisam, por exemplo, de **taurina**, um aminoácido cuja falta pode causar problemas no coração e na visão [5]. Por isso devem comer ração **para gatos**, com a indicação **“completa e equilibrada”** para a sua fase de vida, e não comida de cão [1]."
+      },
+      {
+        "ul": [
+          "**Gatinho (até aos 12 meses):** ração de crescimento, em 3 a 4 porções pequenas por dia.",
+          "**Adulto:** ração de manutenção em 2 ou mais porções medidas por dia.",
+          "**Sénior (a partir dos 10 anos, aprox.):** consultas mais frequentes; o veterinário pode ajustar a dieta."
+        ]
+      },
+      {
+        "h": "Seca, húmida ou as duas"
+      },
+      {
+        "table": {
+          "headers": [
+            "Tipo",
+            "Água que fornece",
+            "Vantagens",
+            "Cuidados"
+          ],
+          "widths": [
+            1700,
+            1700,
+            3100,
+            3138
+          ],
+          "rows": [
+            [
+              "Seca (ração)",
+              "6–10%",
+              "Mais económica, conserva-se bem.",
+              "Guarda-a num recipiente hermético e verifica a validade."
+            ],
+            [
+              "Húmida (lata ou saqueta)",
+              "75% ou mais",
+              "Muito apetecível e junta água à dieta.",
+              "Põe as sobras no frigorífico e deita-as fora se secarem."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Ambas servem se forem completas e equilibradas; o gosto do teu gato pode orientar a escolha [1]. Combiná-las é uma boa forma de juntar água."
+      },
+      {
+        "h": "Água e peso"
+      },
+      {
+        "ul": [
+          "Põe **vários bebedouros** com água limpa, longe da comida e da caixa de areia. Muitos gatos preferem fontes com água em movimento.",
+          "A **obesidade** é o problema de nutrição mais comum nos gatos e aumenta o risco de diabetes e artrose. Mede as porções e pergunta ao veterinário qual é o seu peso ideal [1][2].",
+          "As guloseimas não devem passar de **10–15% das calorias do dia** [1]."
+        ]
+      },
+      {
+        "h": "Pode comer e nunca dar"
+      },
+      {
+        "p": "Os alimentos de “Pode comer” são **guloseimas ocasionais**, cozinhadas, **sem sal, sem temperos, sem ossos nem espinhas**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Pode comer (como guloseima)",
+          "ok": [
+            [
+              "Frango ou peru",
+              "Cozido, sem pele nem ossos."
+            ],
+            [
+              "Peixe",
+              "Cozido, sem espinhas, de vez em quando."
+            ],
+            [
+              "Ovo",
+              "Sempre cozido."
+            ],
+            [
+              "Abóbora",
+              "Cozida, em muito pouca quantidade."
+            ],
+            [
+              "Erva para gatos",
+              "Trigo ou aveia germinados, comprados ou caseiros."
+            ],
+            [
+              "Guloseimas para gatos",
+              "Dentro dos 10–15% das calorias do dia."
+            ]
+          ],
+          "noTitulo": "Nunca dar",
+          "no": [
+            [
+              "Cebola, alho, cebolinho e alho-francês",
+              "Os gatos são muito sensíveis: danificam os glóbulos vermelhos e causam anemia [3]."
+            ],
+            [
+              "Chocolate, café e cafeína",
+              "Vómitos, taquicardia, tremores e convulsões [3]."
+            ],
+            [
+              "Uvas e passas",
+              "Possível lesão renal [3]."
+            ],
+            [
+              "Álcool e massa crua com fermento",
+              "Intoxicação grave [3]."
+            ],
+            [
+              "Leite e laticínios",
+              "Muitos gatos não toleram a lactose: diarreia e mal-estar [1]."
+            ],
+            [
+              "Carne ou peixe crus",
+              "Podem trazer bactérias e parasitas, sem benefício comprovado [1]."
+            ],
+            [
+              "Atum de lata para pessoas como comida habitual",
+              "Não é completo e foi associado a problemas neurológicos [1]."
+            ],
+            [
+              "Comida de cão como dieta",
+              "Não tem a taurina nem os nutrientes de que o gato precisa."
+            ],
+            [
+              "Ossos cozinhados e espinhas",
+              "Lascam e podem obstruir ou perfurar o intestino."
+            ],
+            [
+              "Lírios (planta e flor)",
+              "Até morder uma folha, lamber o pólen ou beber a água da jarra pode causar insuficiência renal [4][6]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Vai ao veterinário se…",
+          "items": [
+            "O teu gato **não come nada há mais de 24 horas**. Nos gatos, o jejum pode causar uma doença grave do fígado (lipidose hepática), sobretudo se tiver excesso de peso [5].",
+            "Comeu algo da lista “Nunca dar” ou mordeu um **lírio**: é uma urgência mesmo que pareça bem.",
+            "Vomita **mais de 2 vezes em 24 horas**, ou perde peso sem razão.",
+            "Bebe **muito mais água** do que o normal ou urina muito mais."
+          ],
+          "nota": "Não o faças vomitar sem indicação do veterinário."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine. Feeding Your Cat",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat"
+      },
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines e Global Nutrition Toolkit (condição corporal, cálculo de calorias)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lírios, plantas e produtos tóxicos)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edição para donos de gatos (nutrição, doenças do fígado, urgências)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. Toxic and Non-Toxic Plants",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+      }
+    ],
+    "especies": [
+      "gato"
+    ]
+  },
+  {
+    "id": "vacunas",
+    "n": 3,
+    "icono": "💉",
+    "titulo": "Vacinas",
+    "especie": "Cão e gato",
+    "etapa": "Cachorro, gatinho e adulto",
+    "etiquetas": [
+      "vacina",
+      "antirrábica",
+      "raiva",
+      "hexavalente",
+      "octavalente",
+      "trivalente felina",
+      "leucemia",
+      "parvovirose",
+      "esgana",
+      "calendário",
+      "reforço",
+      "obrigatória",
+      "lei"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médica Veterinária",
+      "fecha": "2026-10-28",
+      "resultado": "Aprovado com alterações",
+      "observacion": "Excelente."
+    },
+    "resumen": [
+      "No Chile a vacina **antirrábica é obrigatória** para cães e gatos, e comprova-se com um certificado veterinário.",
+      "Cachorros e gatinhos precisam de **várias doses**, a cada 2 a 4 semanas, sendo a última às **16 semanas ou mais**.",
+      "As vacinas **essenciais** aplicam-se a todos; outras dependem do estilo de vida do teu animal.",
+      "Regista cada vacina na **caderneta** do Pocket Vet com a data da próxima dose."
+    ],
+    "bloques": [
+      {
+        "h": "Porquê vacinar?"
+      },
+      {
+        "p": "As vacinas protegem o teu animal de doenças graves e muitas vezes mortais, como a parvovirose ou a esgana nos cães e a panleucopenia nos gatos. Além disso, quando muitos animais estão vacinados, a doença circula menos e protegem-se também os que não podem ser vacinados [1]."
+      },
+      {
+        "h": "O que a lei exige no Chile"
+      },
+      {
+        "p": "O Regulamento de Prevenção e Controlo da Raiva (Decreto n.º 1 do Ministério da Saúde, 2014) estabelece que **todos os cães e gatos devem estar permanentemente vacinados contra a raiva**, e que os donos devem manter a vacina **em dia**, comprovada com um **certificado de um médico veterinário** [2]. A Lei n.º 21.020 de Detenção Responsável obriga ainda a dar ao animal os cuidados veterinários necessários [3]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Vacina antirrábica",
+            "Quando"
+          ],
+          "widths": [
+            3200,
+            6438
+          ],
+          "rows": [
+            [
+              "Primeira dose",
+              "A partir dos 2 meses de idade."
+            ],
+            [
+              "Primeiro reforço",
+              "Um ano após a última dose."
+            ],
+            [
+              "Seguintes",
+              "Segundo a duração indicada pelo fabricante da vacina (di-lo o teu veterinário e o certificado)."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Vacinas essenciais e opcionais"
+      },
+      {
+        "p": "A Associação Mundial de Veterinários de Pequenos Animais (WSAVA) chama **essenciais** às vacinas que todos os cães e gatos devem receber, e **não essenciais** às recomendadas conforme onde e como vive cada animal [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "",
+            "Cão",
+            "Gato"
+          ],
+          "widths": [
+            1900,
+            3869,
+            3869
+          ],
+          "rows": [
+            [
+              "Essenciais",
+              "Esgana, adenovírus (hepatite), parvovirose e leptospirose. Raiva, obrigatória no Chile.",
+              "Panleucopenia, calicivírus e herpesvírus (a “trivalente felina”). Raiva, obrigatória no Chile."
+            ],
+            [
+              "Conforme a frequência da doença",
+              "Tosse do canil, entre outras. A leptospirose já vem incluída na vacina hexavalente.",
+              "Leucemia felina: recomendada em gatos com menos de 1 ano e em gatos que saem ou vivem com gatos que saem."
+            ]
+          ]
+        }
+      },
+      {
+        "tip": "No Chile as vacinas para cães vendem-se combinadas (por exemplo “hexavalente” ou “octavalente”). A hexavalente inclui leptospirose. Pergunta ao teu veterinário que doenças inclui a que vai aplicar."
+      },
+      {
+        "h": "Calendário de cachorros e gatinhos"
+      },
+      {
+        "p": "Os anticorpos que o cachorro recebe da mãe podem bloquear a vacina nas primeiras semanas, e não se sabe exatamente quando desaparecem. Por isso aplicam-se **várias doses** e a última deve ser às **16 semanas de idade ou mais** [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Idade",
+            "O que se aplica (orientativo)"
+          ],
+          "widths": [
+            2600,
+            7038
+          ],
+          "rows": [
+            [
+              "6 a 8 semanas",
+              "Primeira dose das vacinas essenciais."
+            ],
+            [
+              "A cada 2 a 4 semanas",
+              "Novas doses das essenciais até chegar às 16 semanas ou mais."
+            ],
+            [
+              "A partir dos 2 meses",
+              "Antirrábica (obrigatória)."
+            ],
+            [
+              "26 semanas (6 meses)",
+              "Reforço das essenciais, recomendado pela WSAVA em vez de esperar um ano [1]."
+            ],
+            [
+              "Adulto",
+              "No Chile as essenciais reforçam-se todos os anos; só se espaçam (a cada 3 anos ou mais) se um teste de anticorpos mostrar níveis protetores. Não essenciais: todos os anos. Antirrábica: segundo o fabricante."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "O calendário exato é definido pelo veterinário conforme a vacina, a saúde e o estilo de vida do teu animal. Enquanto não terminar as primeiras vacinas, evita levá-lo a locais com muitos cães ou gatos desconhecidos."
+      },
+      {
+        "h": "Depois de vacinar"
+      },
+      {
+        "ul": [
+          "É normal que fique **abatido, com alguma febre ou dor no local** durante 1 ou 2 dias.",
+          "Anota na caderneta o nome da vacina, a data e a próxima dose.",
+          "Aproveita a vacina para a **consulta anual**: é muito mais do que uma vacina [1]."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Vai ao veterinário se…",
+          "items": [
+            "Depois da vacina **incha-lhe a cara**, aparecem-lhe borbulhas, vomita ou tem dificuldade em respirar (**urgência**, pode ser uma reação alérgica).",
+            "O abatimento ou a febre duram **mais de 2 dias**.",
+            "Nos gatos: um alto no local da vacina que continua lá **mais de 3 meses**, mede **mais de 2 cm** ou **continua a crescer um mês** depois."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Vaccination Guidelines Group. 2024 Guidelines for the Vaccination of Dogs and Cats. Journal of Small Animal Practice, 2024. DOI 10.1111/jsap.13718",
+        "url": "https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf"
+      },
+      {
+        "texto": "Ministério da Saúde do Chile. Decreto Supremo n.º 1 (publicado a 29-01-2014), Regulamento de Prevenção e Controlo da Raiva no Homem e nos Animais, artigo 4. Biblioteca do Congresso Nacional",
+        "url": "https://www.bcn.cl/leychile"
+      },
+      {
+        "texto": "Lei n.º 21.020 sobre Detenção Responsável de Animais de Companhia (2017). Biblioteca do Congresso Nacional",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=1106037"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "desparasitacion",
+    "n": 4,
+    "icono": "🪱",
+    "titulo": "Desparasitação",
+    "especie": "Cão e gato",
+    "etapa": "Cachorro, gatinho e adulto",
+    "etiquetas": [
+      "parasitas",
+      "vermes",
+      "lombrigas",
+      "antiparasitário",
+      "pulgas",
+      "carraças",
+      "pipeta",
+      "comprimido",
+      "hidatidose",
+      "toxocara",
+      "desparasitar",
+      "de quanto em quanto tempo"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médica Veterinária",
+      "fecha": "2026-10-28",
+      "resultado": "Aprovado com alterações",
+      "observacion": "Excelente, com pequenas alterações."
+    },
+    "resumen": [
+      "Cachorros e gatinhos desparasitam-se **a cada 2 semanas** desde pequenos e depois **todos os meses até aos 6 meses**.",
+      "Os adultos, **pelo menos 4 vezes por ano**, e mais vezes se tiverem mais risco.",
+      "Alguns parasitas **passam para as pessoas**: apanhar as fezes e lavar as mãos faz parte do tratamento.",
+      "Num gato, usa um antiparasitário de cão **só se a embalagem indicar que também serve para gatos**."
+    ],
+    "bloques": [
+      {
+        "h": "Porquê desparasitar?"
+      },
+      {
+        "p": "Os parasitas internos (como as lombrigas e as ténias) e externos (pulgas e carraças) causam diarreia, anemia, comichão e mau crescimento. Alguns passam para as pessoas, sobretudo crianças, como o **Toxocara** e a **hidatidose** [1][3]."
+      },
+      {
+        "h": "Parasitas internos: de quanto em quanto tempo"
+      },
+      {
+        "p": "Estas frequências seguem as recomendações do conselho europeu de parasitologia ESCCAP. O veterinário escolhe o produto e a dose conforme o **peso** e o risco do teu animal [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Fase",
+            "Cão",
+            "Gato"
+          ],
+          "widths": [
+            2200,
+            3719,
+            3719
+          ],
+          "rows": [
+            [
+              "Cachorro / gatinho",
+              "Desde as 2 semanas de vida, a cada 2 semanas até 2 semanas após o desmame. Depois todos os meses até aos 6 meses.",
+              "Desde as 4 semanas de vida, a cada 2 semanas até 2 semanas após o desmame. Depois todos os meses até aos 6 meses."
+            ],
+            [
+              "Fêmea reprodutora",
+              "Desparasitar antes do acasalamento. Se estiver a amamentar, esperar pelo desmame.",
+              "Desparasitar antes do acasalamento. Se estiver a amamentar, esperar pelo desmame."
+            ],
+            [
+              "Adulto",
+              "Pelo menos 4 vezes por ano.",
+              "Pelo menos 4 vezes por ano se sai ou caça; conforme o risco se vive dentro de casa."
+            ],
+            [
+              "Maior risco",
+              "Mensal se vive com crianças pequenas, come presas ou carne crua, ou passeia muito em parques.",
+              "Mensal ou com análises às fezes se caça ou come carne crua."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Uma alternativa a desparasitar “às cegas” é fazer **análises às fezes** periódicas e tratar conforme o resultado [1]."
+      },
+      {
+        "h": "Hidatidose: atenção no Chile"
+      },
+      {
+        "p": "A hidatidose é causada por uma ténia que o cão apanha ao **comer vísceras cruas de ovelhas ou outro gado**. Os ovos saem nas fezes e podem pôr as pessoas doentes, formando quistos no fígado ou nos pulmões. É mais frequente nas zonas rurais e de pecuária do sul do Chile, onde o Ministério da Saúde recomenda **desparasitar os cães a cada 45 dias** e não lhes dar vísceras cruas [3]. A ESCCAP recomenda para cães de risco um antiparasitário com **praziquantel** a cada 4 a 6 semanas [1]."
+      },
+      {
+        "h": "Parasitas externos: pulgas e carraças"
+      },
+      {
+        "ul": [
+          "Existem pipetas, comprimidos, coleiras e sprays. Usa sempre um produto **para a espécie e o peso exato** do teu animal [2].",
+          "As pulgas também vivem em casa: lava camas e mantas e aspira tapetes e sofás.",
+          "Revê o teu cão depois de passeios na relva ou no monte, sobretudo orelhas, pescoço e entre os dedos.",
+          "**Não ponhas a um gato uma pipeta de cão, a não ser que a embalagem diga que também é adequada para gatos**: muitas pipetas de cão contêm **permetrina**, que é muito tóxica para os gatos [4]."
+        ]
+      },
+      {
+        "h": "Higiene em casa"
+      },
+      {
+        "ul": [
+          "Apanha as fezes no passeio e limpa a caixa de areia **todos os dias**.",
+          "Lava as mãos depois de tocar em fezes, terra ou na caixa de areia, e ensina as crianças a fazer o mesmo.",
+          "Não dês ao teu animal carne nem vísceras cruas.",
+          "Regista cada desparasitação na caderneta do Pocket Vet para que a app te lembre da próxima."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Vai ao veterinário se…",
+          "items": [
+            "Vês **vermes ou “grãos de arroz”** nas fezes, no vómito ou à volta do ânus.",
+            "Um cachorro ou gatinho tem **a barriga inchada**, diarreia ou não ganha peso.",
+            "Tem as **gengivas pálidas**, está muito abatido ou coça-se sem parar.",
+            "O teu gato **baba-se, treme ou tem convulsões** depois de lhe pores um antiparasitário (**urgência**: lava a zona com água e sabão suave e vai de imediato)."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ESCCAP (European Scientific Counsel Companion Animal Parasites). Guideline GL1: Worm Control in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl1/"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      },
+      {
+        "texto": "Ministério da Saúde do Chile. Estudo sobre hidatidose permite deteção precoce da doença em 8 crianças de Aysén (medidas de prevenção: desparasitação de cães)",
+        "url": "https://www.minsal.cl/estudio-de-hidatidosis-permite-la-deteccion-temprana-de-enfermedad-en-8-ninos-y-ninas-de-aysen/"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lírios, plantas e produtos tóxicos)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "bano-higiene",
+    "n": 5,
+    "icono": "🛁",
+    "titulo": "Banho e higiene",
+    "especie": "Cão e gato",
+    "etapa": "Todas as idades",
+    "etiquetas": [
+      "banho",
+      "dar banho",
+      "champô",
+      "shampoo",
+      "escovagem",
+      "pelo",
+      "unhas",
+      "ouvidos",
+      "dentes",
+      "higiene",
+      "mau cheiro",
+      "bolas de pelo",
+      "tosquia"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médica Veterinária",
+      "fecha": "2026-10-28",
+      "resultado": "Aprovado",
+      "observacion": "Muito bem."
+    },
+    "resumen": [
+      "A maioria dos cães precisa de um banho **a cada 3 meses, aprox.** ou quando está sujo; dar banho demasiadas vezes irrita a pele.",
+      "Os gatos **quase nunca** precisam de banho: limpam-se sozinhos.",
+      "Usa **champô para animais**, nunca de pessoas.",
+      "A **escovagem** é mais importante do que o banho, sobretudo se tiver pelo comprido."
+    ],
+    "bloques": [
+      {
+        "h": "Cães: de quanto em quanto tempo dar banho"
+      },
+      {
+        "p": "Para a maioria dos cães chega **um banho a cada 3 meses, aproximadamente**, ou quando se suja ou cheira mal. Dar banho demasiadas vezes elimina os óleos naturais da pele e pode irritá-la [1]. Se tiver um problema de pele, o veterinário pode indicar um champô medicado e uma frequência diferente."
+      },
+      {
+        "h": "Banho passo a passo"
+      },
+      {
+        "num": [
+          "**Escova-o antes** para tirar nós e pelo morto; a água aperta os nós.",
+          "Usa **água morna**, nunca quente, e evita molhar-lhe os olhos e o interior das orelhas.",
+          "Aplica **champô para cães**. O de pessoas tem outro pH e pode irritar-lhe a pele [1].",
+          "**Enxagua muito bem**: os restos de champô causam comichão.",
+          "**Seca-o por completo**, incluindo as pregas, entre os dedos e as orelhas, com toalha ou secador em temperatura morna.",
+          "Recompensa-o para que associe o banho a algo bom."
+        ]
+      },
+      {
+        "tip": "Cachorros: espera que o veterinário autorize, normalmente depois das primeiras vacinas. Até lá, limpa-o com um pano húmido morno."
+      },
+      {
+        "h": "Gatos: quase nunca precisam de banho"
+      },
+      {
+        "p": "Os gatos passam várias horas por dia a limpar-se e em geral **não precisam de banho**; muitos também o toleram mal [1]. Dá-lhe banho só se se sujar com algo que não consegue lamber (por exemplo um produto tóxico, gordura ou tinta) ou se o veterinário o indicar. Nesse caso usa um **champô para gatos** e nunca um para cães, porque alguns contêm inseticidas como a permetrina, tóxica para os gatos [4][5]."
+      },
+      {
+        "h": "Escovagem"
+      },
+      {
+        "table": {
+          "headers": [
+            "Tipo de pelo",
+            "Frequência"
+          ],
+          "widths": [
+            3600,
+            6038
+          ],
+          "rows": [
+            [
+              "Pelo comprido (cão ou gato)",
+              "Todos os dias, para evitar nós [1]."
+            ],
+            [
+              "Pelo curto",
+              "1 ou 2 vezes por semana."
+            ],
+            [
+              "Época de muda (primavera e outono)",
+              "Mais vezes. Nos gatos reduz as bolas de pelo."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Unhas, ouvidos e dentes"
+      },
+      {
+        "ul": [
+          "**Unhas:** corta-as quando fizerem barulho no chão ao andar, só a ponta, sem chegar à parte rosada que tem sangue. Se não sabes como, pede ao veterinário que te ensine.",
+          "**Ouvidos:** verifica-os todas as semanas. Limpa só a parte visível com um produto para animais; nunca introduzas cotonetes.",
+          "**Dentes:** o ideal é escová-los diariamente com uma escova e **pasta para animais**. A pasta de pessoas não deve ser engolida e algumas têm xilitol."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Vai ao veterinário se…",
+          "items": [
+            "Coça-se, lambe-se ou morde-se **sem parar**, ou tem zonas **sem pelo**, vermelhas ou com crostas.",
+            "Os ouvidos cheiram mal, têm secreção ou **abana muito a cabeça**.",
+            "Tem mau hálito forte, gengivas vermelhas ou dificuldade em comer.",
+            "O teu gato **deixa de se limpar**: costuma ser sinal de dor ou doença."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ASPCA. Pet Grooming Tips (banho, escovagem e cuidado das unhas)",
+        "url": "https://www.aspca.org/sites/default/files/upload/images/pet_grooming_tips_flyer.pdf"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edição para donos de cães (nutrição, pele, urgências)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edição para donos de gatos (nutrição, doenças do fígado, urgências)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lírios, plantas e produtos tóxicos)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "senales-alerta",
+    "n": 6,
+    "icono": "⚠️",
+    "titulo": "Sinais de alerta",
+    "especie": "Cão e gato",
+    "etapa": "Todas as idades",
+    "etiquetas": [
+      "urgência",
+      "emergência",
+      "sintomas",
+      "vómito",
+      "diarreia",
+      "não come",
+      "convulsão",
+      "intoxicação",
+      "veneno",
+      "respira mal",
+      "hemorragia",
+      "quando ir ao veterinário"
+    ],
+    "verificada": false,
+    "revision": null,
+    "resumen": [
+      "O Pocket Vet **não faz diagnósticos**: este guia ajuda-te a decidir **quando ir ao veterinário**.",
+      "Dificuldade em respirar, convulsões, hemorragia que não para ou uma possível intoxicação são **urgências**: vai de imediato.",
+      "Vómitos ou diarreia repetidos, ou deixar de comer, exigem consulta **no próprio dia**.",
+      "Tem anotado o telefone do teu veterinário e de uma **urgência 24 horas**."
+    ],
+    "bloques": [
+      {
+        "h": "Urgência: vai ao veterinário de imediato"
+      },
+      {
+        "p": "Estas situações podem pôr a sua vida em risco em minutos ou horas. Liga à clínica a caminho para que estejam preparados [1]."
+      },
+      {
+        "ul": [
+          "**Dificuldade em respirar**, respiração de boca aberta num gato, sufocação ou tosse e esforços de vómito sem parar.",
+          "**Gengivas pálidas, brancas ou azuladas.**",
+          "**Hemorragia** que não para em 5 minutos, ou sangue na urina, no vómito ou nas fezes.",
+          "**Convulsões**, desmaio, perda de consciência ou cambaleio.",
+          "**Possível intoxicação**: comeu chocolate, xilitol, uvas, veneno para ratos, medicamentos de pessoas, anticongelante, ou um gato que mordeu um lírio [4][5][6].",
+          "**Pancada, atropelamento ou queda**, mesmo que pareça bem; ossos partidos ou uma pata que não apoia.",
+          "**Tenta urinar ou defecar e não consegue**, ou chora ao fazê-lo. Nos gatos machos é uma urgência grave.",
+          "**Barriga inchada e dura** com esforços para vomitar sem conseguir (torção do estômago, mais comum em cães grandes).",
+          "**Golpe de calor**: arfar intenso, baba e fraqueza depois de calor ou exercício.",
+          "**Lesão num olho** ou um olho que de repente não abre.",
+          "**Dor intensa** ou muita angústia."
+        ]
+      },
+      {
+        "h": "Consulta no próprio dia (em 24 horas)"
+      },
+      {
+        "ul": [
+          "Vómitos ou diarreia **mais de 2 vezes em 24 horas**, ou com abatimento [1].",
+          "**Não come**: um gato há mais de 24 horas; um cão há mais de 24 a 48 horas; um cachorro ou gatinho que salta várias refeições.",
+          "**Não bebe água** há 24 horas ou mais [1].",
+          "Abatimento marcado: não quer brincar, esconde-se ou dorme muito mais do que o normal.",
+          "Coxeia, tem uma ferida ou um alto novo que cresce."
+        ]
+      },
+      {
+        "h": "Observa e anota na caderneta"
+      },
+      {
+        "p": "Estas mudanças não são urgências, mas convém mencioná-las na próxima consulta ou marcar hora se durarem mais de alguns dias:"
+      },
+      {
+        "ul": [
+          "Bebe **muito mais água** ou urina muito mais do que antes.",
+          "Perde ou ganha peso sem mudar de comida.",
+          "Tosse ligeira, espirros, olhos lacrimejantes ou corrimento nasal.",
+          "Mudanças de comportamento: agressividade nova, urina fora da caixa de areia, lambe-se numa zona.",
+          "Mau hálito forte ou dificuldade em mastigar."
+        ]
+      },
+      {
+        "h": "O que fazer e o que não fazer"
+      },
+      {
+        "tabla2": {
+          "okTitulo": "O que fazer",
+          "ok": [
+            [
+              "Mantém a calma",
+              "Fala com suavidade e move-o com cuidado; um animal com dor pode morder."
+            ],
+            [
+              "Liga antes de ir",
+              "Assim a clínica prepara-se e orienta-te pelo caminho."
+            ],
+            [
+              "Leva a prova",
+              "A embalagem do produto ou medicamento, ou uma foto do que comeu."
+            ],
+            [
+              "Anota os sintomas",
+              "Quando começaram, quantas vezes vomitou e qualquer mudança."
+            ],
+            [
+              "Transporta-o em segurança",
+              "Gatos na transportadora; cães grandes sobre uma manta firme."
+            ]
+          ],
+          "noTitulo": "O que NÃO fazer",
+          "no": [
+            [
+              "Dar-lhe medicamentos de pessoas",
+              "O paracetamol e o ibuprofeno podem ser mortais, sobretudo nos gatos [3]."
+            ],
+            [
+              "Provocar-lhe o vómito",
+              "Só se o veterinário o indicar: alguns tóxicos fazem mais mal ao voltar."
+            ],
+            [
+              "Esperar para “ver se melhora”",
+              "Perante um sinal de urgência, cada minuto conta."
+            ],
+            [
+              "Forçá-lo a comer ou beber",
+              "Pode engasgar-se se estiver fraco ou com convulsões."
+            ]
+          ]
+        }
+      },
+      {
+        "contactos": true
+      },
+      {
+        "tip": "Na app, cada guia que menciona sintomas de risco mostra este alerta “Vai ao veterinário”. O Pocket Vet dá informação geral e não substitui a avaliação de um médico veterinário."
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "American Veterinary Medical Association (AVMA). 13 animal emergencies that require immediate veterinary consultation and/or care",
+        "url": "https://www.avma.org/public/EmergencyCare/Pages/animal-emergencies.aspx"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edição para donos de cães (nutrição, pele, urgências)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, edição para donos de gatos (nutrição, doenças do fígado, urgências)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lírios, plantas e produtos tóxicos)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  }
+]

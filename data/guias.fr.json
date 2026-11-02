@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "alimentacion-perro",
+    "n": 1,
+    "icono": "🐶",
+    "titulo": "Alimentation du chien",
+    "especie": "Chien",
+    "etapa": "Chiot, adulte et senior",
+    "etiquetas": [
+      "nourriture",
+      "aliment",
+      "croquettes",
+      "granulés",
+      "friandises",
+      "quelle quantité",
+      "peut manger",
+      "toxique",
+      "chocolat",
+      "raisin",
+      "oignon",
+      "xylitol",
+      "chiot"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médecin vétérinaire",
+      "fecha": "2026-10-28",
+      "resultado": "Approuvé",
+      "observacion": "Excellent guide avec de bonnes recommandations."
+    },
+    "resumen": [
+      "Donne-lui un aliment **complet et équilibré** adapté à son âge (chiot, adulte ou senior).",
+      "Garde toujours de l’**eau fraîche et propre** à disposition.",
+      "Les friandises et la nourriture maison ne doivent pas dépasser **10 % de ce qu’il mange par jour**.",
+      "Le chocolat, le raisin, les raisins secs, l’oignon, l’ail et le xylitol sont **toxiques** : ne lui en donne jamais."
+    ],
+    "bloques": [
+      {
+        "h": "Que doit-il manger ?"
+      },
+      {
+        "p": "Un chien en bonne santé se nourrit bien avec un aliment du commerce dont l’étiquette indique qu’il est **« complet et équilibré »** pour son âge. Cet aliment apporte déjà les protéines, graisses, vitamines et minéraux nécessaires, il n’est donc pas utile d’ajouter des compléments sauf avis du vétérinaire [1][4]."
+      },
+      {
+        "ul": [
+          "**Chiot (jusqu’à 12 mois ; grandes races jusqu’à 18–24 mois) :** aliment pour chiot, plus énergétique et avec la bonne quantité de calcium pour grandir.",
+          "**Adulte :** aliment d’entretien adapté à sa taille et à son niveau d’activité.",
+          "**Senior (à partir de 7–8 ans environ) :** le vétérinaire peut conseiller un aliment moins calorique ou adapté à sa santé."
+        ]
+      },
+      {
+        "h": "Combien de fois et combien ?"
+      },
+      {
+        "table": {
+          "headers": [
+            "Âge",
+            "Repas par jour",
+            "Conseil"
+          ],
+          "widths": [
+            2400,
+            2000,
+            5238
+          ],
+          "rows": [
+            [
+              "2 à 6 mois",
+              "3 à 4",
+              "Petites portions réparties dans la journée."
+            ],
+            [
+              "6 à 12 mois",
+              "2 à 3",
+              "Ajuste la portion selon sa croissance."
+            ],
+            [
+              "Adulte",
+              "2",
+              "Des horaires fixes aident la digestion et la routine."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "La quantité indiquée sur le sac n’est **qu’un point de départ**. Il faut l’ajuster selon son **état corporel** : chez un chien à son poids idéal, on sent les côtes en passant la main sans appuyer, et vu de dessus on voit une taille derrière les côtes. Si tu ne sens pas les côtes, il est en surpoids ; si on les voit à l’œil nu, il est trop maigre [1]."
+      },
+      {
+        "tip": "Pèse la portion avec un verre doseur ou une balance de cuisine. Doser « à l’œil » est la cause la plus fréquente de surpoids."
+      },
+      {
+        "h": "Changer d’aliment"
+      },
+      {
+        "p": "Fais la transition progressivement sur environ **7 jours** : mélange 25 % du nouvel aliment les premiers jours, puis 50 %, 75 % et enfin 100 %. Un changement brusque peut provoquer des vomissements ou de la diarrhée."
+      },
+      {
+        "h": "Peut manger et ne jamais donner"
+      },
+      {
+        "p": "Dans l’app, cette section s’affiche en deux onglets. Les aliments « Peut manger » sont des **friandises occasionnelles**, en petits morceaux, **sans sel, sans assaisonnement et sans os**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Peut manger (en friandise)",
+          "ok": [
+            [
+              "Carotte",
+              "Crue ou cuite, en morceaux."
+            ],
+            [
+              "Pomme",
+              "Sans pépins ni trognon."
+            ],
+            [
+              "Banane",
+              "En petite quantité, elle contient beaucoup de sucre."
+            ],
+            [
+              "Myrtilles",
+              "Lavées."
+            ],
+            [
+              "Pastèque",
+              "Sans pépins ni écorce."
+            ],
+            [
+              "Courge ou patate douce",
+              "Cuite, sans sel ni beurre."
+            ],
+            [
+              "Poulet ou dinde",
+              "Cuit, sans peau, sans os et sans assaisonnement."
+            ],
+            [
+              "Riz blanc",
+              "Cuit, sans sel."
+            ],
+            [
+              "Œuf",
+              "Toujours cuit."
+            ]
+          ],
+          "noTitulo": "Ne jamais donner",
+          "no": [
+            [
+              "Chocolat, café et boissons caféinées",
+              "Ils contiennent des méthylxanthines : vomissements, cœur rapide, tremblements, convulsions. Plus le chocolat est noir, plus il est dangereux [2]."
+            ],
+            [
+              "Raisin et raisins secs",
+              "Ils peuvent provoquer une insuffisance rénale, même en petite quantité [2]."
+            ],
+            [
+              "Oignon, ail, ciboulette et poireau",
+              "Ils abîment les globules rouges et provoquent une anémie, même cuits ou en poudre [2]."
+            ],
+            [
+              "Xylitol (chewing-gums et bonbons « sans sucre », certains beurres de cacahuète, dentifrice)",
+              "Il fait chuter la glycémie en 15–30 minutes et peut abîmer le foie. C’est une urgence [3]."
+            ],
+            [
+              "Alcool et pâte crue à la levure",
+              "Intoxication et dilatation de l’estomac [2]."
+            ],
+            [
+              "Noix de macadamia",
+              "Faiblesse, tremblements et fièvre [2]."
+            ],
+            [
+              "Os cuits",
+              "Ils se brisent en éclats et peuvent perforer ou bloquer l’intestin [2]."
+            ],
+            [
+              "Viande, œuf ou poisson crus",
+              "Risque de Salmonella et d’E. coli, aussi pour la famille [2]."
+            ],
+            [
+              "Lait et produits laitiers",
+              "Beaucoup de chiens ne digèrent pas le lactose : diarrhée [2]."
+            ],
+            [
+              "Nourriture grasse ou salée (barbecue, charcuterie, frites)",
+              "Peut provoquer une pancréatite et un excès de sodium [2]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Va chez le vétérinaire si…",
+          "items": [
+            "Il a mangé un aliment de la liste « Ne jamais donner », **même s’il semble aller bien**. Note ce qu’il a mangé, combien et à quelle heure, et appelle tout de suite.",
+            "Il ne mange rien depuis **plus de 24 à 48 heures**, ou un chiot saute plusieurs repas de suite.",
+            "Il vomit ou a la diarrhée **plus de 2 fois en 24 heures**.",
+            "Il a le ventre gonflé et a des haut-le-cœur sans arriver à vomir (urgence, surtout chez les grandes races)."
+          ],
+          "nota": "Ne le fais pas vomir sans avis du vétérinaire."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines et Global Nutrition Toolkit (état corporel, calcul des calories)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Merck Veterinary Manual, édition pour les propriétaires de chiens (nutrition, peau, urgences)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      }
+    ],
+    "especies": [
+      "perro"
+    ]
+  },
+  {
+    "id": "alimentacion-gato",
+    "n": 2,
+    "icono": "🐱",
+    "titulo": "Alimentation du chat",
+    "especie": "Chat",
+    "etapa": "Chaton, adulte et senior",
+    "etiquetas": [
+      "nourriture",
+      "aliment",
+      "granulés",
+      "sachet",
+      "pâtée",
+      "eau",
+      "friandises",
+      "lait",
+      "thon",
+      "peut manger",
+      "toxique",
+      "lys",
+      "oignon",
+      "chaton"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médecin vétérinaire",
+      "fecha": "2026-10-28",
+      "resultado": "Approuvé avec modifications",
+      "observacion": "Excellent."
+    },
+    "resumen": [
+      "Le chat est un **carnivore strict** : il a besoin d’un aliment complet et équilibré pour chats, jamais de nourriture pour chien ni de régime végétarien.",
+      "L’**eau** est essentielle : beaucoup de chats boivent peu, et la pâtée aide.",
+      "Le **lait** et le **thon en boîte pour humains** ne sont pas bons pour lui.",
+      "Si un chat arrête de manger **plus de 24 heures**, il doit aller chez le vétérinaire."
+    ],
+    "bloques": [
+      {
+        "h": "Que doit-il manger ?"
+      },
+      {
+        "p": "Les chats sont des **carnivores stricts** : ils ont besoin de nutriments d’origine animale, avec beaucoup de protéines, des graisses modérées et peu de glucides [1]. Ils ont par exemple besoin de **taurine**, un acide aminé dont le manque peut causer des problèmes cardiaques et oculaires [5]. Ils doivent donc manger un aliment **pour chats**, portant la mention **« complet et équilibré »** pour leur âge, et non de la nourriture pour chien [1]."
+      },
+      {
+        "ul": [
+          "**Chaton (jusqu’à 12 mois) :** aliment de croissance, en 3 à 4 petites portions par jour.",
+          "**Adulte :** aliment d’entretien en 2 portions mesurées ou plus par jour.",
+          "**Senior (à partir de 10 ans environ) :** contrôles plus fréquents ; le vétérinaire peut ajuster l’alimentation."
+        ]
+      },
+      {
+        "h": "Sec, humide ou les deux"
+      },
+      {
+        "table": {
+          "headers": [
+            "Type",
+            "Eau apportée",
+            "Avantages",
+            "Précautions"
+          ],
+          "widths": [
+            1700,
+            1700,
+            3100,
+            3138
+          ],
+          "rows": [
+            [
+              "Sec (croquettes)",
+              "6–10 %",
+              "Plus économique, se conserve bien.",
+              "Garde-le dans une boîte hermétique et vérifie la date limite."
+            ],
+            [
+              "Humide (boîte ou sachet)",
+              "75 % ou plus",
+              "Très appétent et apporte de l’eau à l’alimentation.",
+              "Mets les restes au frigo et jette-les s’ils ont séché."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Les deux conviennent s’ils sont complets et équilibrés ; les goûts de ton chat peuvent guider le choix [1]. Les combiner est un bon moyen d’ajouter de l’eau."
+      },
+      {
+        "h": "Eau et poids"
+      },
+      {
+        "ul": [
+          "Mets **plusieurs gamelles** d’eau propre, loin de la nourriture et de la litière. Beaucoup de chats préfèrent les fontaines à eau courante.",
+          "L’**obésité** est le problème nutritionnel le plus fréquent chez le chat et augmente le risque de diabète et d’arthrose. Mesure les portions et demande au vétérinaire son poids idéal [1][2].",
+          "Les friandises ne doivent pas dépasser **10–15 % des calories de la journée** [1]."
+        ]
+      },
+      {
+        "h": "Peut manger et ne jamais donner"
+      },
+      {
+        "p": "Les aliments « Peut manger » sont des **friandises occasionnelles**, cuites, **sans sel, sans assaisonnement, sans os ni arêtes**."
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Peut manger (en friandise)",
+          "ok": [
+            [
+              "Poulet ou dinde",
+              "Cuit, sans peau ni os."
+            ],
+            [
+              "Poisson",
+              "Cuit, sans arêtes, de temps en temps."
+            ],
+            [
+              "Œuf",
+              "Toujours cuit."
+            ],
+            [
+              "Courge",
+              "Cuite, en très petite quantité."
+            ],
+            [
+              "Herbe à chat",
+              "Blé ou avoine germés, du commerce ou faits maison."
+            ],
+            [
+              "Friandises pour chats",
+              "Dans la limite de 10–15 % des calories de la journée."
+            ]
+          ],
+          "noTitulo": "Ne jamais donner",
+          "no": [
+            [
+              "Oignon, ail, ciboulette et poireau",
+              "Les chats y sont très sensibles : ils abîment les globules rouges et provoquent une anémie [3]."
+            ],
+            [
+              "Chocolat, café et caféine",
+              "Vomissements, cœur rapide, tremblements et convulsions [3]."
+            ],
+            [
+              "Raisin et raisins secs",
+              "Atteinte rénale possible [3]."
+            ],
+            [
+              "Alcool et pâte crue à la levure",
+              "Intoxication grave [3]."
+            ],
+            [
+              "Lait et produits laitiers",
+              "Beaucoup de chats ne tolèrent pas le lactose : diarrhée et inconfort [1]."
+            ],
+            [
+              "Viande ou poisson crus",
+              "Ils peuvent contenir des bactéries et des parasites, sans bénéfice prouvé [1]."
+            ],
+            [
+              "Thon en boîte pour humains comme repas habituel",
+              "Il n’est pas complet et a été associé à des problèmes neurologiques [1]."
+            ],
+            [
+              "Nourriture pour chien comme régime",
+              "Elle n’a ni la taurine ni les nutriments dont le chat a besoin."
+            ],
+            [
+              "Os cuits et arêtes",
+              "Ils se brisent et peuvent bloquer ou perforer l’intestin."
+            ],
+            [
+              "Lys (plante et fleur)",
+              "Même mordre une feuille, lécher le pollen ou boire l’eau du vase peut provoquer une insuffisance rénale [4][6]."
+            ]
+          ]
+        }
+      },
+      {
+        "alerta": {
+          "titulo": "Va chez le vétérinaire si…",
+          "items": [
+            "Ton chat **ne mange rien depuis plus de 24 heures**. Chez le chat, le jeûne peut provoquer une grave maladie du foie (lipidose hépatique), surtout s’il est en surpoids [5].",
+            "Il a mangé quelque chose de la liste « Ne jamais donner » ou a mordu un **lys** : c’est une urgence même s’il semble aller bien.",
+            "Il vomit **plus de 2 fois en 24 heures**, ou perd du poids sans raison.",
+            "Il boit **beaucoup plus d’eau** que d’habitude ou urine beaucoup plus."
+          ],
+          "nota": "Ne le fais pas vomir sans avis du vétérinaire."
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine. Feeding Your Cat",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat"
+      },
+      {
+        "texto": "WSAVA Global Nutrition Committee. Global Nutrition Guidelines et Global Nutrition Toolkit (état corporel, calcul des calories)",
+        "url": "https://wsava.org/global-guidelines/global-nutrition-guidelines/"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lys, plantes et produits toxiques)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "Merck Veterinary Manual, édition pour les propriétaires de chats (nutrition, maladies du foie, urgences)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. Toxic and Non-Toxic Plants",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
+      }
+    ],
+    "especies": [
+      "gato"
+    ]
+  },
+  {
+    "id": "vacunas",
+    "n": 3,
+    "icono": "💉",
+    "titulo": "Vaccins",
+    "especie": "Chien et chat",
+    "etapa": "Chiot, chaton et adulte",
+    "etiquetas": [
+      "vaccin",
+      "antirabique",
+      "rage",
+      "hexavalent",
+      "octavalent",
+      "trivalent félin",
+      "leucose",
+      "parvovirose",
+      "maladie de Carré",
+      "calendrier",
+      "rappel",
+      "obligatoire",
+      "loi"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médecin vétérinaire",
+      "fecha": "2026-10-28",
+      "resultado": "Approuvé avec modifications",
+      "observacion": "Excellent."
+    },
+    "resumen": [
+      "Au Chili, le **vaccin antirabique est obligatoire** pour les chiens et les chats, et il est prouvé par un certificat vétérinaire.",
+      "Les chiots et chatons ont besoin de **plusieurs doses**, toutes les 2 à 4 semaines, la dernière à **16 semaines ou plus**.",
+      "Les vaccins **essentiels** sont donnés à tous ; les autres dépendent du mode de vie de ton animal.",
+      "Note chaque vaccin dans le **carnet** de Pocket Vet avec la date de la prochaine dose."
+    ],
+    "bloques": [
+      {
+        "h": "Pourquoi vacciner ?"
+      },
+      {
+        "p": "Les vaccins protègent ton animal de maladies graves et souvent mortelles, comme la parvovirose ou la maladie de Carré chez le chien et le typhus (panleucopénie) chez le chat. De plus, quand beaucoup d’animaux sont vaccinés, la maladie circule moins et ceux qui ne peuvent pas être vaccinés sont aussi protégés [1]."
+      },
+      {
+        "h": "Ce qu’exige la loi au Chili"
+      },
+      {
+        "p": "Le Règlement de prévention et de contrôle de la rage (Décret n° 1 du ministère de la Santé, 2014) établit que **tout chien et tout chat doit être vacciné en permanence contre la rage**, et que les propriétaires doivent maintenir le vaccin **à jour**, prouvé par un **certificat d’un vétérinaire** [2]. La loi n° 21.020 sur la détention responsable oblige aussi à donner à l’animal les soins vétérinaires nécessaires [3]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Vaccin antirabique",
+            "Quand"
+          ],
+          "widths": [
+            3200,
+            6438
+          ],
+          "rows": [
+            [
+              "Première dose",
+              "À partir de 2 mois."
+            ],
+            [
+              "Premier rappel",
+              "Un an après la dernière dose."
+            ],
+            [
+              "Suivants",
+              "Selon la durée indiquée par le fabricant du vaccin (ton vétérinaire et le certificat te le diront)."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Vaccins essentiels et facultatifs"
+      },
+      {
+        "p": "L’Association mondiale des vétérinaires pour petits animaux (WSAVA) appelle **essentiels** les vaccins que tous les chiens et chats doivent recevoir, et **non essentiels** ceux recommandés selon le lieu et le mode de vie de chaque animal [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "",
+            "Chien",
+            "Chat"
+          ],
+          "widths": [
+            1900,
+            3869,
+            3869
+          ],
+          "rows": [
+            [
+              "Essentiels",
+              "Maladie de Carré, adénovirus (hépatite), parvovirose et leptospirose. Rage, obligatoire au Chili.",
+              "Panleucopénie, calicivirus et herpèsvirus (le « trivalent félin »). Rage, obligatoire au Chili."
+            ],
+            [
+              "Selon la fréquence de la maladie",
+              "Toux du chenil, entre autres. La leptospirose est déjà incluse dans le vaccin hexavalent.",
+              "Leucose féline : recommandée pour les chats de moins d’1 an et ceux qui sortent ou vivent avec des chats qui sortent."
+            ]
+          ]
+        }
+      },
+      {
+        "tip": "Au Chili, les vaccins pour chiens sont vendus combinés (par exemple « hexavalent » ou « octavalent »). L’hexavalent inclut la leptospirose. Demande à ton vétérinaire quelles maladies couvre celui qu’il va administrer."
+      },
+      {
+        "h": "Calendrier des chiots et chatons"
+      },
+      {
+        "p": "Les anticorps que le chiot reçoit de sa mère peuvent bloquer le vaccin pendant les premières semaines, et on ne sait pas exactement quand ils disparaissent. C’est pourquoi on donne **plusieurs doses** et la dernière doit être faite à **16 semaines ou plus** [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Âge",
+            "Ce qui est administré (indicatif)"
+          ],
+          "widths": [
+            2600,
+            7038
+          ],
+          "rows": [
+            [
+              "6 à 8 semaines",
+              "Première dose des vaccins essentiels."
+            ],
+            [
+              "Toutes les 2 à 4 semaines",
+              "Nouvelles doses des vaccins essentiels jusqu’à 16 semaines ou plus."
+            ],
+            [
+              "À partir de 2 mois",
+              "Antirabique (obligatoire)."
+            ],
+            [
+              "26 semaines (6 mois)",
+              "Rappel des vaccins essentiels, recommandé par la WSAVA au lieu d’attendre un an [1]."
+            ],
+            [
+              "Adulte",
+              "Au Chili, les vaccins essentiels sont rappelés chaque année ; on ne les espace (tous les 3 ans ou plus) que si un test d’anticorps montre des niveaux protecteurs. Non essentiels : chaque année. Antirabique : selon le fabricant."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Le calendrier exact est fixé par le vétérinaire selon le vaccin, la santé et le mode de vie de ton animal. Tant qu’il n’a pas fini ses premiers vaccins, évite les endroits avec beaucoup de chiens ou de chats inconnus."
+      },
+      {
+        "h": "Après la vaccination"
+      },
+      {
+        "ul": [
+          "Il est normal qu’il soit **abattu, ait un peu de fièvre ou ait mal à l’endroit de la piqûre** pendant 1 ou 2 jours.",
+          "Note dans le carnet le nom du vaccin, la date et la prochaine dose.",
+          "Profite du vaccin pour le **contrôle annuel** : c’est bien plus qu’un vaccin [1]."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Va chez le vétérinaire si…",
+          "items": [
+            "Après le vaccin, son **visage gonfle**, il a de l’urticaire, vomit ou a du mal à respirer (**urgence**, cela peut être une réaction allergique).",
+            "L’abattement ou la fièvre durent **plus de 2 jours**.",
+            "Chez le chat : une boule à l’endroit du vaccin qui est toujours là **après 3 mois**, mesure **plus de 2 cm** ou **continue de grossir un mois** après."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "WSAVA Vaccination Guidelines Group. 2024 Guidelines for the Vaccination of Dogs and Cats. Journal of Small Animal Practice, 2024. DOI 10.1111/jsap.13718",
+        "url": "https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf"
+      },
+      {
+        "texto": "Ministère de la Santé du Chili. Décret suprême n° 1 (publié le 29-01-2014), Règlement de prévention et de contrôle de la rage chez l’homme et l’animal, article 4. Bibliothèque du Congrès national",
+        "url": "https://www.bcn.cl/leychile"
+      },
+      {
+        "texto": "Loi n° 21.020 sur la détention responsable des animaux de compagnie (2017). Bibliothèque du Congrès national",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=1106037"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "desparasitacion",
+    "n": 4,
+    "icono": "🪱",
+    "titulo": "Vermifugation",
+    "especie": "Chien et chat",
+    "etapa": "Chiot, chaton et adulte",
+    "etiquetas": [
+      "parasites",
+      "vers",
+      "ascaris",
+      "antiparasitaire",
+      "puces",
+      "tiques",
+      "pipette",
+      "comprimé",
+      "hydatidose",
+      "toxocara",
+      "vermifuger",
+      "à quelle fréquence"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médecin vétérinaire",
+      "fecha": "2026-10-28",
+      "resultado": "Approuvé avec modifications",
+      "observacion": "Excellent, avec de petites modifications."
+    },
+    "resumen": [
+      "Les chiots et chatons sont vermifugés **toutes les 2 semaines** dès le plus jeune âge, puis **chaque mois jusqu’à 6 mois**.",
+      "Les adultes, **au moins 4 fois par an**, et plus souvent s’ils sont plus exposés.",
+      "Certains parasites **se transmettent à l’homme** : ramasser les selles et se laver les mains fait partie du traitement.",
+      "Sur un chat, utilise un antiparasitaire pour chien **seulement si l’emballage indique qu’il convient aussi aux chats**."
+    ],
+    "bloques": [
+      {
+        "h": "Pourquoi vermifuger ?"
+      },
+      {
+        "p": "Les parasites internes (comme les ascaris ou « vers » et les ténias) et externes (puces et tiques) provoquent diarrhée, anémie, démangeaisons et retard de croissance. Certains se transmettent à l’homme, surtout aux enfants, comme **Toxocara** et l’**hydatidose** [1][3]."
+      },
+      {
+        "h": "Parasites internes : à quelle fréquence"
+      },
+      {
+        "p": "Ces fréquences suivent les recommandations du conseil européen de parasitologie ESCCAP. Le vétérinaire choisit le produit et la dose selon le **poids** et le risque de ton animal [1]."
+      },
+      {
+        "table": {
+          "headers": [
+            "Stade",
+            "Chien",
+            "Chat"
+          ],
+          "widths": [
+            2200,
+            3719,
+            3719
+          ],
+          "rows": [
+            [
+              "Chiot / chaton",
+              "Dès 2 semaines, toutes les 2 semaines jusqu’à 2 semaines après le sevrage. Puis chaque mois jusqu’à 6 mois.",
+              "Dès 4 semaines, toutes les 2 semaines jusqu’à 2 semaines après le sevrage. Puis chaque mois jusqu’à 6 mois."
+            ],
+            [
+              "Femelle reproductrice",
+              "Vermifuger avant la saillie. Si elle allaite, attendre le sevrage.",
+              "Vermifuger avant la saillie. Si elle allaite, attendre le sevrage."
+            ],
+            [
+              "Adulte",
+              "Au moins 4 fois par an.",
+              "Au moins 4 fois par an s’il sort ou chasse ; selon le risque s’il vit à l’intérieur."
+            ],
+            [
+              "Risque élevé",
+              "Chaque mois s’il vit avec de jeunes enfants, mange des proies ou de la viande crue, ou se promène beaucoup dans les parcs.",
+              "Chaque mois ou avec des analyses de selles s’il chasse ou mange de la viande crue."
+            ]
+          ]
+        }
+      },
+      {
+        "p": "Une alternative à la vermifugation « à l’aveugle » est de faire des **analyses de selles** régulières et de traiter selon le résultat [1]."
+      },
+      {
+        "h": "Hydatidose : attention au Chili"
+      },
+      {
+        "p": "L’hydatidose est causée par un ténia que le chien attrape en **mangeant des abats crus de mouton ou d’autre bétail**. Les œufs sortent dans ses selles et peuvent rendre les personnes malades, en formant des kystes dans le foie ou les poumons. Elle est plus fréquente dans les zones rurales et d’élevage du sud du Chili, où le ministère de la Santé recommande de **vermifuger les chiens tous les 45 jours** et de ne pas leur donner d’abats crus [3]. L’ESCCAP recommande pour les chiens à risque un vermifuge au **praziquantel** toutes les 4 à 6 semaines [1]."
+      },
+      {
+        "h": "Parasites externes : puces et tiques"
+      },
+      {
+        "ul": [
+          "Il existe des pipettes, comprimés, colliers et sprays. Utilise toujours un produit **adapté à l’espèce et au poids exact** de ton animal [2].",
+          "Les puces vivent aussi dans la maison : lave les paniers et couvertures, et passe l’aspirateur sur les tapis et canapés.",
+          "Inspecte ton chien après les promenades dans l’herbe ou les collines, surtout les oreilles, le cou et entre les doigts.",
+          "**Ne mets pas une pipette pour chien sur un chat, sauf si l’emballage indique qu’elle convient aussi aux chats** : beaucoup de pipettes pour chien contiennent de la **perméthrine**, très toxique pour les chats [4]."
+        ]
+      },
+      {
+        "h": "Hygiène à la maison"
+      },
+      {
+        "ul": [
+          "Ramasse les selles en promenade et nettoie la litière **tous les jours**.",
+          "Lave-toi les mains après avoir touché des selles, de la terre ou la litière, et apprends-le aux enfants.",
+          "Ne donne pas de viande ni d’abats crus à ton animal.",
+          "Note chaque vermifugation dans le carnet Pocket Vet pour que l’app te rappelle la suivante."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Va chez le vétérinaire si…",
+          "items": [
+            "Tu vois **des vers ou des « grains de riz »** dans ses selles, son vomi ou autour de l’anus.",
+            "Un chiot ou un chaton a **le ventre gonflé**, la diarrhée ou ne prend pas de poids.",
+            "Il a les **gencives pâles**, est très abattu ou se gratte sans arrêt.",
+            "Ton chat **bave, tremble ou convulse** après l’application d’un antiparasitaire (**urgence** : lave la zone à l’eau et au savon doux et pars tout de suite)."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ESCCAP (European Scientific Counsel Companion Animal Parasites). Guideline GL1: Worm Control in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl1/"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      },
+      {
+        "texto": "Ministère de la Santé du Chili. Une étude sur l’hydatidose permet de détecter tôt la maladie chez 8 enfants d’Aysén (mesures de prévention : vermifugation des chiens)",
+        "url": "https://www.minsal.cl/estudio-de-hidatidosis-permite-la-deteccion-temprana-de-enfermedad-en-8-ninos-y-ninas-de-aysen/"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lys, plantes et produits toxiques)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "bano-higiene",
+    "n": 5,
+    "icono": "🛁",
+    "titulo": "Bain et hygiène",
+    "especie": "Chien et chat",
+    "etapa": "Tous âges",
+    "etiquetas": [
+      "bain",
+      "laver",
+      "shampooing",
+      "shampoing",
+      "brossage",
+      "poil",
+      "griffes",
+      "oreilles",
+      "dents",
+      "hygiène",
+      "mauvaise odeur",
+      "boules de poils",
+      "toilettage"
+    ],
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médecin vétérinaire",
+      "fecha": "2026-10-28",
+      "resultado": "Approuvé",
+      "observacion": "Très bien."
+    },
+    "resumen": [
+      "La plupart des chiens ont besoin d’un bain **environ tous les 3 mois** ou quand ils sont sales ; trop de bains irritent la peau.",
+      "Les chats n’ont **presque jamais** besoin de bain : ils font leur toilette seuls.",
+      "Utilise un **shampooing pour animaux**, jamais celui des humains.",
+      "Le **brossage** est plus important que le bain, surtout pour les poils longs."
+    ],
+    "bloques": [
+      {
+        "h": "Chiens : à quelle fréquence les laver"
+      },
+      {
+        "p": "Pour la plupart des chiens, **un bain environ tous les 3 mois** suffit, ou quand il se salit ou sent mauvais. Le laver trop souvent enlève les huiles naturelles de sa peau et peut l’irriter [1]. S’il a un problème de peau, le vétérinaire peut prescrire un shampooing médicamenteux et une autre fréquence."
+      },
+      {
+        "h": "Le bain étape par étape"
+      },
+      {
+        "num": [
+          "**Brosse-le d’abord** pour enlever les nœuds et les poils morts ; l’eau resserre les nœuds.",
+          "Utilise de l’**eau tiède**, jamais chaude, et évite de mouiller les yeux et l’intérieur des oreilles.",
+          "Applique un **shampooing pour chien**. Celui des humains a un autre pH et peut irriter sa peau [1].",
+          "**Rince très bien** : les restes de shampooing provoquent des démangeaisons.",
+          "**Sèche-le entièrement**, y compris les plis, entre les doigts et les oreilles, avec une serviette ou un sèche-cheveux en position tiède.",
+          "Récompense-le pour qu’il associe le bain à quelque chose de positif."
+        ]
+      },
+      {
+        "tip": "Chiots : attends l’accord du vétérinaire, en général après les premiers vaccins. En attendant, nettoie-le avec un linge humide tiède."
+      },
+      {
+        "h": "Chats : ils n’ont presque jamais besoin de bain"
+      },
+      {
+        "p": "Les chats passent plusieurs heures par jour à faire leur toilette et en général **n’ont pas besoin de bain** ; beaucoup le supportent mal [1]. Lave-le seulement s’il s’est sali avec quelque chose qu’il ne peut pas lécher (par exemple un produit toxique, de la graisse ou de la peinture) ou si le vétérinaire le conseille. Dans ce cas, utilise un **shampooing pour chat** et jamais un pour chien, car certains contiennent des insecticides comme la perméthrine, toxique pour les chats [4][5]."
+      },
+      {
+        "h": "Brossage"
+      },
+      {
+        "table": {
+          "headers": [
+            "Type de poil",
+            "Fréquence"
+          ],
+          "widths": [
+            3600,
+            6038
+          ],
+          "rows": [
+            [
+              "Poil long (chien ou chat)",
+              "Tous les jours, pour éviter les nœuds [1]."
+            ],
+            [
+              "Poil court",
+              "1 ou 2 fois par semaine."
+            ],
+            [
+              "Période de mue (printemps et automne)",
+              "Plus souvent. Chez le chat, cela réduit les boules de poils."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Griffes, oreilles et dents"
+      },
+      {
+        "ul": [
+          "**Griffes :** coupe-les quand elles font du bruit sur le sol, seulement la pointe, sans atteindre la partie rose qui contient du sang. Si tu ne sais pas comment faire, demande au vétérinaire de te montrer.",
+          "**Oreilles :** vérifie-les chaque semaine. Nettoie seulement la partie visible avec un produit pour animaux ; n’introduis jamais de coton-tige.",
+          "**Dents :** l’idéal est de les brosser tous les jours avec une brosse et un **dentifrice pour animaux**. Le dentifrice humain ne doit pas être avalé et certains contiennent du xylitol."
+        ]
+      },
+      {
+        "alerta": {
+          "titulo": "Va chez le vétérinaire si…",
+          "items": [
+            "Il se gratte, se lèche ou se mord **sans arrêt**, ou a des zones **sans poils**, rouges ou avec des croûtes.",
+            "Ses oreilles sentent mauvais, coulent ou il **secoue beaucoup la tête**.",
+            "Il a très mauvaise haleine, des gencives rouges ou du mal à manger.",
+            "Ton chat **arrête de faire sa toilette** : c’est souvent un signe de douleur ou de maladie."
+          ]
+        }
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "ASPCA. Pet Grooming Tips (bain, brossage et soin des griffes)",
+        "url": "https://www.aspca.org/sites/default/files/upload/images/pet_grooming_tips_flyer.pdf"
+      },
+      {
+        "texto": "Merck Veterinary Manual, édition pour les propriétaires de chiens (nutrition, peau, urgences)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, édition pour les propriétaires de chats (nutrition, maladies du foie, urgences)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lys, plantes et produits toxiques)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      },
+      {
+        "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
+        "url": "https://www.esccap.org/guidelines/gl3/"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  },
+  {
+    "id": "senales-alerta",
+    "n": 6,
+    "icono": "⚠️",
+    "titulo": "Signes d’alerte",
+    "especie": "Chien et chat",
+    "etapa": "Tous âges",
+    "etiquetas": [
+      "urgence",
+      "urgent",
+      "symptômes",
+      "vomissement",
+      "diarrhée",
+      "ne mange pas",
+      "convulsion",
+      "intoxication",
+      "poison",
+      "respire mal",
+      "saignement",
+      "quand aller chez le vétérinaire"
+    ],
+    "verificada": false,
+    "revision": null,
+    "resumen": [
+      "Pocket Vet **ne pose pas de diagnostic** : ce guide t’aide à décider **quand aller chez le vétérinaire**.",
+      "Difficultés à respirer, convulsions, saignement qui ne s’arrête pas ou intoxication possible sont des **urgences** : pars tout de suite.",
+      "Vomissements ou diarrhée répétés, ou refus de manger, nécessitent une consultation **dans la journée**.",
+      "Garde noté le numéro de ton vétérinaire et d’une **urgence 24 h**."
+    ],
+    "bloques": [
+      {
+        "h": "Urgence : va tout de suite chez le vétérinaire"
+      },
+      {
+        "p": "Ces situations peuvent mettre sa vie en danger en quelques minutes ou heures. Appelle la clinique en chemin pour qu’ils soient prêts [1]."
+      },
+      {
+        "ul": [
+          "**Difficulté à respirer**, respiration bouche ouverte chez un chat, étouffement ou toux et haut-le-cœur sans arrêt.",
+          "**Gencives pâles, blanches ou bleutées.**",
+          "**Saignement** qui ne s’arrête pas en 5 minutes, ou sang dans l’urine, le vomi ou les selles.",
+          "**Convulsions**, évanouissement, perte de connaissance ou démarche titubante.",
+          "**Intoxication possible** : il a mangé du chocolat, du xylitol, du raisin, du raticide, des médicaments humains, de l’antigel, ou un chat qui a mordu un lys [4][5][6].",
+          "**Coup, accident de voiture ou chute**, même s’il semble aller bien ; os cassés ou une patte qu’il ne pose pas.",
+          "**Il essaie d’uriner ou de faire ses besoins sans y arriver**, ou pleure en le faisant. Chez le chat mâle, c’est une urgence grave.",
+          "**Ventre gonflé et dur** avec des haut-le-cœur sans vomissement (torsion d’estomac, plus fréquente chez les grands chiens).",
+          "**Coup de chaleur** : halètement intense, bave et faiblesse après la chaleur ou l’effort.",
+          "**Blessure à l’œil** ou un œil qui ne s’ouvre plus soudainement.",
+          "**Douleur intense** ou grande détresse."
+        ]
+      },
+      {
+        "h": "Consultation dans la journée (sous 24 heures)"
+      },
+      {
+        "ul": [
+          "Vomissements ou diarrhée **plus de 2 fois en 24 heures**, ou accompagnés d’abattement [1].",
+          "**Ne mange pas** : un chat depuis plus de 24 heures ; un chien depuis plus de 24 à 48 heures ; un chiot ou un chaton qui saute plusieurs repas.",
+          "**Ne boit pas** depuis 24 heures ou plus [1].",
+          "Abattement marqué : il ne veut pas jouer, se cache ou dort beaucoup plus que d’habitude.",
+          "Il boite, a une plaie ou une nouvelle boule qui grossit."
+        ]
+      },
+      {
+        "h": "Observe et note dans le carnet"
+      },
+      {
+        "p": "Ces changements ne sont pas urgents, mais il vaut mieux en parler au prochain contrôle ou prendre rendez-vous s’ils durent plus de quelques jours :"
+      },
+      {
+        "ul": [
+          "Il boit **beaucoup plus d’eau** ou urine beaucoup plus qu’avant.",
+          "Il perd ou prend du poids sans changement d’alimentation.",
+          "Toux légère, éternuements, yeux qui coulent ou écoulement nasal.",
+          "Changements de comportement : nouvelle agressivité, urine hors de la litière, se lèche une zone.",
+          "Très mauvaise haleine ou difficulté à mâcher."
+        ]
+      },
+      {
+        "h": "Que faire et ne pas faire"
+      },
+      {
+        "tabla2": {
+          "okTitulo": "Que faire",
+          "ok": [
+            [
+              "Reste calme",
+              "Parle doucement et déplace-le avec précaution ; un animal qui a mal peut mordre."
+            ],
+            [
+              "Appelle avant d’y aller",
+              "Ainsi la clinique se prépare et te guide en chemin."
+            ],
+            [
+              "Apporte la preuve",
+              "L’emballage du produit ou du médicament, ou une photo de ce qu’il a mangé."
+            ],
+            [
+              "Note les symptômes",
+              "Quand ils ont commencé, combien de fois il a vomi et tout changement."
+            ],
+            [
+              "Transporte-le en sécurité",
+              "Les chats dans une caisse de transport ; les grands chiens sur une couverture rigide."
+            ]
+          ],
+          "noTitulo": "Ce qu’il NE faut PAS faire",
+          "no": [
+            [
+              "Lui donner des médicaments humains",
+              "Le paracétamol et l’ibuprofène peuvent être mortels, surtout chez le chat [3]."
+            ],
+            [
+              "Le faire vomir",
+              "Seulement si le vétérinaire le dit : certains toxiques font plus de dégâts en remontant."
+            ],
+            [
+              "Attendre de « voir si ça s’améliore »",
+              "Face à un signe d’urgence, chaque minute compte."
+            ],
+            [
+              "Le forcer à manger ou à boire",
+              "Il peut s’étouffer s’il est faible ou en convulsions."
+            ]
+          ]
+        }
+      },
+      {
+        "contactos": true
+      },
+      {
+        "tip": "Dans l’app, chaque guide qui mentionne des symptômes à risque affiche cette alerte « Va chez le vétérinaire ». Pocket Vet donne des informations générales et ne remplace pas l’examen d’un vétérinaire."
+      }
+    ],
+    "fuentes": [
+      {
+        "texto": "American Veterinary Medical Association (AVMA). 13 animal emergencies that require immediate veterinary consultation and/or care",
+        "url": "https://www.avma.org/public/EmergencyCare/Pages/animal-emergencies.aspx"
+      },
+      {
+        "texto": "Merck Veterinary Manual, édition pour les propriétaires de chiens (nutrition, peau, urgences)",
+        "url": "https://www.merckvetmanual.com/dog-owners"
+      },
+      {
+        "texto": "Merck Veterinary Manual, édition pour les propriétaires de chats (nutrition, maladies du foie, urgences)",
+        "url": "https://www.merckvetmanual.com/cat-owners"
+      },
+      {
+        "texto": "ASPCA Animal Poison Control Center. People Foods to Avoid Feeding Your Pets",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "texto": "U.S. Food and Drug Administration (FDA). Paws Off Xylitol; It’s Dangerous for Dogs. Consumer Update",
+        "url": "https://www.fda.gov/consumers/consumer-updates/paws-xylitol-its-dangerous-dogs"
+      },
+      {
+        "texto": "Cornell Feline Health Center. Common Cat Hazards (lys, plantes et produits toxiques)",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
+      }
+    ],
+    "especies": [
+      "perro",
+      "gato"
+    ]
+  }
+]

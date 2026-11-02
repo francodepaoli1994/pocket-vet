@@ -2,16 +2,14 @@
 // Cada registro: { id, tipo, fecha, titulo, detalle, proxima }
 
 import { play } from './sonidos.js';
+import { t } from './i18n.js';
 
 const CLAVE = 'pv_libreta';
 
-export const TIPOS = {
-  vacuna: { nombre: 'Vacuna', icono: '💉' },
-  desparasitacion: { nombre: 'Desparasitación', icono: '🪱' },
-  consulta: { nombre: 'Consulta', icono: '🩺' },
-  peso: { nombre: 'Peso', icono: '⚖️' },
-  nota: { nombre: 'Nota', icono: '📝' },
-};
+const ICONOS = { vacuna: '💉', desparasitacion: '🪱', consulta: '🩺', peso: '⚖️', nota: '📝' };
+
+// Tipo de registro con su nombre en el idioma actual
+export const tipo = k => { const c = ICONOS[k] ? k : 'nota'; return { icono: ICONOS[c], nombre: t('tipo.' + c) }; };
 
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const fecha = iso => iso ? iso.split('-').reverse().join('-') : '';
@@ -36,44 +34,44 @@ export function render(editarId) {
   const registros = leer().sort((a, b) => b.fecha.localeCompare(a.fecha));
   const editando = registros.find(r => r.id === editarId);
   const r = editando || { tipo: 'vacuna', fecha: hoy(), titulo: '', detalle: '', proxima: '' };
-  const opciones = Object.entries(TIPOS).map(([k, t]) => `<option value="${k}" ${k === r.tipo ? 'selected' : ''}>${t.icono} ${t.nombre}</option>`).join('');
+  const opciones = Object.keys(ICONOS).map(k => `<option value="${k}" ${k === r.tipo ? 'selected' : ''}>${tipo(k).icono} ${tipo(k).nombre}</option>`).join('');
 
   const lista = registros.length
     ? `<ul class="list">${registros.map(x => `
         <li class="reg">
-          <span class="dot">${(TIPOS[x.tipo] || TIPOS.nota).icono}</span>
+          <span class="dot">${tipo(x.tipo).icono}</span>
           <div class="reg-txt">
-            <b>${esc(x.titulo) || (TIPOS[x.tipo] || TIPOS.nota).nombre}</b>
-            <small>${(TIPOS[x.tipo] || TIPOS.nota).nombre} · ${fecha(x.fecha)}${x.proxima ? ` · Próxima: ${fecha(x.proxima)}` : ''}</small>
+            <b>${esc(x.titulo) || tipo(x.tipo).nombre}</b>
+            <small>${tipo(x.tipo).nombre} · ${fecha(x.fecha)}${x.proxima ? ` · ${t('libreta.proximaCorta', { fecha: fecha(x.proxima) })}` : ''}</small>
             ${x.detalle ? `<p>${esc(x.detalle)}</p>` : ''}
           </div>
           <div class="reg-acc">
-            <a href="#/libreta/${x.id}" aria-label="Editar">✏️</a>
-            <button type="button" data-borrar="${x.id}" aria-label="Borrar">🗑️</button>
+            <a href="#/libreta/${x.id}" aria-label="${t('libreta.editarAria')}">✏️</a>
+            <button type="button" data-borrar="${x.id}" aria-label="${t('libreta.borrarAria')}">🗑️</button>
           </div>
         </li>`).join('')}</ul>`
-    : `<p class="vacio">Aún no hay registros. Agrega la primera vacuna, desparasitación o nota de tu mascota.</p>`;
+    : `<p class="vacio">${t('libreta.vacio')}</p>`;
 
-  return `<h2>Libreta veterinaria</h2>
+  return `<h2>${t('libreta.titulo')}</h2>
     <form class="card form-libreta" data-libreta data-id="${editando ? editando.id : ''}">
-      <h3>${editando ? 'Editar registro' : 'Nuevo registro'}</h3>
-      <label>Tipo<select name="tipo">${opciones}</select></label>
-      <label>Fecha<input type="date" name="fecha" value="${esc(r.fecha)}" required></label>
-      <label>Título<input name="titulo" value="${esc(r.titulo)}" placeholder="Ej.: Séxtuple, Antirrábica, 12,4 kg" maxlength="80"></label>
-      <label>Detalle<textarea name="detalle" rows="2" placeholder="Veterinario, lote, dosis, observaciones" maxlength="500">${esc(r.detalle)}</textarea></label>
-      <label>Próxima fecha (opcional)<input type="date" name="proxima" value="${esc(r.proxima)}"></label>
+      <h3>${editando ? t('libreta.editar') : t('libreta.nuevo')}</h3>
+      <label>${t('libreta.tipo')}<select name="tipo">${opciones}</select></label>
+      <label>${t('libreta.fecha')}<input type="date" name="fecha" value="${esc(r.fecha)}" required></label>
+      <label>${t('libreta.tituloCampo')}<input name="titulo" value="${esc(r.titulo)}" placeholder="${esc(t('libreta.phTitulo'))}" maxlength="80"></label>
+      <label>${t('libreta.detalle')}<textarea name="detalle" rows="2" placeholder="${esc(t('libreta.phDetalle'))}" maxlength="500">${esc(r.detalle)}</textarea></label>
+      <label>${t('libreta.proxima')}<input type="date" name="proxima" value="${esc(r.proxima)}"></label>
       <div class="acciones">
-        <button class="btn" type="submit">${editando ? 'Guardar cambios' : 'Agregar a la libreta'}</button>
-        ${editando ? '<a class="btn sec" href="#/libreta">Cancelar</a>' : ''}
+        <button class="btn" type="submit">${editando ? t('libreta.guardarCambios') : t('libreta.agregar')}</button>
+        ${editando ? `<a class="btn sec" href="#/libreta">${t('libreta.cancelar')}</a>` : ''}
       </div>
     </form>
     <div class="card">${lista}</div>
     <div class="card respaldo">
-      <h3>Respaldo</h3>
-      <p>Tus registros se guardan solo en este teléfono. Descarga un respaldo para no perderlos o pasarlos a otro equipo.</p>
+      <h3>${t('respaldo.titulo')}</h3>
+      <p>${t('respaldo.texto')}</p>
       <div class="acciones">
-        <button class="btn sec" type="button" data-exportar>⬇️ Exportar</button>
-        <label class="btn sec">⬆️ Importar<input type="file" accept="application/json,.json" data-importar hidden></label>
+        <button class="btn sec" type="button" data-exportar>${t('respaldo.exportar')}</button>
+        <label class="btn sec">${t('respaldo.importar')}<input type="file" accept="application/json,.json" data-importar hidden></label>
       </div>
       <small data-respaldo-msg></small>
     </div>`;
@@ -99,7 +97,7 @@ export function conectar(onCambio) {
   document.addEventListener('click', e => {
     const borrar = e.target.closest('[data-borrar]');
     if (borrar) {
-      if (!confirm('¿Borrar este registro de la libreta?')) return;
+      if (!confirm(t('libreta.confirmarBorrar'))) return;
       guardar(leer().filter(r => r.id !== borrar.dataset.borrar));
       play('borrar');
       onCambio();
@@ -121,10 +119,10 @@ export function conectar(onCambio) {
       guardar(actuales.concat(agregados));
       play('guardar');
       await onCambio(); // espera a que se redibuje la pantalla antes de mostrar el mensaje
-      document.querySelector('[data-respaldo-msg]').textContent = agregados.length === 1 ? 'Se importó 1 registro.' : `Se importaron ${agregados.length} registros.`;
+      document.querySelector('[data-respaldo-msg]').textContent = agregados.length === 1 ? t('respaldo.uno') : t('respaldo.varios', { n: agregados.length });
     } catch {
       play('error');
-      if (msg) msg.textContent = 'El archivo no es un respaldo válido de Pocket Vet.';
+      if (msg) msg.textContent = t('respaldo.error');
     }
   });
 }

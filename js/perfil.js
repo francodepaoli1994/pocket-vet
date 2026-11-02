@@ -2,14 +2,14 @@
 // { nombre, especie: 'perro' | 'gato', etapa: 'joven' | 'adulto' | 'senior' }
 
 import { play } from './sonidos.js';
+import { t } from './i18n.js';
 
 const CLAVE = 'pv_perfil';
 
 export const ESPECIES = {
-  perro: { nombre: 'Perro', icono: '🐶', joven: 'Cachorro' },
-  gato: { nombre: 'Gato', icono: '🐱', joven: 'Gatito' },
+  perro: { icono: '🐶', joven: 'cachorro' },
+  gato: { icono: '🐱', joven: 'gatito' },
 };
-const ETAPAS = { joven: null, adulto: 'Adulto', senior: 'Senior' };
 
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
@@ -17,14 +17,14 @@ export function leer() {
   try { return JSON.parse(localStorage.getItem(CLAVE)); } catch { return null; }
 }
 
-export const etapaNombre = p => p.etapa === 'joven' ? ESPECIES[p.especie].joven : ETAPAS[p.etapa];
+export const especieNombre = p => t('especie.' + p.especie);
+export const etapaNombre = p => t('etapa.' + (p.etapa === 'joven' ? ESPECIES[p.especie].joven : p.etapa));
 
 // Tarjeta de la mascota para Inicio
 export function tarjeta(p) {
-  const e = ESPECIES[p.especie];
   return `<a class="card pet" href="#/perfil">
-    <div class="avatar">${e.icono}</div>
-    <div><h3>${esc(p.nombre)}</h3><p>${e.nombre} · ${etapaNombre(p)}</p></div>
+    <div class="avatar">${ESPECIES[p.especie].icono}</div>
+    <div><h3>${esc(p.nombre)}</h3><p>${especieNombre(p)} · ${etapaNombre(p)}</p></div>
   </a>`;
 }
 
@@ -36,22 +36,22 @@ export function form(bienvenida = false) {
       <span>${icono ? `<i>${icono}</i>` : ''}${texto}</span></label>`;
   return `<form class="card form-perfil" data-perfil>
     ${bienvenida
-      ? `<h3>¡Bienvenido a Pocket Vet! 🐾</h3><p>Cuéntanos de tu mascota para mostrarte las guías que le sirven. Toma menos de un minuto.</p>`
-      : `<h3>Datos de tu mascota</h3>`}
-    <fieldset><legend>¿Qué mascota tienes?</legend>
-      <div class="opts">${opcion('especie', 'perro', '🐶', 'Perro')}${opcion('especie', 'gato', '🐱', 'Gato')}</div>
+      ? `<h3>${t('perfil.bienvenida')}</h3><p>${t('perfil.bienvenidaTexto')}</p>`
+      : `<h3>${t('perfil.datos')}</h3>`}
+    <fieldset><legend>${t('perfil.qEspecie')}</legend>
+      <div class="opts">${opcion('especie', 'perro', '🐶', t('especie.perro'))}${opcion('especie', 'gato', '🐱', t('especie.gato'))}</div>
     </fieldset>
-    <label>¿Cómo se llama?<input name="nombre" value="${esc(p.nombre)}" placeholder="Ej.: Luna" maxlength="30" required autocomplete="off"></label>
-    <fieldset><legend>¿Qué edad tiene?</legend>
-      <div class="opts tres">${opcion('etapa', 'joven', '', 'Menos de 1 año')}${opcion('etapa', 'adulto', '', '1 a 7 años')}${opcion('etapa', 'senior', '', 'Más de 7 años')}</div>
+    <label>${t('perfil.qNombre')}<input name="nombre" value="${esc(p.nombre)}" placeholder="${esc(t('perfil.phNombre'))}" maxlength="30" required autocomplete="off"></label>
+    <fieldset><legend>${t('perfil.qEdad')}</legend>
+      <div class="opts tres">${opcion('etapa', 'joven', '', t('edad.joven'))}${opcion('etapa', 'adulto', '', t('edad.adulto'))}${opcion('etapa', 'senior', '', t('edad.senior'))}</div>
     </fieldset>
-    <div class="acciones"><button class="btn" type="submit">${bienvenida ? 'Empezar' : 'Guardar'}</button></div>
+    <div class="acciones"><button class="btn" type="submit">${bienvenida ? t('perfil.empezar') : t('perfil.guardar')}</button></div>
     <small data-perfil-msg></small>
   </form>
   ${bienvenida ? '' : `<div class="card">
-    <h3>App para Android</h3>
-    <p>Instala Pocket Vet como app en tu teléfono Android (versión de prueba).</p>
-    <div class="acciones"><a class="btn sec" href="descargas/pocket-vet.apk" download>⬇️ Descargar APK</a></div>
+    <h3>${t('apk.titulo')}</h3>
+    <p>${t('apk.texto')}</p>
+    <div class="acciones"><a class="btn sec" href="descargas/pocket-vet.apk" download>${t('apk.boton')}</a></div>
   </div>`}`;
 }
 
@@ -67,6 +67,6 @@ export function conectar(onCambio) {
     if (nuevo) { location.hash = '#/inicio'; await onCambio(); return; }
     await onCambio();
     const msg = document.querySelector('[data-perfil-msg]');
-    if (msg) msg.textContent = 'Perfil guardado.';
+    if (msg) msg.textContent = t('perfil.guardado');
   });
 }

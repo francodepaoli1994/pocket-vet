@@ -3,13 +3,15 @@
 //   inicio: abrir la app · tap: navegar · seleccionar: elegir una opción · interruptor: encender/apagar
 //   guardar: algo guardado · bienvenida: onboarding listo · alerta: "Ve al veterinario"
 //   borrar: borrar un registro · error: falta un dato o algo falló · vacio: búsqueda sin resultados
+//   idioma: cambiar de idioma con las banderitas
 
 const ARCHIVOS = {
   inicio: 'sonidos/inicio.mp3', tap: 'sonidos/tap.mp3', seleccionar: 'sonidos/seleccionar.mp3',
   interruptor: 'sonidos/interruptor.mp3', guardar: 'sonidos/guardar.mp3', bienvenida: 'sonidos/bienvenida.mp3',
   alerta: 'sonidos/alerta.mp3', borrar: 'sonidos/borrar.mp3', error: 'sonidos/error.mp3', vacio: 'sonidos/vacio.mp3',
+  idioma: 'sonidos/idioma.mp3',
 };
-const VOLUMEN = { inicio: 0.5, tap: 0.35, seleccionar: 0.4, interruptor: 0.45, guardar: 0.6, bienvenida: 0.6, alerta: 0.55, borrar: 0.5, error: 0.45, vacio: 0.4 };
+const VOLUMEN = { inicio: 0.5, tap: 0.35, seleccionar: 0.4, interruptor: 0.45, guardar: 0.6, bienvenida: 0.6, alerta: 0.55, borrar: 0.5, error: 0.45, vacio: 0.4, idioma: 0.5 };
 const CLAVE = 'pv_silencio';
 
 let ctx;

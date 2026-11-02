@@ -217,6 +217,9 @@
         "texto": "Merck Veterinary Manual, edición para dueños de perros (nutrición, piel, urgencias)",
         "url": "https://www.merckvetmanual.com/dog-owners"
       }
+    ],
+    "especies": [
+      "perro"
     ]
   },
   {
@@ -434,6 +437,9 @@
         "texto": "ASPCA Animal Poison Control Center. Toxic and Non-Toxic Plants",
         "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants"
       }
+    ],
+    "especies": [
+      "gato"
     ]
   },
   {
@@ -623,6 +629,10 @@
         "texto": "Ley N° 21.020 sobre Tenencia Responsable de Mascotas y Animales de Compañía (2017). Biblioteca del Congreso Nacional",
         "url": "https://www.bcn.cl/leychile/navegar?idNorma=1106037"
       }
+    ],
+    "especies": [
+      "perro",
+      "gato"
     ]
   },
   {
@@ -769,6 +779,10 @@
         "texto": "Cornell Feline Health Center. Common Cat Hazards (lirios, plantas y productos tóxicos)",
         "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
       }
+    ],
+    "especies": [
+      "perro",
+      "gato"
     ]
   },
   {
@@ -908,6 +922,10 @@
         "texto": "ESCCAP. Guideline GL3: Control of Ectoparasites in Dogs and Cats",
         "url": "https://www.esccap.org/guidelines/gl3/"
       }
+    ],
+    "especies": [
+      "perro",
+      "gato"
     ]
   },
   {
@@ -1069,6 +1087,10 @@
         "texto": "Cornell Feline Health Center. Common Cat Hazards (lirios, plantas y productos tóxicos)",
         "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards-0"
       }
+    ],
+    "especies": [
+      "perro",
+      "gato"
     ]
   }
 ]
