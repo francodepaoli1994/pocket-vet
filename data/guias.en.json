@@ -949,8 +949,14 @@
       "bleeding",
       "when to go to the vet"
     ],
-    "verificada": false,
-    "revision": null,
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Veterinarian",
+      "fecha": "2026-11-01",
+      "resultado": "Approved with changes",
+      "observacion": null
+    },
     "resumen": [
       "Pocket Vet **does not diagnose**: this guide helps you decide **when to go to the vet**.",
       "Breathing problems, seizures, bleeding that won’t stop or possible poisoning are **emergencies**: go right away.",
@@ -1038,7 +1044,7 @@
           "no": [
             [
               "Giving it human medicines",
-              "Paracetamol and ibuprofen can be deadly, especially for cats [3]."
+              "Paracetamol, ibuprofen and most human anti-inflammatory drugs can be deadly, especially for cats [3]."
             ],
             [
               "Making it vomit",

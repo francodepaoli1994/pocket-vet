@@ -1,6 +1,6 @@
 // Service worker: guarda la app en caché para que abra sin conexión.
 // Sube la versión cada vez que cambien los archivos de la app.
-const CACHE = 'pocket-vet-v10';
+const CACHE = 'pocket-vet-v11';
 const CACHE_DATOS = 'pv-datos'; // recordatorios que deja la app para avisar en segundo plano (no se borra al actualizar)
 const ARCHIVOS = [
   './',

@@ -949,8 +949,14 @@
       "saignement",
       "quand aller chez le vétérinaire"
     ],
-    "verificada": false,
-    "revision": null,
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médecin vétérinaire",
+      "fecha": "2026-11-01",
+      "resultado": "Approuvé avec modifications",
+      "observacion": null
+    },
     "resumen": [
       "Pocket Vet **ne pose pas de diagnostic** : ce guide t’aide à décider **quand aller chez le vétérinaire**.",
       "Difficultés à respirer, convulsions, saignement qui ne s’arrête pas ou intoxication possible sont des **urgences** : pars tout de suite.",
@@ -1038,7 +1044,7 @@
           "no": [
             [
               "Lui donner des médicaments humains",
-              "Le paracétamol et l’ibuprofène peuvent être mortels, surtout chez le chat [3]."
+              "Le paracétamol, l’ibuprofène et la plupart des anti-inflammatoires humains peuvent être mortels, surtout chez le chat [3]."
             ],
             [
               "Le faire vomir",

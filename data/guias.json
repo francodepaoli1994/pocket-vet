@@ -949,8 +949,14 @@
       "sangrado",
       "cuándo ir al veterinario"
     ],
-    "verificada": false,
-    "revision": null,
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médico Veterinario",
+      "fecha": "2026-11-01",
+      "resultado": "Aprobada con cambios",
+      "observacion": null
+    },
     "resumen": [
       "Pocket Vet **no diagnostica**: esta guía te ayuda a decidir **cuándo ir al veterinario**.",
       "Problemas para respirar, convulsiones, sangrado que no para o una posible intoxicación son **urgencias**: ve de inmediato.",
@@ -1038,7 +1044,7 @@
           "no": [
             [
               "Darle medicamentos de personas",
-              "El paracetamol y el ibuprofeno pueden ser mortales, sobre todo en gatos [3]."
+              "El paracetamol, el ibuprofeno y la mayoría de los antiinflamatorios de personas pueden ser mortales, sobre todo en gatos [3]."
             ],
             [
               "Provocarle el vómito",

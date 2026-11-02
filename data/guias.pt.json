@@ -949,8 +949,14 @@
       "hemorragia",
       "quando ir ao veterinário"
     ],
-    "verificada": false,
-    "revision": null,
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Médica Veterinária",
+      "fecha": "2026-11-01",
+      "resultado": "Aprovado com alterações",
+      "observacion": null
+    },
     "resumen": [
       "O Pocket Vet **não faz diagnósticos**: este guia ajuda-te a decidir **quando ir ao veterinário**.",
       "Dificuldade em respirar, convulsões, hemorragia que não para ou uma possível intoxicação são **urgências**: vai de imediato.",
@@ -1038,7 +1044,7 @@
           "no": [
             [
               "Dar-lhe medicamentos de pessoas",
-              "O paracetamol e o ibuprofeno podem ser mortais, sobretudo nos gatos [3]."
+              "O paracetamol, o ibuprofeno e a maioria dos anti-inflamatórios humanos podem ser mortais, sobretudo nos gatos [3]."
             ],
             [
               "Provocar-lhe o vómito",

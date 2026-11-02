@@ -949,8 +949,14 @@
       "Blutung",
       "wann zum Tierarzt"
     ],
-    "verificada": false,
-    "revision": null,
+    "verificada": true,
+    "revision": {
+      "revisora": "Paola Ríos Veloso",
+      "titulo": "Tierärztin",
+      "fecha": "2026-11-01",
+      "resultado": "Mit Änderungen freigegeben",
+      "observacion": null
+    },
     "resumen": [
       "Pocket Vet **stellt keine Diagnosen**: Dieser Ratgeber hilft dir zu entscheiden, **wann du zum Tierarzt gehen solltest**.",
       "Atemprobleme, Krampfanfälle, Blutungen, die nicht aufhören, oder eine mögliche Vergiftung sind **Notfälle**: sofort los.",
@@ -1038,7 +1044,7 @@
           "no": [
             [
               "Ihm Medikamente für Menschen geben",
-              "Paracetamol und Ibuprofen können tödlich sein, besonders für Katzen [3]."
+              "Paracetamol, Ibuprofen und die meisten Entzündungshemmer für Menschen können tödlich sein, besonders für Katzen [3]."
             ],
             [
               "Es zum Erbrechen bringen",
